@@ -4,38 +4,40 @@ title: About Yoga
 mainImage:
   image: /img/books_about_yoga.jpg
   imageAlt: yoga book teachings.
-gallery:
-  - image: /img/neonbrand-509131-unsplash.jpg
-    imageAlt: Wakanda JavaScript developer presenting at a meetup.
-  - image: /img/jakob-dalbjorn-730178-unsplash.jpg
-    imageAlt: Wakanda JavaScript developer presenting at a meetup.
-  - image: /img/annie-spratt-608001-unsplash.jpg
-    imageAlt: Wakanda developers working together at a table.
-developerGroups: |-
-  ## Other Wakanda Developer Groups
-
-  * [React & React Native Meetup](https://www.google.com)
-  * [Python Meetup](https://www.google.com)
-  * [Google Developer Meetup](https://www.google.com)
-  * [Vue.js Meetup](https://www.google.com)
-  * [Ruby Meetup](https://www.google.com)
+gallery: []
+developerGroups: '##'
 organizers:
   title: Group Organizers
-  gallery:
-    - image: /img/organizer-1.jpg
-      imageAlt: Tom Cruise
-      name: Tom Cruise
-    - image: /img/organizer-2.jpg
-      imageAlt: Tom Hanks
-      name: Tom Hanks
+  gallery: []
 seo:
-  browserTitle: About | JavaScript Wakanda
+  browserTitle: 'The Light Tree | About Yoga '
   description: >-
-    JavaScript Wakanda is a meetup group that holds monthly meetups where
-    JavaScript developers get together for presentations and to meet others in
-    the community.
-  title: About | JS Wakanda
+    Yoga refers to both the state of connection and the techniques and practices
+    used to connect.
+  title: About Yoga
 ---
-## Sharing Ideas and Meeting Others
+Yoga translates as Yoke or Union in ancient Sanskrit meaning to connect. This refers to both the state of connection and the techniques and practices used to connect. The practice of Yoga dates back thousands of years and is known to originate from ancient India but has also been found in ancient Africa and the far-east. The system of Yoga is founded in ancient wisdom that forms a guide of practices to help you access a deeper level of awareness and connection leading to a healthier and happier, more balanced and fulfilled life. 
 
-JS Wakanda is a user group run by volunteers. We meet in borrowed spaces, graciously provided by different companies and organisations. Our purpose is to provide a place where our members have a good time talking about programming, sharing their knowledge and meeting other passionate folks. We keep it friendly, inclusive and positive.
+The most commonly known form of Yoga is Asana, the postures, however Yoga also involves breathing and mediation practices and observations for daily life. The practice of Yoga is not an all-inclusive one-size-fits-all approach so you begin with your own personal intention exploring and adopting the practices that work for you at any one time and in this way it becomes your individual practice.
+
+A regular Yoga practice improves your physical, mental and emotional health and wellbeing. 
+
+If you are interested in finding out more about Yoga here are some useful sources
+
+Follow - [https://www.yogajournal.com/ ](https://www.yogajournal.com/)
+
+Read – Light on Yoga by B.K.S Iyengar, The Untethered Soul by Michael A. Singer
+
+Watch - link to Netflix – On Yoga 
+
+* Improves strength and flexibility, weight reduction/loss, improved digestion, balance metabolic, nervous and endocrine systems 
+
+
+
+* Helps to uplift your mood, reduce stress, fight depression, manage anxiety, improve mental clarity, emotional balance and supports better sleep
+
+
+
+* Improves mind-body connection, encourages self-acceptance, self-control and a more positive outlook to life
+
+##
