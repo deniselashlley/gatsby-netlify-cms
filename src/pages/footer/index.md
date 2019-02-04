@@ -1,7 +1,7 @@
 ---
 templateKey: footer
 logoImage:
-  image: /img/js-wakanda.png
+  image: ''
   imageAlt: JavaScript Wakanda
   tagline: Your friendly local Wakanda meetup
 socialLinks:
