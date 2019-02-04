@@ -13,16 +13,16 @@ export const AboutPageTemplate = props => {
 
   return (
     <article className="about">
-      <div className="about-container  container">
+      <div className="about-container">
         <section className="about-header">
-          <div className="about-titleWrapper">
-            <h1 className="about-title">{page.frontmatter.title}</h1>
-          </div>
           <div className="about-imageWrapper">
             <img src={page.frontmatter.mainImage.image} alt={page.frontmatter.mainImage.imageAlt} />
           </div>
         </section>
         <section className="section">
+        <div className="about-titleWrapper container">
+            <h1 className="about-title">{page.frontmatter.title}</h1>
+          </div>
           {/* The page.html is actually markdown when viewing the page from the netlify CMS,
               so we must use the ReactMarkdown component to parse the mardown in that case  */}
           {page.bodyIsMarkdown ? (

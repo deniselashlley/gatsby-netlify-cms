@@ -1,8 +1,11 @@
 @import "./variables.scss";
 @import "./mixins.scss";
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,300,400,500,600,700,800,900');
+
+$family-sans-serif: 'Montserrat', sans-serif;
 
 html {
-  font-size: 16px;
+  font-size: 10px;
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
@@ -11,9 +14,10 @@ html {
 }
 
 body {
-  font-family: BlinkMacSystemFont, -apple-system, "Segoe UI", "Roboto", "Oxygen", "Ubuntu",
-    "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  font-family: $family-sans-serif;
   color: $body-dark;
+  font-size: 1.6rem;
+  line-height: 1.5;
 }
 
 a {
@@ -22,7 +26,7 @@ a {
 }
 
 .container {
-  max-width: $container-width;
+  max-width: $container-width; 
   padding: 0 $container-padding;
   margin: auto;
 }
@@ -38,3 +42,35 @@ a {
 main {
   min-height: calc(100vh - #{$navbar-height} - #{$footer-height});
 }
+
+
+section {
+  margin-bottom: 80px;
+
+  h1 {
+    margin-bottom: 20px;
+  }
+
+  h1, h2 {
+    text-align: center;
+  }
+
+  h1, h2 {
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    font-weight: 500;
+
+    @include respond-to("medium") {
+      font-size: 4rem;
+    }
+  }
+
+  h3 {
+    font-size: 2rem;
+    text-transform: capitalize;
+  }
+
+  p {
+    margin-bottom: 20px;
+  }
+} 

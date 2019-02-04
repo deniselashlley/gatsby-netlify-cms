@@ -91,3 +91,15 @@ $breakpoints: (
 @mixin title-link-border() {
   border-bottom: 3px solid $highlight;
 }
+
+@mixin visuallyhidden {
+  position: absolute;
+  margin: -1px;
+  padding: 0;
+  width: 1px;
+  height: 1px;
+  border: 0;
+  overflow: hidden;
+  clip: rect(1px 1px 1px 1px);
+  word-wrap: normal;
+}

@@ -16,12 +16,40 @@ export const HomePageTemplate = ({ home, upcomingMeetup = null }) => {
   const longitude = upcomingMeetup && parseFloat(upcomingMeetup.location.mapsLongitude);
   return (
     <>
-      <section className="header">
-        <div className="header-container  container">
-          {home.headerImage && <img className="header-image" src={home.headerImage.image} alt={home.headerImage.imageAlt} />}
-          <h3 className="header-tagline">
-            <span className="header-taglinePart">{home.title}</span>
-          </h3>
+      <section className="hero-banner">
+        <ul>
+          <li>{home.homeBanner.itemText1}</li>
+          <li>{home.homeBanner.itemText2}</li>
+          <li>{home.homeBanner.itemText3}</li>
+          <li>{home.homeBanner.itemText4}</li>
+        </ul>
+        <a href="#intro" className="down-link"><span>Introduction</span></a>
+      </section>
+      <section id="intro" className="introduction">
+        <div className="container">
+          <h1>{home.sectionWelcome.title}</h1>
+          <div className="container-row">
+            <div className="block block-profile">
+              <img src={home.sectionWelcome.contentText.image} alt="" className="profile" />
+            </div>
+            <div className="block block-context">
+              <p>{home.sectionWelcome.contentText.paraText1}</p>
+              <p>{home.sectionWelcome.contentText.paraText2}</p>
+              <p>{home.sectionWelcome.contentText.paraText3}</p>
+              <p>{home.sectionWelcome.contentText.paraText4}</p>
+            </div>
+            <blockquote className="quote">{home.sectionWelcome.contentText.quote}</blockquote>
+          </div>
+        </div>
+      </section>
+
+      <section id="schedule" className="schedule">
+       <div className="container">
+          <h2>{home.schedule.title}</h2>
+          <h3>{home.schedule.classesBlock.heading}</h3>
+          <div>
+            <div dangerouslySetInnerHTML={{ __html: home.schedule.classesBlock.classes }} />
+          </div>
         </div>
       </section>
       <section className="upcomingMeetup  section">
@@ -74,7 +102,7 @@ export const HomePageTemplate = ({ home, upcomingMeetup = null }) => {
           )}
         </div>
       </section>
-      <section className="ctaBlock">
+      { /*<section className="ctaBlock">
         <CustomLink
           linkType={home.callToActions.firstCTA.linkType}
           linkURL={home.callToActions.firstCTA.linkURL}
@@ -95,7 +123,7 @@ export const HomePageTemplate = ({ home, upcomingMeetup = null }) => {
             <p className="ctaBlock-ctaDescription">{home.callToActions.secondCTA.subHeading}</p>
           </div>
         </CustomLink>
-      </section>
+          </section> */ }
     </>
   );
 };
@@ -178,27 +206,41 @@ export const pageQuery = graphql`
         node {
           frontmatter {
             title
-            headerImage {
-              image
-              imageAlt
+            homeBanner {
+              itemText1
+              itemText2
+              itemText3
+              itemText4
+            }
+            sectionWelcome {
+              title
+              contentText {
+                paraText1
+                paraText2
+                paraText3
+                paraText4
+                quote
+                image
+              }
+            }
+            schedule {
+              title
+              classesBlock {
+                heading
+                classes
+              }
+              workshopBlock {
+                heading
+                details
+              }
+              eventBlock {
+                heading
+                details
+              }
             }
             upcomingMeetupHeading
             noUpcomingMeetupText
             mapsNote
-            callToActions {
-              firstCTA {
-                heading
-                subHeading
-                linkType
-                linkURL
-              }
-              secondCTA {
-                heading
-                subHeading
-                linkType
-                linkURL
-              }
-            }
             seo {
               browserTitle
               title

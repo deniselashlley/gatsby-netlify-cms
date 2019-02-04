@@ -1,9 +1,9 @@
 ---
 templateKey: about-page
-title: Wakanda JavaScript Developer Meetup
+title: About Yoga
 mainImage:
-  image: /img/teemu-paananen-376238-unsplash.jpg
-  imageAlt: Wakanda JavaScript developer presenting at a meetup.
+  image: /img/books_about_yoga.jpg
+  imageAlt: yoga book teachings.
 gallery:
   - image: /img/neonbrand-509131-unsplash.jpg
     imageAlt: Wakanda JavaScript developer presenting at a meetup.
