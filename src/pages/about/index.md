@@ -24,20 +24,15 @@ A regular Yoga practice improves your physical, mental and emotional health and 
 
 If you are interested in finding out more about Yoga here are some useful sources
 
-Follow - [https://www.yogajournal.com/ ](https://www.yogajournal.com/)
+Follow - [https://www.yogajournal.com/ 
+](https://www.yogajournal.com/)
 
 Read – Light on Yoga by B.K.S Iyengar, The Untethered Soul by Michael A. Singer
 
 Watch - link to Netflix – On Yoga 
 
 * Improves strength and flexibility, weight reduction/loss, improved digestion, balance metabolic, nervous and endocrine systems 
-
-
-
 * Helps to uplift your mood, reduce stress, fight depression, manage anxiety, improve mental clarity, emotional balance and supports better sleep
-
-
-
 * Improves mind-body connection, encourages self-acceptance, self-control and a more positive outlook to life
 
 ##
