@@ -4,11 +4,6 @@ title: About Yoga
 mainImage:
   image: /img/books_about_yoga.jpg
   imageAlt: yoga book teachings.
-gallery: []
-developerGroups: '##'
-organizers:
-  title: Group Organizers
-  gallery: []
 seo:
   browserTitle: 'The Light Tree | About Yoga '
   description: >-
