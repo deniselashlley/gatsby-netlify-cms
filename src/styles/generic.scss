@@ -45,10 +45,10 @@ main {
 
 
 section {
-  margin-bottom: 80px;
 
   h1 {
     margin-bottom: 20px;
+    text-align: center;
   }
 
   h1, h2 {
@@ -72,5 +72,11 @@ section {
 
   p {
     margin-bottom: 20px;
+    font-size: 1.8rem;
   }
 } 
+
+.section-block {
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
