@@ -22,13 +22,29 @@ My aim is that you leave class with a smile feeling more present, connected, tal
  <td>Vinyasa Yoga</td>
  <td>A dynamic sequence of flowing, energising postures linked to the breath to a backdrop of music</td>
 </tr>
+<tr>
+    <td>Yin Yoga</td>
+    <td>Static, predominantly floor based postures held for longer periods to access the deeper tissue </td>
+</tr>
+<tr>
+    <td>Restorative Yoga</td>
+    <td>Floor based postures supported by props to aid deep physical, mental and emotional relaxation and rest.</td>
+</tr>
+<tr>
+    <td>Pregnancy Yoga</td>
+    <td>Specialist pre-natal yoga to support a healthy pregnancy and prepare for birth.</td>
+</tr>
+<tr>
+    <td>Menstrual Health</td>
+    <td>Gentle flowing and restorative practice focused on balancing the nervous and endocrine systems to support a healthy menstrual cycle.</td>
+</tr>
+<tr>
+    <td>Fertility Yoga</td>
+    <td>Gentle flowing and restorative practice to reduce stress and balance the nervous system helping to create a healthy body and mind for pregnancy.</td>
+</tr>
+<tr>
+    <td>Meditation</td>
+    <td>Meditation group observing various techniques including guided, mantra, japa</td>
+</tr>
 </table>
 
-Yin Yoga:	Static, predominantly floor based postures held for longer periods to access the deeper tissue 
-Restorative Yoga:	Floor based postures supported by props to aid deep physical, mental and emotional relaxation and rest
-Pregnancy Yoga:	Specialist pre-natal yoga to support a healthy pregnancy and prepare for birth
-Menstrual Health	Gentle flowing and restorative practice focused on balancing the nervous and endocrine systems to support a healthy menstrual cycle
-Fertility Yoga:	Gentle flowing and restorative practice to reduce stress and balance the nervous system helping to create a healthy body and mind for pregnancy 
-Meditation:	Meditation group observing various techniques including guided, mantra, japa
-
-##
