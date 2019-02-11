@@ -1,8 +1,8 @@
 ---
 templateKey: classes-page
-title: Classes
+title: WHAT CAN YOU EXPECT FROM MY CLASSES?
 mainImage:
-  image: /img/classes.jpg
+  image: /img/yoga-group.jpg
   imageAlt: yoga classes.
 seo:
   browserTitle: 'The Light Tree | Classes '
@@ -16,6 +16,8 @@ Your Yoga practice is your personal journey. As the teacher I’m here to guide 
 Classes are a blend of Vinyasa and Hatha incorporating traditional practices such as mudra and mantra, Chinese medicine techniques, Western restorative postures and African spirituality wisdom and practices. I encourage a deeper more soulful connection to your body and mind through intention, movement, breath, focus,sound and in group settings togetherness, to shift energy and raise your vibration.
 
 My aim is that you leave class with a smile feeling more present, connected, taller and stronger than when you came in. With regular practice my intention is that you find the transformation you are seeking. My wider hope is that you are able to open the doorway that connects on a deeper level with your truth, removing blockages to allow you to heal so you can flow happier, healthier, more confidently and strongly on your own unique path.
+
+## Class Styles
 
 <table>
 <tr>

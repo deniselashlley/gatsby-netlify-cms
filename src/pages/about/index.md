@@ -2,8 +2,8 @@
 templateKey: about-page
 title: About Yoga
 mainImage:
-  image: /img/books_about_yoga.jpg
-  imageAlt: yoga book teachings.
+  image: /img/alone-balance-beautiful-1574647.jpg
+  imageAlt: yoga girl.
 seo:
   browserTitle: 'The Light Tree | About Yoga '
   description: >-

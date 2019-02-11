@@ -262,7 +262,35 @@ collections:
                   { label: "Title", name: "title", widget: "string" },
                   { label: "Description", name: "description", widget: "string" },
                 ],
-            }     
+            } 
+        file: "src/pages/teaching/index.md"
+        label: "Teachings"
+        name: "teachings"
+        fields:
+          - { label: "Template Key", name: "templateKey", widget: "hidden", default: "teaching-page" }
+          - { label: "Title", name: "title", widget: "string" }
+          - {
+              label: "Main Image",
+              name: "mainImage",
+              widget: "object",
+              fields:
+                [
+                  { label: "Image", name: "image", widget: "image" },
+                  { label: "Image Description", name: "imageAlt", widget: "string" },
+                ],
+            }
+          - { label: "Body", name: "body", widget: "markdown" }
+          - {
+              label: "SEO & Meta",
+              name: "seo",
+              widget: "object",
+              fields:
+                [
+                  { label: "Browser Tab Title", name: "browserTitle", widget: "string"},
+                  { label: "Title", name: "title", widget: "string" },
+                  { label: "Description", name: "description", widget: "string" },
+                ],
+            }    
   - name: "navbarAndFooter"
     label: "Navbar & Footer"
     files:
