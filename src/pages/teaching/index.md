@@ -8,7 +8,7 @@ seo:
   browserTitle: 'The Light Tree | Teaching philosophy – Connection and Creativity in Action '
   description: >-
     Classes are a blend of Vinyasa and Hatha incorporating traditional practices such as mudra and mantra, Chinese medicine techniques.
-  title: Classes
+  title: Teaching
 ---
 
 My teaching is focused in three areas; connection, creativity, empowerment which are encompassed within The Light Tree philosophy.
