@@ -324,7 +324,6 @@ collections:
                 [
                   { label: "Image", name: "image", widget: "image" },
                   { label: "Image Description", name: "imageAlt", widget: "string" },
-                  { label: "Tagline", name: "tagline", widget: "string" },
                   { label: "ImageLink", name: "imageLink", widget: "string"}
                 ],
             }
