@@ -3,11 +3,12 @@ templateKey: teaching-page
 title: Connection and Creativity in Action
 mainImage:
   image: /img/books_about_yoga.jpg
-  imageAlt: yoga classes.
+  imageAlt: yoga teachings.
 seo:
   browserTitle: 'The Light Tree | Teaching philosophy – Connection and Creativity in Action '
   description: >-
-    Classes are a blend of Vinyasa and Hatha incorporating traditional practices such as mudra and mantra, Chinese medicine techniques.
+    Classes are a blend of Vinyasa and Hatha incorporating traditional practices
+    such as mudra and mantra, Chinese medicine techniques.
   title: Teaching
 ---
 
