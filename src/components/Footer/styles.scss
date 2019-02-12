@@ -1,98 +1,49 @@
 @import "../../styles/variables";
 @import "../../styles/mixins";
 
+$black-haze: rgb(247, 250, 250);
+
 .footer {
-  background-color: $background-dark;
-  @include medium-font;
-  color: $body-light;
-  padding: 80px 20px;
+  background-color: $black-haze;
+  padding: 1em;
+  
+  .container {
+       text-align: center;
 
-  @include respond-to("small") {
-    padding: 40px 20px;
-    height: $footer-height;
+      @include respond-to("medium") {
+        display: flex; 
+        justify-content: space-between;
+        align-items: center;
+        text-align: left;
+      }
+  }
+  .copy-text {
+    font-size: 1.2rem;
+    text-transform: uppercase;
   }
 
-  &-container {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    height: 100%;
+  .member-logo {
+    margin-top: 15px;
 
-    @include respond-to("small") {
-      flex-direction: row;
+    @include respond-to("medium") {
+      display: flex; 
+      justify-content: space-between;
+      align-items: center;
+      width: 300px;
+      margin-top: 0;
+    }
+
+    span {
+      font-size:1.0rem;
+      display: block;
+    }
+
+    img {
+      width: 50px;
+      border: 0;
+      object-fit: contain;
     }
   }
-
-  &-top {
-    display: flex;
-    flex-direction: column;
-    flex-grow: 1;
-    align-items: center;
-    width: 100%;
-
-    @include respond-to("small") {
-      flex-direction: row;
-    }
-  }
-
-  &-about {
-    text-align: center;
-
-    @include respond-to("small") {
-      text-align: left;
-    }
-  }
-
-  &-aboutTitleImg {
-    max-height: 60px;
-    height: auto;
-    margin-bottom: 10px;
-  }
-
-  &-aboutDescription {
-    @include medium-font();
-  }
-
-  &-socialMenu {
-    margin: 20px;
-
-    @include respond-to("small") {
-      margin-left: auto;
-    }
-  }
-
-  &-socialMenuItem {
-    padding: 15px 0;
-  }
-
-  &-socialLink {
-    @include medium-font;
-    font-weight: 400;
-    text-decoration: none;
-    color: $body-light;
-    display: flex;
-    align-items: center;
-  }
-
-  &-socialLinkIcon {
-    width: 40px;
-    margin-right: 20px;
-  }
-
-  &-flag {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    font-size: 2rem;
-    padding-top: 20px;
-
-    @include respond-to("small") {
-      margin-left: auto;
-    }
-  }
-
-  &-bottom {
-    margin-top: auto;
-    width: 100%;
-  }
+ 
 }
+

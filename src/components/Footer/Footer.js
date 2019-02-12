@@ -1,24 +1,32 @@
 import React from "react";
 import "./styles.scss";
 
+let year = new Date().getFullYear();
+
 export const FooterTemplate = ({ data }) => {
-  const { logoImage, socialLinks } = data;
+  const { logoImage, copyrightText} = data;
+  let year = new Date().getFullYear();
 
   return (
-    <nav className="footer">
-      <div className="footer-container  container">
-        <div className="footer-top">
-          <div className="footer-about">
-            <h4 className="footer-aboutTitle">
+    <footer role="contentinfo" className="footer">
+      <div className="container">
+        <p className="copy-text">Copyright &copy; {year} {copyrightText}</p>
+        <p className="member-logo">
+          <span>{logoImage.imageAlt}</span>
+            <a 
+              href={logoImage.imageLink}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <img
-                className="footer-aboutTitleImg"
                 src={logoImage.image}
                 alt={logoImage.imageAlt}
+                title={logoImage.imageAlt}
               />
-            </h4>
-            <p className="footer-aboutDescription">{logoImage.tagline}</p>
-          </div>
-          {socialLinks.length > 0 && (
+              
+            </a> 
+          </p>
+          { /*socialLinks.length > 0 && (
             <ul className="footer-socialMenu">
               {socialLinks.map(socialLink => (
                 <li key={socialLink.linkURL} className="footer-socialMenuItem">
@@ -38,17 +46,9 @@ export const FooterTemplate = ({ data }) => {
                 </li>
               ))}
             </ul>
-          )}
+              )*/}
         </div>
-        <div className="footer-bottom">
-          <div className="footer-flag">
-            <span role="img" aria-label="Made in Canada">
-              🇨🇦
-            </span>
-          </div>
-        </div>
-      </div>
-    </nav>
+    </footer>
   );
 };
 
