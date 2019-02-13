@@ -20,10 +20,54 @@ $menu-inactive: $american-silver;
 $body-light: $coronation;
 $body-dark: $black-blueberry;
 
-$navbar-height: 50px;
+$navbar-height: 90px;
 $footer-height: 500px;
 $container-padding: 20px;
 $section-padding: 80px;
 $section-padding-mobile: 40px;
 $container-width: 1200px;
 $transition-duration: 250ms;
+
+
+$montserrat: 'Montserrat', sans-serif;
+
+$black-haze: rgb(247, 250, 250);
+$abbey:#676767;
+$color8: rgba(27, 153, 139, 1);
+$color15: rgba(33, 131, 128, 0.5);
+$color9: rgba(109, 70, 107, 1);
+
+$silk:#BEAFA5;
+$storm-grey:#6b6e78;
+$white: #ffffff;
+$gray-asparagus: #3D4F51;
+$hippie-blue: #47A4A4;
+
+$color1: rgba(227, 197, 103, 1);
+$color2: rgba(200, 150, 62, 1);
+$color3: rgba(112, 5, 72, 1);
+$color4: rgba(188, 128, 52, 1);
+$color5: rgba(87, 61, 28, 1);
+$color6: rgba(241, 80, 37, 1);
+$color7: rgba(255, 255, 255, 1);
+//$color8: rgba(27, 153, 139, 1);
+//$color9: rgba(109, 70, 107, 1);
+$color10: rgba(242, 244, 243, 1);
+$color11: rgba(242, 220, 93, 1);
+$color12: rgba(95, 173, 86, 1);
+$color13: rgba(112, 5, 72, 1);
+$color14: rgba(247, 129, 84, 1);
+//$color15: rgba(33, 131, 128, 1);
+//$color15: rgba(242, 220, 93, 1);
+$color16: rgba(216, 17, 89, 1);
+$color17: rgba(112, 5, 72, 1);
+$color18: rgba(143, 45, 86, 1);
+$color19: rgb(231, 240, 239);
+
+/* media */
+$image-path: "../img/";
+
+$small-screen:24em;//320px;
+$medium-screen:46.8em;//768px;
+$large-screen:50em; // 992px;
+$xl-large-screen:73em;

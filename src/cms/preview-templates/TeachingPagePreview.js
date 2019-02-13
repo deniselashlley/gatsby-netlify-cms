@@ -1,8 +1,8 @@
 import React from "react";
 import PropTypes from "prop-types";
-import { TeachingsPageTemplate } from "../../templates/teachings-page";
+import { TeachingPageTemplate } from "../../templates/teaching-page";
 
-const ClassesPagePreview = ({ entry, widgetFor }) => (
+const TeachingPagePreview = ({ entry, widgetFor }) => (
   <TeachingPageTemplate
     page={{
       frontmatter: entry.getIn(["data"]).toJS(),

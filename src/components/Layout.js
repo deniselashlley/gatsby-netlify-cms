@@ -49,6 +49,12 @@ export const query = graphql`
               linkType
               linkURL
             }
+            socialLinks {
+              label
+              linkURL
+              hiddenText
+              type
+            }
           }
         }
       }

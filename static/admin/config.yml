@@ -310,6 +310,18 @@ collections:
                   { label: "Link URL", name: "linkURL", widget: "string", hint: "Use a relative URL (e.g. /about) if the link is an internal link." },
                 ],
             }
+            - {
+              label: "Social Items",
+              name: "socialLinks",
+              widget: "list",
+              fields:
+                [
+                  { label: "Label", name: "label", widget: "string" },
+                  { label: "Social Type", name: "type", widget: string },
+                  { label: "Social Link", name: "linkURL", widget: string },
+                  { label: "Social Title", name: "hiddenText", widget: string }
+                ],
+            }
       - file: "src/pages/footer/index.md"
         label: "Footer"
         name: "footer"

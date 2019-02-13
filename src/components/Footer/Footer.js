@@ -1,8 +1,6 @@
 import React from "react";
 import "./styles.scss";
 
-let year = new Date().getFullYear();
-
 export const FooterTemplate = ({ data }) => {
   const { logoImage, copyrightText} = data;
   let year = new Date().getFullYear();
