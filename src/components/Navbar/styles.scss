@@ -1,15 +1,20 @@
 @import "../../styles/variables.scss";
 @import "../../styles/mixins.scss";
 
-.navbar {
-  position: fixed;
+.site-header {
+  position: relative;
   top: 0;
   width: 100%;
-  padding: 0.5em 0;
+  padding: 10px 0;
   background-color: $white;
   height: $navbar-height;
+  line-height: $navbar-height;
   z-index: 50;
   box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.22);
+
+  @include respond-to("medium") {
+    position: fixed;
+  }
 
   .site-brand {
 
@@ -27,87 +32,196 @@
     }
   }
 
-  &-container {
+  .navbar {
     display: flex;
     height: 100%;
-  }
 
-  &-menu {
-    display: flex;
-    flex-grow: 0;
-    margin-left: auto;
-    margin-right: -1rem;
-  }
+      &-wrapper {
+        position: absolute;
+        background-color: $white;
+        top:90px;
+        left: 0;
+        width: 100%;
 
-  &-menuItem {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-  }
+        &.close {
+          overflow: hidden;
+          transition: max-height 0.5s ease-in-out; 
+          height: auto;
+          max-height: 0;
 
-  &-menuLink {
-    color: $color9;
-    font-size: 1.4rem;
-    margin: 0 10px;
-    text-decoration: none;
-    font-weight: 300;
-    letter-spacing: 0.4px;
-    transition: all $transition-duration ease-in-out;
-    border-bottom: 2px solid transparent;
-    text-transform: uppercase;
+          @include respond-to("medium") {
+            overflow: auto;
+            max-height: none;
+          }
+        }
 
-    &:hover,
-    &--active {
-      border-bottom: 2px solid $color9;
-    }
-  }
+        &.open {
+          max-height: 400px;
+        }
 
-
-.social-icons {
-  display: flex;
-  align-items: center;
-  padding: 0.5rem 0.75rem;
-  margin-left: 2em;
-
-  .social-icons--item {
-    margin: 0 10px;
-    height: 20px;
-    width: 20px;
-
-    .icon-link {
-      display: block;
-      width: 20px;
-
-    .icon {
-      display: block;
-      width: 20px;
-      height: 20px;
-
-      &.icon-tele {
-        background: url(../../img/icons/phone.svg) center no-repeat;
-        background-size: contain;
+        @include respond-to("medium") {
+          position: relative;
+          top: 0;
+          display: flex;
+          justify-content: space-between;
+          width: 90%;
+        }
       }
 
-      &.icon-email {
-        background: url(../../img/icons/email.svg) center no-repeat;
-        background-size: contain;
+      &-btn {
+        display: inline-block;
+        padding: 28px 20px;
+        position: absolute;
+        right: 20px;
+        top: 20px;
+
+        span {
+          background: $abbey;
+          display: block;
+          height: 2px;
+          position: relative;
+          transition: background .2s ease-out;
+          width: 25px;
+          
+          &:before, &:after {
+            background: $abbey;
+            content: '';
+            display: block;
+            height: 100%;
+            position: absolute;
+            transition: all .2s ease-out;
+            width: 100%;
+          }
+
+          &:before {
+            top: 5px;
+          }
+
+          &:after {
+            top: -5px;
+          }
+        }
+
+        &.active {
+          span {
+            background: transparent;
+
+            &:before {
+              transform: rotate(-45deg);
+              top:0;
+            }
+
+            &:after {
+              transform: rotate(45deg);
+              top: 0;
+            }
+          }
+        }
+    
+        @include respond-to("medium") {
+          display: none;
+        }
       }
 
-      &.icon-instagram {
-        background: url(../../img/icons/instagram.svg) center no-repeat;
-        background-size: contain;
+      &-menu {
+        margin-bottom: 20px;
+        padding-top: 20px;
+
+        @include respond-to("medium") {
+          display: flex;
+          flex-grow: 0;
+          margin-left: auto;
+          margin-right: -1rem;
+          margin-bottom: 0;
+          padding-top: 0;
+        }
+      }
+
+      &-menuItem {
+        width: 100%;
+        line-height: 2.8;
+        padding: 0 20px;
+        border-bottom: 1px solid $american-silver;
+
+        @include respond-to("medium") {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          padding: 0;
+          border: 0;
+          width: auto;
+          line-height: 1.5;
+        }
+      }
+
+      &-menuLink {
+        color: $abbey;
+        font-size: 1.4rem;
+        line-height: 2.5;
+        margin: 0 10px;
+        text-decoration: none;
+        font-weight: 600;
+        letter-spacing: 0.4px;
+        transition: all $transition-duration ease-in-out;
+        border-bottom: 2px solid transparent;
+        text-transform: uppercase;
+
+        &:hover,
+        &--active {
+          border-bottom: 2px solid $color1;
+        }
+      }
+
+
+    .social-icons {
+      display: flex;
+      align-items: center;
+      padding: 0 0 20px 20px;
+
+      @include respond-to("medium") {
+        margin: -5px 0 0 10px;
+        padding: 0;
+      }
+
+      .social-icons--item {
+        margin: 0 10px;
+        height: 20px;
+        width: 20px;
+
+        .icon-link {
+          display: block;
+          width: 20px;
+
+        .icon {
+          display: block;
+          width: 20px;
+          height: 20px;
+
+          &.icon-tele {
+            background: url(../../img/icons/phone.svg) center no-repeat;
+            background-size: contain;
+          }
+
+          &.icon-email {
+            background: url(../../img/icons/email.svg) center no-repeat;
+            background-size: contain;
+          }
+
+          &.icon-instagram {
+            background: url(../../img/icons/instagram.svg) center no-repeat;
+            background-size: contain;
+          }
+        }
+
+        &:hover {
+          opacity: 0.5;
+        }
+
+        span {
+          @include visuallyhidden;
+        }
+      }
       }
     }
-
-    &:hover {
-      opacity: 0.5;
-    }
-
-    span {
-      @include visuallyhidden;
-    }
-   }
   }
-}
-
 }
