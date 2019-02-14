@@ -24,27 +24,6 @@ export const FooterTemplate = ({ data }) => {
               
             </a> 
           </p>
-          { /*socialLinks.length > 0 && (
-            <ul className="footer-socialMenu">
-              {socialLinks.map(socialLink => (
-                <li key={socialLink.linkURL} className="footer-socialMenuItem">
-                  <a
-                    className="footer-socialLink"
-                    href={socialLink.linkURL}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    <img
-                      className="footer-socialLinkIcon"
-                      src={socialLink.image}
-                      alt={socialLink.imageAlt}
-                    />
-                    {socialLink.label}
-                  </a>
-                </li>
-              ))}
-            </ul>
-              )*/}
         </div>
     </footer>
   );

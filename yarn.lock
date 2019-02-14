@@ -10472,6 +10472,11 @@ rc@^1.0.1, rc@^1.1.2, rc@^1.1.6, rc@^1.2.7:
     minimist "^1.2.0"
     strip-json-comments "~2.0.1"
 
+react-anchor-link-smooth-scroll@^1.0.11:
+  version "1.0.11"
+  resolved "https://registry.yarnpkg.com/react-anchor-link-smooth-scroll/-/react-anchor-link-smooth-scroll-1.0.11.tgz#e53f55b89382df0d85470ebd20e6b349d62eb19d"
+  integrity sha512-PaAFtqs00eXbbYPTaiG7sEL2EkVfs+PiarzMnMN66JQWamORiNOzyhumW2tImKeKFUZeFdifqz9iJy/2e4RLnw==
+
 react-aria-menubutton@^5.1.0:
   version "5.1.1"
   resolved "https://registry.yarnpkg.com/react-aria-menubutton/-/react-aria-menubutton-5.1.1.tgz#56b1f36ff43de48dfa1eab16e9f5efc1a63dc0a9"
@@ -12914,6 +12919,11 @@ uglifyjs-webpack-plugin@^1.2.4:
     uglify-es "^3.3.4"
     webpack-sources "^1.1.0"
     worker-farm "^1.5.2"
+
+uikit@^3.0.3:
+  version "3.0.3"
+  resolved "https://registry.yarnpkg.com/uikit/-/uikit-3.0.3.tgz#ead1b0a152d2771d2684f60086766ccc50fa3450"
+  integrity sha512-Z73TXlnfJCAXczg5mFCZSTwR0Ii1wW2fZumfIR8G1x1x4SyKHpkU0JCZDoIryYFMu1gSpvy5hZiXk3t4i5tTlw==
 
 ultron@~1.1.0:
   version "1.1.1"

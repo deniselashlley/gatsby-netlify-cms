@@ -5,17 +5,14 @@ menuItems:
     linkType: internal
     linkURL: /
   - label: my story
-    linkType: internal
-    linkURL: '#my-story'
+    linkType: hash
+    linkURL: '#mystory'
   - label: schedule
-    linkType: internal
+    linkType: hash
     linkURL: '#schedule'
-  - label: about yoga
-    linkType: internal
-    linkURL: /about
   - label: connect with me
-    linkType: internal
-    linkURL: /connect
+    linkType: hash
+    linkURL: '#connect'
 socialLinks:
   - label: follow me on instagram
     linkURL: 'https://www.instagram.com/the_light_tree_yoga/'
