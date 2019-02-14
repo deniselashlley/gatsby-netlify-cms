@@ -17,6 +17,8 @@
   }
 
   .site-brand {
+    margin: 0 auto;
+    width: 70px;
 
     .site-logo {
       display: block;
@@ -70,10 +72,10 @@
 
       &-btn {
         display: inline-block;
-        padding: 28px 20px;
+        padding: 25px;
         position: absolute;
-        right: 20px;
-        top: 20px;
+        right: 10px;
+        top: 18px;
 
         span {
           background: $abbey;

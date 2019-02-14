@@ -230,9 +230,14 @@
 
 .hero-banner {
   position: relative;
-  background: url(../img/banner-01.jpg) center 50% no-repeat;
+  background: url(../img/banner-01.jpg) center 55% no-repeat;
   background-size: cover;
-  height: 610px;
+  height: 380px;
+
+  @include respond-to("medium") {
+    height: 610px;
+    background-position: center 50%;
+  }
 
   ul {
     position: relative;
@@ -241,22 +246,31 @@
     text-align: center;
     text-transform: uppercase;
     z-index: 40;
-    top: 50%;
+    top: 25%;
     margin: 0 auto;
     max-width: 90%;
+
+    @include respond-to("medium") {
+      top: 50%;
+    }
+
     li {
       position: relative;
-      display: inline-block;
+      display: block;
+      font-size: 1.9rem;
       font-weight: 400;
-      font-size: 3.8rem;
-      margin: 0 0.5em;
+      margin: 0 0.5em 1em;
       color: $white;
+
+      @include respond-to("medium") {
+        font-size: 3.8rem;
+        display: inline-block;
+      }
 
       &:after {
         position: absolute;
         top: -34px;
         left: -25px;
-        content: '.';
         font-size: 58px;
         display: inline-block;
       }
