@@ -190,7 +190,6 @@ export const pageQuery = graphql`
       edges {
         node {
           frontmatter {
-            title
             mainImageText {
               itemTextOne
               itemTextTwo

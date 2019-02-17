@@ -176,10 +176,22 @@ collections:
                 {label: "Item Text Four", name: "itemTextFour", widget: "string"}
               ],
             }
-          - { label: "Title", name: "title", widget: "string" }
           - { label: "Upcoming Meetup Heading", name: "upcomingMeetupHeading", widget: "string" }
           - { label: "No Upcoming Meetup Text", name: "noUpcomingMeetupText", hint: "This text will be displayed when there are no upcoming meetups", required: true, widget: "string" }
           - { label: "Maps Note", name: "mapsNote", required: true, widget: "string" }
+          - { 
+              label: "Section Welcome",
+              name: "sectionWelcome",
+              widget: "object",
+              fields: [
+                { label: "Title", name: "title", widget: "string" },
+                { label: "Body", name: "body", widget: "markdown" },
+                { label: "Image", name: "image", widget: "image" },
+                { label: "Image Description", name: "imageAlt", widget: "string" },
+                { label: "Quote", name: "quote", widget: "string" },
+                { label: "Highlighted Text", name: "highlightedText", widget: "string"}
+              ]
+            }
           - {
               label: "Call to Actions",
               name: "callToActions",

@@ -1,6 +1,5 @@
 ---
 templateKey: home-page
-title: The Light Tree - Home
 mainImageText:
   itemTextOne: Energise your Body
   itemTextTwo: Calm you Mind
@@ -11,7 +10,8 @@ sectionWelcome:
   body:  Hi, my name is Jess and welcome to The Light Tree. 
   quote: “You cannot solve a problem from the same level of consciousness that created it” -- Einstein
   image: img/profile-me.jpg
-  text: 
+  imageAlt: profile picture of jess
+  highlightedText: 
 schedule:
     title: CLASSES, WORKSHOPS & EVENTS 
     classesBlock:
