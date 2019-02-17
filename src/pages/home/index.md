@@ -13,17 +13,17 @@ sectionWelcome:
   image: img/profile-me.jpg
   imageAlt: profile picture of jess
   highlightedText: 
-schedule:
+sectionSchedule:
     title: CLASSES, WORKSHOPS & EVENTS 
-    classesBlock:
-      heading: classes
-      classes: <p>Slow flow  - Wed 6-7pm – Perle de Beaute, Willesden <a href="#">book</a></p><p>Flow & Restore - Thurs 7-8:15pm  - Kenton (next term) <a href="#">book</a></p><p>Vinyasa Flow - Sat 10-11am – Willesden (contact studio to book) <a href="#">book</a></p><p>Pregnancy Yoga  - Sat (tbc)</p>
-    workshopBlock:
-      heading: workshop
-      details: No workshops scheduled 
-    eventBlock:
-      heading: Event
-      details: Sister Circle Root, Restore, Rise – Sunday 20th January 2019 – Granville, Kilburn (nearest tube Queens Park, Kilburn Parkk)
+    classesTimetable:
+      subHeading: classes
+      body: <p>Slow flow  - Wed 6-7pm – Perle de Beaute, Willesden <a href="#">book</a></p><p>Flow & Restore - Thurs 7-8:15pm  - Kenton (next term) <a href="#">book</a></p><p>Vinyasa Flow - Sat 10-11am – Willesden (contact studio to book) <a href="#">book</a></p><p>Pregnancy Yoga  - Sat (tbc)</p>
+    workshopSchedule:
+      subHeading: workshop
+      body: No workshops scheduled 
+    eventSchedule:
+      subHeading: Event
+      body: Sister Circle Root, Restore, Rise – Sunday 20th January 2019 – Granville, Kilburn (nearest tube Queens Park, Kilburn Parkk)
 callToActions:
   firstCTA:
     heading: Past Meetups

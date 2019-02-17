@@ -46,10 +46,10 @@ export const HomePageTemplate = ({ home }) => {
       </section>
       <section id="schedule" className="section-block section-block--schedule">
        <div className="container">
-          <h2 className="section-title">{home.schedule.title}</h2>
-          <h3>{home.schedule.classesBlock.heading}</h3>
+          <h2 className="section-title">{home.sectionSchedule.title}</h2>
+          <h3>{home.sectionSchedule.classesTimetable.subHeading}</h3>
           <div>
-            <div dangerouslySetInnerHTML={{ __html: home.schedule.classesBlock.classes }} />
+            <div dangerouslySetInnerHTML={{ __html: home.sectionSchedule.classesTimetable.body}} />
           </div>
           <CustomLink
             linkType="internal"
@@ -201,19 +201,19 @@ export const pageQuery = graphql`
               quote
               image
             }
-            schedule {
+            sectionSchedule {
               title
-              classesBlock {
-                heading
-                classes
+              classesTimetable {
+                subHeading
+                body
               }
-              workshopBlock {
-                heading
-                details
+              workshopSchedule {
+                subHeading
+                body
               }
-              eventBlock {
-                heading
-                details
+              eventSchedule {
+                subHeading
+                body
               }
             }
             seo {
