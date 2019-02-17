@@ -1,5 +1,6 @@
 ---
 templateKey: home-page
+title: 
 mainImageText:
   itemTextOne: Energise your Body
   itemTextTwo: Calm you Mind
@@ -37,8 +38,7 @@ callToActions:
 seo:
   browserTitle: The Light Tree
   description: >-
-    JavaScript meetup group in Wakanda where JavaScript developers get together
-    for presentations and to meet others in the community.
-  title: JavaScript Wakanda
+    The Light Tree Yoga is run by me, Jess a YAP200 Yoga teacher since 2015. I provide Yoga classes, workshops and private sessions for all abilities in NW London.
+  title: The Light Tree - Home
 ---
 
