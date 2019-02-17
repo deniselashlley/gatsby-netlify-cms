@@ -179,7 +179,6 @@ export const pageQuery = graphql`
       edges {
         node {
           frontmatter {
-            title
             formattedDate: date(formatString: "MMMM Do YYYY @ h:mm A")
           }
         }
