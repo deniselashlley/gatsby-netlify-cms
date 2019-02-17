@@ -1,23 +1,17 @@
 ---
 templateKey: home-page
-title: Meet other JavaScript Developers in Wakanda
-upcomingMeetupHeading: Upcoming Meetup
-noUpcomingMeetupText: Details to be announced.
-mapsNote: Clicking the pin opens Google Maps in a new tab.
-homeBanner:
-    itemText1: Energise your Body
-    itemText2: Calm you Mind
-    itemText3: Nourish your Soul
-    itemText4: Shine your Light
+title: The Light Tree - Home
+mainImageText:
+  itemTextOne: Energise your Body
+  itemTextTwo: Calm you Mind
+  itemTextThree: Nourish your Soul
+  itemTextFour: Shine your Light
 sectionWelcome:
   title: The Light Tree
-  contentText: 
-    paraText1: Hi, my name is Jess and welcome to The Light Tree. 
-    paraText2: Whatever your age, shape, size, ethnicity, social background, whether you want to strengthen your body or create more flexibility, maybe you are looking for some time for yourself or learn how to be calmer, you could be on a journey of self-realisation, Yoga is a system of transformation that can be accessed by everyone. 
-    paraText3: I run group classes, workshops and private sessions for all abilities and I am passionate about helping you to energise your body, calm your mind, nourish your soul and shine your light. 
-    paraText4: Join me to begin your journey of transformation. I look forward to meeting you soon.
-    quote: “You cannot solve a problem from the same level of consciousness that created it” -- Einstein
-    image: img/profile-me.jpg
+  body:  Hi, my name is Jess and welcome to The Light Tree. 
+  quote: “You cannot solve a problem from the same level of consciousness that created it” -- Einstein
+  image: img/profile-me.jpg
+  text: 
 schedule:
     title: CLASSES, WORKSHOPS & EVENTS 
     classesBlock:

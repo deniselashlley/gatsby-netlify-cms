@@ -78,6 +78,132 @@
   }
 }
 
+.section-block {
+
+  .section-title {
+    text-align: center;
+  }
+
+  .container-row {
+    position: relative;
+
+    @include respond-to("medium") {
+      display: flex;
+    }
+
+    .block {
+      align-items: left;
+      width: 100%;
+      margin-bottom: 18px;
+
+      @include respond-to("medium") {
+        max-width: 50%;
+      }
+
+      &.block-context {
+        @include respond-to("medium") {
+          padding-left: 40px;
+        }
+      }
+    }
+    .quote {
+      margin-bottom: 18px;
+      
+      @include respond-to("medium") {
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 18%;
+      }
+    }
+  }
+  &.section-block--introduction{
+    .block-profile {
+
+      @include respond-to("medium") {
+        width: 300px;
+      }
+  
+        .profile { 
+          object-fit: cover;
+          border-radius: 100%;
+          width: 300px;
+          height: 300px;
+          display: block;
+          text-align: center;
+          margin: 0 auto;
+        }
+    }
+  }
+  .section-block--schedule{}
+
+  &.section-block--mystory{
+    .section-image-group {
+      display: flex;
+      
+      @include respond-to("medium") {  
+        padding-bottom: 20px;
+      }
+
+      li {
+        margin-right: 2px;
+        width: 50%;
+
+        @include respond-to("medium") {
+          width: auto;
+        }
+      }
+
+      img {
+        display: block;
+        object-fit: cover;
+        max-width: 100%;
+      }
+    }
+  }
+  &.section-block--connect {
+    .container-row {
+      margin-top: 30px;
+
+      .block {
+        align-self:baseline;
+        width: 100%;
+        max-width: none;
+
+        @include respond-to("medium") {
+          width: 50%;
+          padding: 25px;
+        }
+
+        h3 {
+          margin-bottom: 18px;
+        }
+      }
+    }
+
+    .contact-list {
+      li {
+        text-align: center;
+        margin-bottom: 20px;
+        font-size: 2.0rem;
+
+        span{
+          display: block;
+        }
+        .contact-label {
+          font-size: 1.6rem;
+        }
+        a {
+          &:hover {
+            .contact-link-name {
+              opacity: 0.6;
+            }
+          }
+        }
+      }
+    }
+  }
+}
 
 /*.section-block {
   .introduction {
