@@ -194,13 +194,38 @@ collections:
               ]
             }
           - {
-              label: "Section Sechedule",
+              label: "Section Schedule",
               name: "sectionSchedule",
               widget: "object",
               fields: [
                 { label: "Title", name: "title", widget: "string" },
-                { label: "Sub Heading", name: "subHeading", widget: "string" },
-                { label: "Body", name: "body", widget: "markdown" }
+                { 
+                  label: "Classes Timetable", 
+                  name: "classesTimetable", 
+                  widget: "object",
+                  fields: [
+                    { label: "Sub Heading", name: "subHeading", widget: "string" },
+                    { label: "Body", name: "body", widget: "markdown" }
+                  ] 
+                },
+                { 
+                  label: "Workshop Schedule", 
+                  name: "workshopSchedule", 
+                  widget: "object",
+                  fields: [
+                    { label: "Sub Heading", name: "subHeading", widget: "string" },
+                    { label: "Body", name: "body", widget: "markdown" }
+                  ] 
+                }
+                { 
+                  label: "Event Schedule", 
+                  name: "eventSchedule", 
+                  widget: "object",
+                  fields: [
+                    { label: "Sub Heading", name: "subHeading", widget: "string" },
+                    { label: "Body", name: "body", widget: "markdown" }
+                  ] 
+                }
               ]
             }
           - {
