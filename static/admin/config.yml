@@ -165,6 +165,17 @@ collections:
                   { label: "Image Description", name: "imageAlt", widget: "string" },
                 ],
             }
+          - { 
+              label: "Main Image Text", 
+              name: "mainImageText", 
+              widget: "object",
+              fields: [
+                {label: "Item Text One", name: "itemTextOne", widget: "string"},
+                {label: "Item Text Two", name: "itemTextTwo", widget: "string"},
+                {label: "Item Text Three", name: "itemTextThree", widget: "string"},
+                {label: "Item Text Four", name: "itemTextFour", widget: "string"}
+              ],
+            }
           - { label: "Title", name: "title", widget: "string" }
           - { label: "Upcoming Meetup Heading", name: "upcomingMeetupHeading", widget: "string" }
           - { label: "No Upcoming Meetup Text", name: "noUpcomingMeetupText", hint: "This text will be displayed when there are no upcoming meetups", required: true, widget: "string" }
