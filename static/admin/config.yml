@@ -86,6 +86,37 @@ collections:
             }
           - { label: "Body", name: "body", widget: "markdown" }
           - {
+              label: "Image Gallery",
+              name: "gallery",
+              widget: "list",
+              fields:
+                [
+                  { label: "Image", name: "image", widget: "image" },
+                  { label: "Image Description", name: "imageAlt", widget: "string" },
+                ],
+            }
+          - { label: "Developer Groups", name: "developerGroups", widget: "markdown" }
+          - {
+              label: "Meetup Organizers",
+              name: "organizers",
+              widget: "object",
+              fields:
+                [
+                  { label: "Title", name: "title", widget: "string" },
+                  {
+                    label: "Images",
+                    name: "gallery",
+                    widget: "list",
+                    fields:
+                      [
+                        { label: "Name", name: "name", widget: "string" },
+                        { label: "Image", name: "image", widget: "image" },
+                        { label: "Image Description", name: "imageAlt", widget: "string" },
+                      ],
+                  },
+                ],
+            }
+          - {
               label: "SEO & Meta",
               name: "seo",
               widget: "object",
@@ -125,8 +156,8 @@ collections:
         fields:
           - { label: "Template Key", name: "templateKey", widget: "hidden", default: "home-page" }
           - {
-              label: "Main Image",
-              name: "mainImage",
+              label: "Header Image",
+              name: "headerImage",
               widget: "object",
               fields:
                 [
@@ -134,31 +165,65 @@ collections:
                   { label: "Image Description", name: "imageAlt", widget: "string" },
                 ],
             }
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Upcoming Meetup Heading", name: "upcomingMeetupHeading", widget: "string" }
+          - { label: "No Upcoming Meetup Text", name: "noUpcomingMeetupText", hint: "This text will be displayed when there are no upcoming meetups", required: true, widget: "string" }
+          - { label: "Maps Note", name: "mapsNote", required: true, widget: "string" }
           - {
-              label: "Main Image Text",
-              name: "mainImageText",
-              widget: "list",
+              label: "Call to Actions",
+              name: "callToActions",
+              required: true,
+              widget: "object",
               fields:
                 [
-                  { label: "Item Text One", name: "itemTextOne", widget: "string" },
-                  { label: "Item Text Two", name: "itemTextTwo", widget: "string" },
-                  { label: "Item Text Three", name: "itemTextThree", widget: "string" },
-                  { label: "Item Text Four", name: "itemTextFour", widget: "string" },
-                ]
+                  {
+                    label: "First CTA",
+                    name: "firstCTA",
+                    required: true,
+                    widget: "object",
+                    fields:
+                      [
+                        { label: "Heading", name: "heading", widget: "string" },
+                        { label: "Sub Heading", name: "subHeading", widget: "string" },
+                        {
+                          label: "Link Type",
+                          name: "linkType",
+                          widget: "select",
+                          options: ["internal", "external"],
+                        },
+                        {
+                          label: "Link URL",
+                          name: "linkURL",
+                          widget: "string",
+                          hint: "Use a relative URL (e.g. /about) if the link is an internal link.",
+                        }
+                      ]
+                  },
+                  {
+                    label: "Second CTA",
+                    name: "secondCTA",
+                    required: true,
+                    widget: "object",
+                    fields:
+                      [
+                        { label: "Heading", name: "heading", widget: "string" },
+                        { label: "Sub Heading", name: "subHeading", widget: "string" },
+                        {
+                          label: "Link Type",
+                          name: "linkType",
+                          widget: "select",
+                          options: ["internal", "external"],
+                        },
+                        {
+                          label: "Link URL",
+                          name: "linkURL",
+                          widget: "string",
+                          hint: "Use a relative URL (e.g. /about) if the link is an internal link.",
+                        }
+                      ]
+                  }
+                ],
             }
-          - { label: "Title", name: "title", widget: "string" }
-          - { label: "Section Welcome",
-              name: "sectionWelcome",
-              widget: "object",
-              fields: [
-                { label: "Title", name: "title", widget: "string" },
-                { label: "Body", name: "body", widget: "markdown" }, 
-                { label: "Text", name: "text", widget: "string" },
-                { label: "Quote", name: "quote", widget: "string" },
-                { label: "Image", name: "image", widget: "image" },
-               
-              ],
-            } 
           - {
               label: "SEO & Meta",
               name: "seo",
