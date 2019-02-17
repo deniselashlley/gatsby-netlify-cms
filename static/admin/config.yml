@@ -216,7 +216,7 @@ collections:
                     { label: "Sub Heading", name: "subHeading", widget: "string" },
                     { label: "Body", name: "body", widget: "markdown" }
                   ] 
-                }
+                },
                 { 
                   label: "Event Schedule", 
                   name: "eventSchedule", 
@@ -226,7 +226,7 @@ collections:
                     { label: "Body", name: "body", widget: "markdown" }
                   ] 
                 }
-              ]
+              ],
             }
           - {
               label: "Call to Actions",
