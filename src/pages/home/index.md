@@ -23,18 +23,12 @@ sectionSchedule:
       body: No workshops scheduled 
     eventSchedule:
       subHeading: Event
-      body: Sister Circle Root, Restore, Rise – Sunday 20th January 2019 – Granville, Kilburn (nearest tube Queens Park, Kilburn Parkk)
-callToActions:
-  firstCTA:
-    heading: Past Meetups
-    linkType: internal
-    linkURL: /meetups
-    subHeading: Look at what topics were presented at past meetups.
-  secondCTA:
-    heading: Volunteer to Present
-    linkType: external
-    linkURL: 'mailto:contact@js-wakanda.org'
-    subHeading: Want to present at an upcoming meetup? Contact us.
+      body: Sister Circle Root, Restore, Rise – Sunday 20th January 2019 – Granville, Kilburn (nearest tube Queens Park, Kilburn Park)
+sectionMyStory:
+  title: My Story
+  body: content
+sectionMyStory:
+  title: Connect with me
 seo:
   browserTitle: The Light Tree
   description: >-

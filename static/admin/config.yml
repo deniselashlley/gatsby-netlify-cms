@@ -225,6 +225,23 @@ collections:
               ]
             }
           - {
+              label: "Section My Story",
+              name: "sectionMyStory",
+              widget: "object",
+              fields: [
+                { label: "Title", name: "title", widget: "string" },
+                { label: "Body", name: "body", widget: "markdown" }
+              ]
+            }
+          - {
+              label: "Section Connect",
+              name: "sectionConnect",
+              widget: "object",
+              fields: [
+                { label: "Title", name: "title", widget: "string" },
+              ]
+            }
+          - {
               label: "SEO & Meta",
               name: "seo",
               widget: "object",

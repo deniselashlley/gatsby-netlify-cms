@@ -28,7 +28,7 @@ export const HomePageTemplate = ({ home }) => {
           <h1 className="section-title">{home.sectionWelcome.title}</h1>
           <div className="container-row">
             <div className="block block-profile">
-              <img src={home.sectionWelcome.image} alt="me" className="profile" />
+              <img src={home.sectionWelcome.image} alt={home.sectionWelcome.imageAlt} className="profile" />
             </div>
             <div className="block block-context">
               <p>{home.sectionWelcome.body}</p>
@@ -200,6 +200,7 @@ export const pageQuery = graphql`
               body
               quote
               image
+              imageAlt
             }
             sectionSchedule {
               title
