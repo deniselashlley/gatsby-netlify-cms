@@ -188,8 +188,8 @@ collections:
                 { label: "Quote", name: "quote", widget: "string" },
                 { label: "Highlighted Text", name: "highlightedText", widget: "string"}
               ]
-          }
-          - {
+            }
+            - {
               label: "Section Schedule",
               name: "sectionSchedule",
               widget: "object",
