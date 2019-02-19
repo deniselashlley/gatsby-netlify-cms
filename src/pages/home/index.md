@@ -29,6 +29,19 @@ sectionMyStory:
   body: content
 sectionConnect:
   title: Connect with me
+  contact:
+    - subHeading: email
+      linkURL: 
+    - subHeading: phone
+      linkURL:
+    - subHeading: follow me
+      linkURL:
+  services:
+    title:
+    body:
+  subscribe:
+    title:
+    body:
 seo:
   browserTitle: The Light Tree
   description: >-

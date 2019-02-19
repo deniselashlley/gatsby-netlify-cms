@@ -239,6 +239,33 @@ collections:
               widget: "object",
               fields: [
                 { label: "Title", name: "title", widget: "string" },
+                { 
+                  label: "Contact", 
+                  name: "contact", 
+                  widget: "list", 
+                  fields: [
+                    { label: "Sub Heading", name: "subHeading", widget: "string" },
+                    { label: "Link URL", name: "linkURL", widget: "string" }
+                  ]
+                },
+                {
+                  label: "Services", 
+                  name: "services", 
+                  widget: "object", 
+                  fields: [
+                    { label: "Title", name: "title", widget: "string" },
+                    { label: "Body", name: "body", widget: "markdown" }
+                  ]
+                },
+                {
+                  label: "Subscribe", 
+                  name: "subscribe", 
+                  widget: "object", 
+                  fields: [
+                    { label: "Title", name: "title", widget: "string" },
+                    { label: "Body", name: "body", widget: "markdown" }
+                  ]
+                },
               ]
             }
           - {
