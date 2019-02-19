@@ -86,6 +86,37 @@ collections:
             }
           - { label: "Body", name: "body", widget: "markdown" }
           - {
+              label: "Image Gallery",
+              name: "gallery",
+              widget: "list",
+              fields:
+                [
+                  { label: "Image", name: "image", widget: "image" },
+                  { label: "Image Description", name: "imageAlt", widget: "string" },
+                ],
+            }
+          - { label: "Developer Groups", name: "developerGroups", widget: "markdown" }
+          - {
+              label: "Meetup Organizers",
+              name: "organizers",
+              widget: "object",
+              fields:
+                [
+                  { label: "Title", name: "title", widget: "string" },
+                  {
+                    label: "Images",
+                    name: "gallery",
+                    widget: "list",
+                    fields:
+                      [
+                        { label: "Name", name: "name", widget: "string" },
+                        { label: "Image", name: "image", widget: "image" },
+                        { label: "Image Description", name: "imageAlt", widget: "string" },
+                      ],
+                  },
+                ],
+            }
+          - {
               label: "SEO & Meta",
               name: "seo",
               widget: "object",
@@ -145,16 +176,7 @@ collections:
                 { label: "Image", name: "image", widget: "image" },
                 { label: "Image Description", name: "imageAlt", widget: "string" },
                 { label: "Quote", name: "quote", widget: "string" },
-                { label: "Highlighted Text", name: "highlightedText", widget: "string"},
-                { 
-                  label: "Page Link", 
-                  name: "pageLink", 
-                  widget: "object",
-                  fields: [
-                    { label: "Text", name: "text", widget: "string" },
-                    { label: "URL", name: "url", widget: "string" },
-                  ]
-                }
+                { label: "Highlighted Text", name: "highlightedText", widget: "string"}
               ]
             }
           - {
@@ -189,15 +211,6 @@ collections:
                     { label: "Sub Heading", name: "subHeading", widget: "string" },
                     { label: "Body", name: "body", widget: "markdown" }
                   ] 
-                },
-                { 
-                  label: "Page Link", 
-                  name: "pageLink", 
-                  widget: "object",
-                  fields: [
-                    { label: "Text", name: "text", widget: "string" },
-                    { label: "URL", name: "url", widget: "string" },
-                  ]
                 }
               ]
             }
@@ -207,17 +220,7 @@ collections:
               widget: "object",
               fields: [
                 { label: "Title", name: "title", widget: "string" },
-                { label: "Quote", name: "quote", widget: "string" },
-                { label: "Body", name: "body", widget: "markdown" },
-                { 
-                  label: "Page Link", 
-                  name: "pageLink", 
-                  widget: "object",
-                  fields: [
-                    { label: "Text", name: "text", widget: "string" },
-                    { label: "URL", name: "url", widget: "string" },
-                  ]
-                }
+                { label: "Body", name: "body", widget: "markdown" }
               ]
             }
           - {
