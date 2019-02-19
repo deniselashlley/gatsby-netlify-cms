@@ -172,19 +172,6 @@ export default HomePage;
 
 export const pageQuery = graphql`
   query HomePageQuery {
-    allMarkdownRemark(
-      filter: { frontmatter: { presenters: { elemMatch: { text: { ne: null } } } } }
-      sort: { order: DESC, fields: frontmatter___date }
-    ) {
-      edges {
-        node {
-          frontmatter {
-            formattedDate: date(formatString: "MMMM Do YYYY @ h:mm A")
-          }
-        }
-      }
-    }
-    ...LayoutFragment
     homePageData: allMarkdownRemark(filter: { frontmatter: { templateKey: { eq: "home-page" } } }) {
       edges {
         node {
