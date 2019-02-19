@@ -16,6 +16,9 @@ sectionWelcome:
     “You cannot solve a problem from the same level of consciousness that
     created it” -- Einstein
   title: The Light Tree
+  pageLink: 
+    text: THE LIGHT TREE TEACHING PHILOSOPHY
+    url: 
 sectionSchedule:
   classesTimetable:
     body: |-
@@ -36,6 +39,9 @@ sectionSchedule:
   workshopSchedule:
     body: No workshops scheduled
     subHeading: workshop
+  pageLink: 
+    text: THE LIGHT TREE TEACHING PHILOSOPHY
+    url: 
 sectionMyStory:
   body: >-
     I have been a practitioner of Yoga since 2002 and began teaching Yoga in
@@ -96,6 +102,10 @@ sectionMyStory:
     Have you been ignoring or missing out on Life’s attempts to wake you up to
     your true self?
   title: My Story
+  quote: Have you been ignoring or missing out on Life’s attempts to wake you up to your true self?
+  pageLink: 
+    text: THE LIGHT TREE TEACHING PHILOSOPHY
+    url: 
 sectionConnect:
   contact:
     - linkURL: jess@thelighttreeyoga.co.uk<
@@ -132,13 +142,11 @@ sectionConnect:
     body: >-
       ###SOULSHALL MATA
 
-
       Link to mixcloud once set up A monthly talk show going beneath the
       physical matter to the soul of what matters. Hosted by Jess Gibbs and
       Shaka Lish with guests. The show is centred around wellbeing, including
       chat and music discussing topics concerning the African diaspora from the
       female black British perspective.
-
 
       ###CLASS PLAYLISTS - Soundcloud link
     title: Subscribe
