@@ -155,16 +155,6 @@ collections:
         name: "home"
         fields:
           - { label: "Template Key", name: "templateKey", widget: "hidden", default: "home-page" }
-          - {
-              label: "Header Image",
-              name: "headerImage",
-              widget: "object",
-              fields:
-                [
-                  { label: "Image", name: "image", widget: "image" },
-                  { label: "Image Description", name: "imageAlt", widget: "string" },
-                ],
-            }
           - { 
               label: "Main Image Text", 
               name: "mainImageText", 
