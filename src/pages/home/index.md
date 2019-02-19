@@ -27,7 +27,7 @@ sectionSchedule:
 sectionMyStory:
   title: My Story
   body: content
-sectionMyStory:
+sectionConnect:
   title: Connect with me
 seo:
   browserTitle: The Light Tree
