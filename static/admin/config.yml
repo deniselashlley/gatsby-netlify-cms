@@ -38,27 +38,6 @@ collections:
                   { label: "Image Description", name: "imageAlt", widget: "string" },
                 ],
             }
-          - { label: "Developer Groups", name: "developerGroups", widget: "markdown" }
-          - {
-              label: "Meetup Organizers",
-              name: "organizers",
-              widget: "object",
-              fields:
-                [
-                  { label: "Title", name: "title", widget: "string" },
-                  {
-                    label: "Images",
-                    name: "gallery",
-                    widget: "list",
-                    fields:
-                      [
-                        { label: "Name", name: "name", widget: "string" },
-                        { label: "Image", name: "image", widget: "image" },
-                        { label: "Image Description", name: "imageAlt", widget: "string" },
-                      ],
-                  },
-                ],
-            }
           - {
               label: "SEO & Meta",
               name: "seo",

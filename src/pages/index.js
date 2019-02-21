@@ -172,6 +172,7 @@ export default HomePage;
 
 export const pageQuery = graphql`
   query HomePageQuery {
+    ...LayoutFragment
     homePageData: allMarkdownRemark(filter: { frontmatter: { templateKey: { eq: "home-page" } } }) {
       edges {
         node {
