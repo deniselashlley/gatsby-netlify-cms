@@ -6,17 +6,21 @@ mainImageText:
   itemTextThree: Nourish your Soul
   itemTextTwo: Calm you Mind
 sectionWelcome:
-  body: "Hi, my name is Jess and welcome to The Light Tree.  \r\n\nWhatever your age, shape, size, ethnicity, social background, whether you want to strengthen your body or create more flexibility, maybe you are looking for some time for yourself or learn how to be calmer, you could be on a journey of self-realisation, Yoga is a system of transformation that can be accessed by everyone. \r\n\nI run group classes, workshops and private sessions for all abilities and I am passionate about helping you to energise your body, calm your mind, nourish your soul and shine your light."
-  highlightedText: >-
-    Join me to begin your journey of transformation. I look forward to meeting
-    you soon.
+  body: Hi, my name is Jess and welcome to The Light Tree. Whatever your age, shape, size, ethnicity, social background, whether you want to strengthen your body or create more flexibility, maybe you are looking for some time for yourself or learn how to be calmer, you could be on a journey of self-realisation, Yoga is a system of transformation that can be accessed by everyone. I run group classes, workshops and private sessions for all abilities and I am passionate about helping you to energise your body, calm your mind, nourish your soul and shine your light.
+  highlightedText: Join me to begin your journey of transformation. I look forward to meeting you soon.
   image: img/profile-me.jpg
   imageAlt: profile picture of jess
   quote: >-
     “You cannot solve a problem from the same level of consciousness that
-    created it” -- Einstein
+    created it” -- Einstein“
   title: The Light Tree
+  pageLink:
+    text: About yoga
+    linkURL: /about
 sectionSchedule:
+  pageLink: 
+    text: link more...
+    linkURL: /classes
   classesTimetable:
     body: |-
       Slow flow  - Wed 6-7pm – Perle de Beaute, Willesden 
@@ -96,14 +100,30 @@ sectionMyStory:
     Have you been ignoring or missing out on Life’s attempts to wake you up to
     your true self?
   title: My Story
+  quote: “Have you been ignoring or missing out on Life’s attempts to wake you up to your true self?“
+  pageLink:
+    text: THE LIGHT TREE TEACHING PHILOSOPHY
+    linkURL: /
+  imageList:
+    - image:
+      imageAlt:
+    - image:
+      imageAlt:
+    - image:
+      imageAlt:
+    - image:
+      imageAlt:
 sectionConnect:
   contact:
-    - linkURL: jess@thelighttreeyoga.co.uk<
+    - linkURL: mailto:jess@thelighttreeyoga.co.uk
+      linkText: jess@thelighttreeyoga.co.uk
       subHeading: email
-    - linkURL: 07927 318 065
+    - linkURL: tel:07927 318 065
+      linkText: 07927 318 065
       subHeading: phone
-    - linkURL: 'https://www.instagram.com/the_light_tree_yoga/'
-      subHeading: follow me
+    - linkURL: https://www.instagram.com/the_light_tree_yoga/
+      linkText: Instagram
+      subHeading: follow me on
   services:
     body: >-
       **Group Yoga** – Public classes are listed in the schedule section. It is

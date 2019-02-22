@@ -29,16 +29,6 @@ collections:
             }
           - { label: "Body", name: "body", widget: "markdown" }
           - {
-              label: "Image Gallery",
-              name: "gallery",
-              widget: "list",
-              fields:
-                [
-                  { label: "Image", name: "image", widget: "image" },
-                  { label: "Image Description", name: "imageAlt", widget: "string" },
-                ],
-            }
-          - {
               label: "SEO & Meta",
               name: "seo",
               widget: "object",
@@ -98,7 +88,16 @@ collections:
                 { label: "Image", name: "image", widget: "image" },
                 { label: "Image Description", name: "imageAlt", widget: "string" },
                 { label: "Quote", name: "quote", widget: "string" },
-                { label: "Highlighted Text", name: "highlightedText", widget: "string"}
+                { label: "Highlighted Text", name: "highlightedText", widget: "string" },
+                { 
+                  label: "Page Link", 
+                  name: "pageLink", 
+                  widget: "object",
+                  fields: [
+                    { label: "Text", name: "text", widget: "string" },
+                    { label: "Link URL", name: "linkURL", widget: "string" }
+                  ]
+                }
               ]
             }
           - {
@@ -133,6 +132,15 @@ collections:
                     { label: "Sub Heading", name: "subHeading", widget: "string" },
                     { label: "Body", name: "body", widget: "markdown" }
                   ] 
+                },
+                { 
+                  label: "Page Link", 
+                  name: "pageLink", 
+                  widget: "object",
+                  fields: [
+                    { label: "Text", name: "text", widget: "string"},
+                    { label: "Link URL", name: "linkURL", widget: "string"}
+                  ]
                 }
               ]
             }
@@ -142,7 +150,26 @@ collections:
               widget: "object",
               fields: [
                 { label: "Title", name: "title", widget: "string" },
-                { label: "Body", name: "body", widget: "markdown" }
+                { label: "Body", name: "body", widget: "markdown" },
+                { label: "Quote", name: "quote", widget: "string" },
+                { 
+                  label: "Page Link", 
+                  name: "pageLink", 
+                  widget: "object",
+                  fields: [
+                    { label: "Text", name: "text", widget: "string"},
+                    { label: "Link URL", name: "linkURL", widget: "string"}
+                  ]
+                },
+                {
+                  label: "Image List",
+                  name: "imageList",
+                  widget: "list",
+                  fields: [
+                    { label: "Image", name: "image", widget: "image" },
+                    { label: "Image Alt", name: "imageAlt", widget: "string" }
+                  ]
+                }
               ]
             }
           - {
@@ -157,7 +184,8 @@ collections:
                   widget: "list", 
                   fields: [
                     { label: "Sub Heading", name: "subHeading", widget: "string" },
-                    { label: "Link URL", name: "linkURL", widget: "string" }
+                    { label: "Link URL", name: "linkURL", widget: "string" },
+                    { label: "Link Text", name: "linkText", widget: "string" }
                   ]
                 },
                 {

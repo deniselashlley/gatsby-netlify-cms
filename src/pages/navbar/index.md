@@ -2,17 +2,17 @@
 templateKey: navbar
 menuItems:
   - label: home
-    linkType: internal
+    linkType: external
     linkURL: /
   - label: my story
     linkType: hash
     linkURL: '#mystory'
   - label: schedule
     linkType: hash
-    linkURL: '/#schedule'
+    linkURL: '#schedule'
   - label: connect with me
     linkType: hash
-    linkURL: '/#connect'
+    linkURL: '#connect'
 socialLinks:
   - label: follow me on instagram
     linkURL: 'https://www.instagram.com/the_light_tree_yoga/'
