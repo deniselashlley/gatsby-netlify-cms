@@ -17,9 +17,9 @@ sectionWelcome:
     can be accessed by everyone. 
 
 
-    I run group classes, workshops and private sessions for all abilities and I
-    am passionate about helping you to energise your body, calm your mind,
-    nourish your soul and shine your light.
+    **I run group classes, workshops and private sessions for all abilities and
+    I am passionate about helping you to energise your body, calm your mind,
+    nourish your soul and shine your light.**
   highlightedText: >-
     Join me to begin your journey of transformation. I look forward to meeting
     you soon.
