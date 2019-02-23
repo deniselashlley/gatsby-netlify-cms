@@ -2,6 +2,8 @@ import React from "react";
 import PropTypes from "prop-types";
 import { graphql } from "gatsby";
 import Helmet from "react-helmet";
+import ReactMarkdown from "react-markdown";
+import HTMLContent from "../components/Content";
 import AnchorLink from 'react-anchor-link-smooth-scroll';
 
 import CustomLink from "../components/CustomLink";
@@ -31,7 +33,7 @@ export const HomePageTemplate = ({ home }) => {
               <img src={home.sectionWelcome.image} alt={home.sectionWelcome.imageAlt} className="profile" />
             </div>
             <div className="block block-context">
-              <p>{home.sectionWelcome.body}</p>
+              <ReactMarkdown source={home.sectionWelcome.body} />
             </div>
             <blockquote className="quote">{home.sectionWelcome.quote}</blockquote>
           </div>
@@ -48,14 +50,12 @@ export const HomePageTemplate = ({ home }) => {
        <div className="container">
           <h2 className="section-title">{home.sectionSchedule.title}</h2>
           <h3>{home.sectionSchedule.classesTimetable.subHeading}</h3>
-          <div>
-            <div dangerouslySetInnerHTML={{ __html: home.sectionSchedule.classesTimetable.body}} />
-          </div>
+          <ReactMarkdown source={home.sectionSchedule.classesTimetable.body} />
           <div className="block">
             <h3>{home.sectionSchedule.eventSchedule.subHeading}</h3>
-            <div dangerouslySetInnerHTML={{ __html: home.sectionSchedule.eventSchedule.body}} />
+            <ReactMarkdown source={home.sectionSchedule.eventSchedule.body} />
             <h3>{home.sectionSchedule.workshopSchedule.subHeading}</h3>
-            <div dangerouslySetInnerHTML={{ __html: home.sectionSchedule.workshopSchedule.body}} />
+            <ReactMarkdown source={home.sectionSchedule.workshopSchedule.body} />
           </div>
           <CustomLink
             linkType="internal"
@@ -69,7 +69,7 @@ export const HomePageTemplate = ({ home }) => {
       <section id="mystory" className="section-block section-block--mystory">
         <div className="container">
           <h2 className="section-title">{home.sectionMyStory.title}</h2>
-            <div dangerouslySetInnerHTML={{ __html: home.sectionMyStory.body}} />
+            <ReactMarkdown source={home.sectionMyStory.body} /> 
             <blockquote className="quote">
               {home.sectionMyStory.quote}
             </blockquote>
@@ -103,11 +103,11 @@ export const HomePageTemplate = ({ home }) => {
           <div className="container-row">
             <div className="block connect-service">
               <h3>{home.sectionConnect.services.title}</h3>
-              <div dangerouslySetInnerHTML={{ __html: home.sectionConnect.services.body}} />
+              <ReactMarkdown source={home.sectionConnect.services.body} />
             </div>
             <div className="block connect-links">
               <h3>{home.sectionConnect.subscribe.title}</h3>
-              <div dangerouslySetInnerHTML={{ __html: home.sectionConnect.subscribe.body}} />
+              <ReactMarkdown source={home.sectionConnect.subscribe.body} />
             </div>
           </div>
         </div>

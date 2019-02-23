@@ -6,7 +6,7 @@ mainImageText:
   itemTextThree: Nourish your Soul
   itemTextTwo: Calm your Mind
 sectionWelcome:
-  body: >-
+  body: >+
     Hi, my name is Jess and welcome to The Light Tree. 
 
 
@@ -81,7 +81,7 @@ sectionConnect:
       linkURL: 'https://www.instagram.com/the_light_tree_yoga/'
       subHeading: follow me on
   services:
-    body: >-
+    body: >+
       **Group Yoga** – Public classes are listed in the schedule section. It is
       also possible to book private group classes.
 
