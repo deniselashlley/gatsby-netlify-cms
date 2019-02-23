@@ -77,11 +77,11 @@ sectionConnect:
     - linkText: 07927 318 065
       linkURL: 'tel:07927 318 065'
       subHeading: phone
-    - linkText: '@the_light_tree_yoga'
+    - linkText: Instagram
       linkURL: 'https://www.instagram.com/the_light_tree_yoga/'
-      subHeading: follow me
+      subHeading: follow me on
   services:
-    body: >
+    body: >-
       **Group Yoga** – Public classes are listed in the schedule section. It is
       also possible to book private group classes.
 
@@ -101,22 +101,21 @@ sectionConnect:
 
       **Outreach** – I am passionate about all people having access the benefits
       of a Yoga practice. I offer a reduced rate or FOC regular class to one
-      charitable organisation for their service users. Contact me to find out
-      more
-    title: Services - What I Offer
+      charitable organisation for their service users. [Contact me to find out
+      more](mailto:jess@thelighttreeyoga.co.uk)
+    title: SERVICES – WHAT I OFFER
   subscribe:
     body: >-
-      ###SOULSHALL MATA
+      **SOULSHALL MATA - **[subscribe to mixcloud](/)
 
 
-      Link to mixcloud once set up A monthly talk show going beneath the
-      physical matter to the soul of what matters. Hosted by Jess Gibbs and
-      Shaka Lish with guests. The show is centred around wellbeing, including
-      chat and music discussing topics concerning the African diaspora from the
-      female black British perspective.
+      A monthly talk show going beneath the physical matter to the soul of what
+      matters. Hosted by Jess Gibbs and Shaka Lish with guests. The show is
+      centred around wellbeing, including chat and music discussing topics
+      concerning the African diaspora from the female black British perspective.
 
 
-      ###CLASS PLAYLISTS - Soundcloud link
+      **CLASS PLAYLISTS** - [subscribe to soundcloud](/)
     title: Subscribe
   title: Connect with me
 seo:
