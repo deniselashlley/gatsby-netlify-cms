@@ -5,7 +5,7 @@ backend:
 media_folder: static/img
 public_folder: /img
 
-display_url: https://gatsby-netlify-cms-example.netlify.com/
+display_url: https://www.thelighttreeyoga.co.uk/
 
 collections:
   - name: "pages"
@@ -70,12 +70,9 @@ collections:
           - { 
               label: "Main Image Text", 
               name: "mainImageText", 
-              widget: "object",
+              widget: "list",
               fields: [
-                {label: "Item Text One", name: "itemTextOne", widget: "string"},
-                {label: "Item Text Two", name: "itemTextTwo", widget: "string"},
-                {label: "Item Text Three", name: "itemTextThree", widget: "string"},
-                {label: "Item Text Four", name: "itemTextFour", widget: "string"}
+                {label: "Item Text", name: "itemText", widget: "string"},
               ],
             }
           - { 

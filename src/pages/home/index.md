@@ -1,10 +1,7 @@
 ---
 templateKey: home-page
 mainImageText:
-  itemTextFour: Shine your Light
-  itemTextOne: Energise your Body
-  itemTextThree: Nourish your Soul
-  itemTextTwo: Calm your Mind
+  - itemText: Shine your Light
 sectionWelcome:
   body: >-
     Hi, my name is Jess and welcome to The Light Tree. 
@@ -82,16 +79,16 @@ sectionMyStory:
     was only 6 at the time.
 
 
-    ![mediation bowl](/img/candle_light_02.jpg)
+    * ![mediation bowl](/img/candle_light_02.jpg)
 
 
-    ![candles of mediation](/img/candle_light.jpg)
+    * ![candles of mediation](/img/candle_light.jpg)
 
 
-    ![incense burning](/img/incense_burning.jpg)
+    * ![incense burning](/img/incense_burning.jpg)
 
 
-    ![lighting a candle](/img/lighting_candle.jpg)
+    * ![lighting a candle](/img/lighting_candle.jpg)
 
 
     My life began to move forward. Putting my Yoga into action took some focus,

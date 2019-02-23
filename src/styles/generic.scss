@@ -94,5 +94,21 @@ section {
 
 .highlightedText {
   font-weight: bold;
-  text-align: center
+}
+
+.link {
+  &.link-btn {
+      border: 2px solid black;
+      color: black;
+      margin: 1em 0 0 0;
+      padding: 1em;
+      display: inline-block;
+      transition: .2s ease-in-out;
+
+    &:hover {
+      background-color: black;
+      transition: all .2s linear;
+      color: white;
+    }
+  }
 }

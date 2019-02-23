@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import AnchorLink from 'react-anchor-link-smooth-scroll';
 
 import "./styles.scss";
 import CustomLink from "../CustomLink";
@@ -50,9 +49,13 @@ export class NavbarContainer extends Component {
             <ul className="navbar-menu">
               {data.menuItems.map(menuItem => (
                 <li key={menuItem.linkURL} className="navbar-menuItem">
-                  <AnchorLink href={menuItem.linkURL} className="navbar-menuLink">
+                  <CustomLink  
+                    linkURL={menuItem.linkURL} 
+                    linkType="internal"
+                    className="navbar-menuLink"
+                  >
                     {menuItem.label}
-                  </AnchorLink>                  
+                  </CustomLink>                  
                 </li>
               ))}
             </ul>

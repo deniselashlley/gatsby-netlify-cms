@@ -82,6 +82,7 @@
 
   .section-title {
     text-align: center;
+    margin-bottom: 28px;
   }
 
   .container-row {
@@ -138,7 +139,7 @@
   .section-block--schedule{}
 
   &.section-block--mystory{
-    .section-image-group {
+    ul {
       display: flex;
       
       @include respond-to("medium") {  
@@ -160,6 +161,10 @@
         max-width: 100%;
       }
     }
+    .quote {
+      font-weight: bold;
+      text-align: center;
+    }
   }
   &.section-block--connect {
     .container-row {
@@ -172,7 +177,8 @@
 
         @include respond-to("medium") {
           width: 50%;
-          padding: 25px;
+          padding: 0 20px 0 0;
+          margin-right: 20px;
         }
 
         h3 {
@@ -182,9 +188,17 @@
     }
 
     .contact-list {
+      text-align: center;
+      margin-bottom: 20px;
+
+      @include respond-to("medium") {
+        display: flex;
+        justify-content: space-between;
+      }
+
       li {
         text-align: center;
-        margin-bottom: 20px;
+        margin-bottom: 30px;
         font-size: 2.0rem;
 
         span{
@@ -192,6 +206,8 @@
         }
         .contact-label {
           font-size: 1.6rem;
+          text-transform: uppercase;
+          font-weight: bold;
         }
         a {
           &:hover {
@@ -204,51 +220,3 @@
     }
   }
 }
-
-/*.section-block {
-  .introduction {
-
-  .block-profile {
-
-    @include respond-to("medium") {
-      width: 300px;
-    }
-
-      .profile { 
-        object-fit: cover;
-        border-radius: 100%;
-        width: 300px;
-        height: 300px;
-        display: block;
-        text-align: center;
-        margin: 0 auto;
-      }
-    }
-  }
-
-  .container-row {
-    position: relative;
-
-    @include respond-to("medium") {
-      display: flex;
-      align-items: center;
-    }
-
-    .block {
-      align-items: left;
-      max-width: 50%;
-
-      &.block-context {
-        padding-left: 40px;
-      }
-    }
-
-    .quote {
-      font-size: 2rem;
-      position: absolute;
-      width: 200px;
-      top: 30%;
-      bottom: 50%;
-      right: 0;
-    }
-} */

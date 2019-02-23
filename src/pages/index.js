@@ -3,7 +3,6 @@ import PropTypes from "prop-types";
 import { graphql } from "gatsby";
 import Helmet from "react-helmet";
 import ReactMarkdown from "react-markdown";
-import HTMLContent from "../components/Content";
 import AnchorLink from 'react-anchor-link-smooth-scroll';
 
 import CustomLink from "../components/CustomLink";
@@ -16,10 +15,9 @@ export const HomePageTemplate = ({ home }) => {
     <>
       <section className="hero-banner">
         <ul>
-          <li>{home.mainImageText.itemTextOne}</li>
-          <li>{home.mainImageText.itemTextTwo}</li>
-          <li>{home.mainImageText.itemTextThree}</li>
-          <li>{home.mainImageText.itemTextFour}</li>
+          {home.mainImageText.map(imageItems => (
+          <li>{imageItems.itemTex}</li>
+          ))}
         </ul>
         <AnchorLink href="#intro" className="down-link">
           <span>Introduction</span>
@@ -34,16 +32,17 @@ export const HomePageTemplate = ({ home }) => {
             </div>
             <div className="block block-context">
               <ReactMarkdown source={home.sectionWelcome.body} />
+              <p className="highlightedText">{home.sectionWelcome.highlightedText}</p>
+            <CustomLink
+              linkType="internal"
+              linkURL={home.sectionWelcome.pageLink.linkURL}
+              className="link link-btn"
+            >
+            {home.sectionWelcome.pageLink.text}
+          </CustomLink>
             </div>
             <blockquote className="quote">{home.sectionWelcome.quote}</blockquote>
-          </div>
-          <p className="highlightedText">{home.sectionWelcome.highlightedText}</p>
-          <CustomLink
-            linkType="internal"
-            linkURL="/"
-            className="link link-btn"
-          >
-          </CustomLink>
+          </div> 
         </div>
       </section>
       <section id="schedule" className="section-block section-block--schedule">
@@ -74,10 +73,10 @@ export const HomePageTemplate = ({ home }) => {
               {home.sectionMyStory.quote}
             </blockquote>
             <CustomLink
-            linkType="internal"
-            linkURL={home.sectionMyStory.pageLink.linkURL}
-            className="link link-btn"
-          >
+              linkType="internal"
+              linkURL={home.sectionMyStory.pageLink.linkURL}
+              className="link link-btn"
+            >
             {home.sectionMyStory.pageLink.text}
           </CustomLink>
         </div>
@@ -158,10 +157,7 @@ export const pageQuery = graphql`
         node {
           frontmatter {
             mainImageText {
-              itemTextOne
-              itemTextTwo
-              itemTextThree
-              itemTextFour
+              itemText
             }
             sectionWelcome {
               title
