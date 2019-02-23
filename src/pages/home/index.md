@@ -77,9 +77,9 @@ sectionConnect:
     - linkText: 07927 318 065
       linkURL: 'tel:07927 318 065'
       subHeading: phone
-    - linkText: Instagram
+    - linkText: '@the_light_tree_yoga'
       linkURL: 'https://www.instagram.com/the_light_tree_yoga/'
-      subHeading: follow me on
+      subHeading: follow me
   services:
     body: >
       **Group Yoga** – Public classes are listed in the schedule section. It is
@@ -103,7 +103,7 @@ sectionConnect:
       of a Yoga practice. I offer a reduced rate or FOC regular class to one
       charitable organisation for their service users. Contact me to find out
       more
-    title: SERVICES – WHAT I OFFER
+    title: Services - What I Offer
   subscribe:
     body: >-
       ###SOULSHALL MATA
