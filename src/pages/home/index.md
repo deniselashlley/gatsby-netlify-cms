@@ -6,7 +6,7 @@ mainImageText:
   itemTextThree: Nourish your Soul
   itemTextTwo: Calm your Mind
 sectionWelcome:
-  body: >+
+  body: >-
     Hi, my name is Jess and welcome to The Light Tree. 
 
 

@@ -37,7 +37,7 @@ export const HomePageTemplate = ({ home }) => {
             </div>
             <blockquote className="quote">{home.sectionWelcome.quote}</blockquote>
           </div>
-          <p>{home.sectionWelcome.highlightedText}</p>
+          <p className="highlightedText">{home.sectionWelcome.highlightedText}</p>
           <CustomLink
             linkType="internal"
             linkURL="/"
