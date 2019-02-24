@@ -15,8 +15,8 @@ export const HomePageTemplate = ({ home }) => {
     <>
       <section className="hero-banner">
         <ul>
-          {home.mainImageText.map(imageItems => (
-          <li>{imageItems.itemTex}</li>
+          {home.bannerText.map(imageItems => (
+          <li key={imageItems.itemText}>{imageItems.itemText}</li>
           ))}
         </ul>
         <AnchorLink href="#intro" className="down-link">
@@ -48,22 +48,26 @@ export const HomePageTemplate = ({ home }) => {
       <section id="schedule" className="section-block section-block--schedule">
        <div className="container">
           <h2 className="section-title">{home.sectionSchedule.title}</h2>
-          <h3>{home.sectionSchedule.classesTimetable.subHeading}</h3>
-          <ReactMarkdown source={home.sectionSchedule.classesTimetable.body} />
-          <div className="block">
-            <h3>{home.sectionSchedule.eventSchedule.subHeading}</h3>
-            <ReactMarkdown source={home.sectionSchedule.eventSchedule.body} />
-            <h3>{home.sectionSchedule.workshopSchedule.subHeading}</h3>
-            <ReactMarkdown source={home.sectionSchedule.workshopSchedule.body} />
-          </div>
-          <CustomLink
+          <div className="container-row">
+            <div className="block">
+              <h3>{home.sectionSchedule.classesTimetable.subHeading}</h3>
+              <ReactMarkdown source={home.sectionSchedule.classesTimetable.body} />
+              <CustomLink
             linkType="internal"
             linkURL={home.sectionSchedule.pageLink.linkURL}
             className="link link-btn"
           >
             {home.sectionSchedule.pageLink.text}
           </CustomLink>
+            </div>
+          <div className="block">
+            <h3>{home.sectionSchedule.eventSchedule.subHeading}</h3>
+            <ReactMarkdown source={home.sectionSchedule.eventSchedule.body} />
+            <h3>{home.sectionSchedule.workshopSchedule.subHeading}</h3>
+            <ReactMarkdown source={home.sectionSchedule.workshopSchedule.body} />
+          </div>
         </div>
+      </div>
       </section>
       <section id="mystory" className="section-block section-block--mystory">
         <div className="container">
@@ -156,7 +160,7 @@ export const pageQuery = graphql`
       edges {
         node {
           frontmatter {
-            mainImageText {
+            bannerText {
               itemText
             }
             sectionWelcome {

@@ -1,7 +1,10 @@
 ---
 templateKey: home-page
-mainImageText:
+bannerText:
   - itemText: Shine your Light
+  - itemText: Energise your Body
+  - itemText: Nourish your Soul
+  - itemText: Calm your Mind
 sectionWelcome:
   body: >-
     Hi, my name is Jess and welcome to The Light Tree. 
@@ -22,7 +25,7 @@ sectionWelcome:
     you soon.
   image: /img/profile-me.jpg
   imageAlt: Jess - Yoga teacher
-  pageLink:
+  pageLink: 
     linkURL: /about
     text: About yoga
   quote: >-
@@ -48,10 +51,10 @@ sectionSchedule:
   pageLink:
     linkURL: /classes
     text: More about classes
-  title: 'CLASSES, WORKSHOPS & EVENTS'
+  title: 'Schedule'
   workshopSchedule:
     body: No workshops scheduled
-    subHeading: workshop
+    subHeading: workshop and events
 sectionMyStory:
   body: >2-
      I have been a practitioner of Yoga since 2002 and began teaching Yoga in since 2015. 
@@ -119,7 +122,6 @@ sectionMyStory:
     I now realise that, on many occasions in my past, life had been attempting
     to ‘wake me up’ to mySelf, to connect me, in a more intuitive way, to the
     innate ability \[that we all share] to create my life in my vision.
-  imageList: []
   pageLink:
     linkURL: /teachings
     text: More on teaching philosophy

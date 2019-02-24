@@ -99,6 +99,8 @@
 
       @include respond-to("medium") {
         max-width: 50%;
+        padding-right: 1em;
+        margin-right: 1em;
       }
 
       &.block-context {
