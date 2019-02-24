@@ -113,17 +113,18 @@ collections:
                   ] 
                 },
                 { 
-                  label: "Workshop Schedule", 
-                  name: "workshopSchedule", 
+                  label: "This Months, 
+                  name: "thisMonth", 
                   widget: "object",
                   fields: [
+                    { label: "Section Heading", name: "sectionHeading", widget: "string" },
                     { label: "Sub Heading", name: "subHeading", widget: "string" },
                     { label: "Body", name: "body", widget: "markdown" }
                   ] 
                 },
                 { 
-                  label: "Event Schedule", 
-                  name: "eventSchedule", 
+                  label: "Coming Up", 
+                  name: "comingUp", 
                   widget: "object",
                   fields: [
                     { label: "Sub Heading", name: "subHeading", widget: "string" },

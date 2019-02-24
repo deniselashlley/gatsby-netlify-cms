@@ -61,10 +61,11 @@ export const HomePageTemplate = ({ home }) => {
           </CustomLink>
             </div>
           <div className="block">
-            <h3>{home.sectionSchedule.eventSchedule.subHeading}</h3>
-            <ReactMarkdown source={home.sectionSchedule.eventSchedule.body} />
-            <h3>{home.sectionSchedule.workshopSchedule.subHeading}</h3>
-            <ReactMarkdown source={home.sectionSchedule.workshopSchedule.body} />
+            <h3>{home.sectionSchedule.thisMonth.sectionHeading}</h3>
+            <h4>{home.sectionSchedule.thisMonth.subHeading}</h4>
+            <ReactMarkdown source={home.sectionSchedule.thisMonth.body} />
+            <h4>{home.sectionSchedule.comingUp.subHeading}</h4>
+            <ReactMarkdown source={home.sectionSchedule.comingUp.body} />
           </div>
         </div>
       </div>
@@ -181,11 +182,12 @@ export const pageQuery = graphql`
                 subHeading
                 body
               }
-              workshopSchedule {
+              comingUp {
                 subHeading
                 body
               }
-              eventSchedule {
+              thisMonth {
+                sectionHeading
                 subHeading
                 body
               }
