@@ -25,7 +25,7 @@ sectionWelcome:
     you soon.
   image: /img/profile-me.jpg
   imageAlt: Jess - Yoga teacher
-  pageLink: 
+  pageLink:
     linkURL: /about
     text: About yoga
   quote: >-
@@ -44,17 +44,15 @@ sectionSchedule:
       Pregnancy Yoga  - Sat (tbc)
     subHeading: classes
   eventSchedule:
-    body: >-
-      Sister Circle Root, Restore, Rise – Sunday 20th January 2019 – Granville,
-      Kilburn (nearest tube Queens Park, Kilburn Park)
-    subHeading: Event
+    body: "**RETREAT IN AUSTRIA**\t\r\n\nCome together in a circle of sisters to celebrate\r\n\nour womanhood\r\n\n\r\n\nDATE: SEP\r\n\nVENUE: Austria…."
+    subHeading: Coming up
   pageLink:
     linkURL: /classes
     text: More about classes
-  title: 'Schedule'
+  title: Schedule
   workshopSchedule:
-    body: No workshops scheduled
-    subHeading: workshop and events
+    body: "**SOULFUL SISTAHOOD**: Root, Restore, Rise\t\r\n\nCome together in a circle of sisters to celebrate\r\n\nOur womanhood\r\n\n\r\n\nDATE: SUN 20 JAN\r\n\nTIME: 15:00-17:30\r\n\nVENUE: The Granville …."
+    subHeading: This month
 sectionMyStory:
   body: >2-
      I have been a practitioner of Yoga since 2002 and began teaching Yoga in since 2015. 
