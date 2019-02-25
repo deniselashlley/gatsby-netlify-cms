@@ -48,7 +48,7 @@ sectionSchedule:
     subHeading: This month
     sectionHeading: Workshops & Events
   comingUp:
-    body: "RETREAT IN AUSTRIA**\t\r\n\nCome together in a circle of sisters to celebrate\r\n\nour womanhood\r\n\n\r\n\nDATE: SEP\r\n\nVENUE: Austria…."
+    body: "RETREAT IN AUSTRIA\t\r\n\nCome together in a circle of sisters to celebrate\r\n\nour womanhood\r\n\n\r\n\nDATE: SEP\r\n\nVENUE: Austria…."
     subHeading: Coming up
   pageLink:
     linkURL: /classes

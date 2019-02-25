@@ -164,13 +164,19 @@
         text-decoration: none;
         font-weight: 600;
         letter-spacing: 0.4px;
-        transition: all $transition-duration ease-in-out;
+        // transition: all $transition-duration ease-in-out;
+        transition: color 0.2s ease;
         border-bottom: 2px solid transparent;
         text-transform: uppercase;
 
         &:hover,
         &--active {
+          transition: transform .3s ease-out,border-color .3s ease-out;
           border-bottom: 2px solid $color1;
+          backface-visibility: hidden;
+          -ms-transform: scaleX(1);
+          -webkit-transform: scaleX(1);
+          transform: scaleX(1);
         }
       }
 

@@ -3,14 +3,17 @@ import PropTypes from "prop-types";
 import { graphql } from "gatsby";
 import Helmet from "react-helmet";
 import ReactMarkdown from "react-markdown";
+import Slider from "react-slick";
 import AnchorLink from 'react-anchor-link-smooth-scroll';
 
 import CustomLink from "../components/CustomLink";
 
 import Layout from "../components/Layout";
 import "../styles/home.scss";
+import "slick-carousel/slick/slick.css"; 
+import "slick-carousel/slick/slick-theme.css";
 
-export const HomePageTemplate = ({ home }) => {
+export const HomePageTemplate = ({ home, settings }) => {
   return (
     <>
       <section className="hero-banner">
@@ -116,6 +119,27 @@ export const HomePageTemplate = ({ home }) => {
           </div>
         </div>
       </section>
+      <section className="section-block section-block--testimonials">
+        <div className="container">
+         <h2>testimonials</h2>
+         <div className="slider-wrapper">
+         <Slider {...settings}>
+         <div>
+          <p>“I enjoy Jess’s classes blah blah blah …”</p>
+          <p>Jane Smith, corporate 1</p>
+          </div>
+          <div>
+          <p>“I enjoy Jess’s classes blah blah blah …”</p>
+          <p>Jane Smith, corporate 2</p>
+          </div>
+          <div>
+          <p>“I enjoy Jess’s classes blah blah blah …”</p>
+          <p>Jane Smith, corporate 3</p>
+          </div>
+         </Slider>
+        </div>
+        </div>
+      </section>
     </>
   );
 };
@@ -131,6 +155,18 @@ class HomePage extends React.Component {
       seo: { title: seoTitle, description: seoDescription, browserTitle },
     } = home;
 
+    const settings = {
+      dots: false,
+      arrows: false,
+      infinite: true,
+      slidesToShow: 1,
+      slidesToScroll: 1,
+      autoplay: true,
+      speed: 5000,
+      autoplaySpeed: 5000,
+      cssEase: "linear"
+    };
+
     return (
       <Layout footerData={footerData} navbarData={navbarData}>
         <Helmet>
@@ -138,7 +174,7 @@ class HomePage extends React.Component {
           <meta name="description" content={seoDescription} />
           <title>{browserTitle}</title>
         </Helmet>
-        <HomePageTemplate home={home} />
+        <HomePageTemplate home={home} settings={settings} />
       </Layout>
     );
   }
