@@ -29,8 +29,8 @@ sectionWelcome:
     linkURL: /about
     text: About yoga
   quote: >-
-    “You cannot solve a problem from the same level of consciousness that
-    created it” -- Einstein“
+    "You cannot solve a problem from the same level of consciousness that
+    created it -- Einstein"
   title: The Light Tree
 sectionSchedule:
   classesTimetable:
