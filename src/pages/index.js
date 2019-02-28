@@ -35,9 +35,7 @@ export const HomePageTemplate = ({ home, settings }) => {
             </div>
             <div className="block block-context">
               <ReactMarkdown source={home.sectionWelcome.body} />
-              <blockquote className="quote">
-                {home.sectionWelcome.quote} 
-              </blockquote>
+              <ReactMarkdown source={home.sectionWelcome.quote} className="quote" />
               <p className="highlightedText">{home.sectionWelcome.highlightedText}</p>
             <CustomLink
               linkType="internal"
@@ -79,9 +77,7 @@ export const HomePageTemplate = ({ home, settings }) => {
         <div className="container">
           <h2 className="section-title">{home.sectionMyStory.title}</h2>
             <ReactMarkdown source={home.sectionMyStory.body} /> 
-            <blockquote className="quote">
-              {home.sectionMyStory.quote}
-            </blockquote>
+            <ReactMarkdown source={home.sectionMyStory.quote} className="quote" />
             <CustomLink
               linkType="internal"
               linkURL={home.sectionMyStory.pageLink.linkURL}
