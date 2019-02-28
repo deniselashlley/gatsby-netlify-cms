@@ -84,7 +84,7 @@ collections:
                 { label: "Body", name: "body", widget: "markdown" },
                 { label: "Image", name: "image", widget: "image" },
                 { label: "Image Description", name: "imageAlt", widget: "string" },
-                { label: "Quote", name: "quote", widget: "string" },
+                { label: "Quote", name: "quote", widget: "markdown" },
                 { label: "Highlighted Text", name: "highlightedText", widget: "string" },
                 { 
                   label: "Page Link", 
@@ -149,7 +149,7 @@ collections:
               fields: [
                 { label: "Title", name: "title", widget: "string" },
                 { label: "Body", name: "body", widget: "markdown" },
-                { label: "Quote", name: "quote", widget: "string" },
+                { label: "Quote", name: "quote", widget: "markdown" },
                 { 
                   label: "Page Link", 
                   name: "pageLink", 
@@ -183,6 +183,7 @@ collections:
                   widget: "object", 
                   fields: [
                     { label: "Title", name: "title", widget: "string" },
+                    { label: "Sub Heading", name: "subHeading", widget: "string" },
                     { label: "Body", name: "body", widget: "markdown" }
                   ]
                 },
@@ -191,10 +192,10 @@ collections:
                   name: "subscribe", 
                   widget: "object", 
                   fields: [
-                    { label: "Title", name: "title", widget: "string" },
+                    { label: "Sub Heading", name: "subHeading", widget: "string" },
                     { label: "Body", name: "body", widget: "markdown" }
                   ]
-                },
+                }
               ]
             }
           - {
