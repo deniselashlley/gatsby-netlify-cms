@@ -35,6 +35,7 @@ export const HomePageTemplate = ({ home, settings }) => {
             </div>
             <div className="block block-context">
               <ReactMarkdown source={home.sectionWelcome.body} />
+              <ReactMarkdown source={home.sectionWelcome.quote} className="quote" />
               <p className="highlightedText">{home.sectionWelcome.highlightedText}</p>
             <CustomLink
               linkType="internal"
@@ -44,7 +45,6 @@ export const HomePageTemplate = ({ home, settings }) => {
             {home.sectionWelcome.pageLink.text}
           </CustomLink>
             </div>
-            <blockquote className="quote">{home.sectionWelcome.quote}</blockquote>
           </div> 
         </div>
       </section>
@@ -55,13 +55,6 @@ export const HomePageTemplate = ({ home, settings }) => {
             <div className="block">
               <h3>{home.sectionSchedule.classesTimetable.subHeading}</h3>
               <ReactMarkdown source={home.sectionSchedule.classesTimetable.body} />
-              <CustomLink
-            linkType="internal"
-            linkURL={home.sectionSchedule.pageLink.linkURL}
-            className="link link-btn"
-          >
-            {home.sectionSchedule.pageLink.text}
-          </CustomLink>
             </div>
           <div className="block">
             <h3>{home.sectionSchedule.thisMonth.sectionHeading}</h3>
@@ -71,15 +64,20 @@ export const HomePageTemplate = ({ home, settings }) => {
             <ReactMarkdown source={home.sectionSchedule.comingUp.body} />
           </div>
         </div>
+        <CustomLink
+            linkType="internal"
+            linkURL={home.sectionSchedule.pageLink.linkURL}
+            className="link link-btn"
+          >
+            {home.sectionSchedule.pageLink.text}
+          </CustomLink>
       </div>
       </section>
       <section id="mystory" className="section-block section-block--mystory">
         <div className="container">
           <h2 className="section-title">{home.sectionMyStory.title}</h2>
             <ReactMarkdown source={home.sectionMyStory.body} /> 
-            <blockquote className="quote">
-              {home.sectionMyStory.quote}
-            </blockquote>
+            <ReactMarkdown source={home.sectionMyStory.quote} className="quote" />
             <CustomLink
               linkType="internal"
               linkURL={home.sectionMyStory.pageLink.linkURL}
