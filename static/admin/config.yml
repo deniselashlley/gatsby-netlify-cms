@@ -61,7 +61,7 @@ collections:
                 { label: "Body", name: "body", widget: "markdown" },
                 { label: "Image", name: "image", widget: "image" },
                 { label: "Image Description", name: "imageAlt", widget: "string" },
-                { label: "Quote", name: "quote", widget: "string" },
+                { label: "Quote", name: "quote", widget: "markdown" },
                 { label: "Highlighted Text", name: "highlightedText", widget: "string" },
                 { 
                   label: "Page Link", 
@@ -126,7 +126,7 @@ collections:
               fields: [
                 { label: "Title", name: "title", widget: "string" },
                 { label: "Body", name: "body", widget: "markdown" },
-                { label: "Quote", name: "quote", widget: "string" },
+                { label: "Quote", name: "quote", widget: "markdown" },
                 { 
                   label: "Page Link", 
                   name: "pageLink", 
