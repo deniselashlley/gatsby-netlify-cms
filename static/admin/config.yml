@@ -39,6 +39,29 @@ collections:
                   { label: "Description", name: "description", widget: "string" },
                 ],
             }
+      - file: "src/pages/pastMeetups/index.md"
+        label: "Past Meetups"
+        name: "pastMeetups"
+        fields:
+          - {
+              label: "Template Key",
+              name: "templateKey",
+              widget: "hidden",
+              default: "past-meetups-page",
+            }
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Body", name: "body", widget: "markdown" }
+          - {
+              label: "SEO & Meta",
+              name: "seo",
+              widget: "object",
+              fields:
+                [
+                  { label: "Browser Tab Title", name: "browserTitle", widget: "string"},
+                  { label: "Title", name: "title", widget: "string" },
+                  { label: "Description", name: "description", widget: "string" },
+                ],
+            }
       - file: "src/pages/home/index.md"
         label: "Home"
         name: "home"
@@ -61,7 +84,7 @@ collections:
                 { label: "Body", name: "body", widget: "markdown" },
                 { label: "Image", name: "image", widget: "image" },
                 { label: "Image Description", name: "imageAlt", widget: "string" },
-                { label: "Quote", name: "quote", widget: "markdown" },
+                { label: "Quote", name: "quote", widget: "string" },
                 { label: "Highlighted Text", name: "highlightedText", widget: "string" },
                 { 
                   label: "Page Link", 
@@ -126,7 +149,7 @@ collections:
               fields: [
                 { label: "Title", name: "title", widget: "string" },
                 { label: "Body", name: "body", widget: "markdown" },
-                { label: "Quote", name: "quote", widget: "markdown" },
+                { label: "Quote", name: "quote", widget: "string" },
                 { 
                   label: "Page Link", 
                   name: "pageLink", 
