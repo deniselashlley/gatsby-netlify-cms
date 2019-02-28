@@ -184,27 +184,9 @@ collections:
                   fields: [
                     { label: "Title", name: "title", widget: "string" },
                     { label: "Sub Heading", name: "subHeading", widget: "string" },
-                    { label: "Body", name: "body", widget: "markdown" },
-                    { 
-                      label: "Services List", 
-                      name: "servicesList", 
-                      widget: "list",
-                      fields: [
-                        { label: "Title", name: "title", widget: "string" },
-                        { label: "Description", name: "description", widget: "string" },
-                      ]
-                    }
-                  ]
-                },
-                {
-                  label: "Subscribe", 
-                  name: "subscribe", 
-                  widget: "object", 
-                  fields: [
-                    { label: "Sub Heading", name: "subHeading", widget: "string" },
                     { label: "Body", name: "body", widget: "markdown" }
                   ]
-                },
+                }
               ]
             }
           - {
