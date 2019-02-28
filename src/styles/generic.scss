@@ -21,7 +21,7 @@ body {
 }
 
 a {
-  color: $green;
+  color: inherit;
   text-decoration: none;
 }
 
@@ -69,13 +69,6 @@ section {
   h3 {
     font-size: 2rem;
     text-transform: capitalize;
-    font-weight: 600;
-    margin-bottom: 1em;
-  }
-
-  h4 {
-    margin-bottom: 1em;
-    font-weight: 600;
   }
 
   p {
@@ -105,35 +98,19 @@ section {
 
 .link {
   &.link-btn {
-    border: 2px solid #6d466b;
-    border-radius: 3px;
-    min-width: 18em;
-    color: #6d466b;
-    text-transform: uppercase;
-    font-weight: 600;
-    margin: 1em 0 0 0;
-    padding: 0.5em;
-    display: inline-block;
-    text-align: center;
-    transition: .2s ease-in-out;
+      border: 2px solid $purple;
+      color: $purple;
+      text-transform: uppercase;
+      font-weight: bold;
+      margin: 1em 0 0 0;
+      padding: 1em;
+      display: inline-block;
+      transition: .2s ease-in-out;
 
     &:hover {
       background-color: $purple;
       transition: all .2s linear;
-      box-shadow: 0 20px 38px rgba(0, 0, 0, 0.16);
-      transform: translateY(-3px);
       color: $white;
-
-      &:after {
-        content:'';
-        margin-left: 1em;
-        width: 2em;
-        height: 1em;
-        display: inline-block;
-        vertical-align: middle;
-        background: url(../img/icons/directional_arrow.svg) no-repeat;
-        background-size: 1.5em;
-      }
     }
   }
 }
