@@ -159,15 +159,6 @@ collections:
                     { label: "Link URL", name: "linkURL", widget: "string"}
                   ]
                 },
-                { 
-                  label: "Image", 
-                  name: "Image", 
-                  widget: "list",
-                  fields: [
-                    { label: "Image", name: "image", widget: "image"},
-                    { label: "Description", name: "description", widget: "string"}
-                  ]
-                },
               ]
             }
           - {
@@ -193,7 +184,7 @@ collections:
                   fields: [
                     { label: "Title", name: "title", widget: "string" },
                     { label: "Sub Heading", name: "subHeading", widget: "string" },
-                    { label: "Body", name: "body", widget: "markdown" },
+                    { label: "Body", name: "body", widget: "markdown" }
                     { 
                       label: "Services List", 
                       name: "servicesList", 
@@ -203,7 +194,7 @@ collections:
                         { label: "Description", name: "description", widget: "string" },
                       ]
                     }
-                  ],
+                  ]
                 },
                 {
                   label: "Subscribe", 
