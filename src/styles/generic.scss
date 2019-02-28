@@ -15,14 +15,18 @@ html {
 
 body {
   font-family: $family-sans-serif;
-  color: $body-dark;
+  color:$gray-asparagus;
   font-size: 1.6rem;
   line-height: 1.5;
 }
 
 a {
-  color: $green;
+  color: $purple;
   text-decoration: none;
+  border-bottom: 1px solid transparent;
+  &:hover {
+    border-bottom: 1px solid $purple;
+  }
 }
 
 .container {
@@ -105,20 +109,26 @@ section {
 
 .link {
   &.link-btn {
-    border: 2px solid #6d466b;
+    display: block;
+    border: 2px solid $purple;
     border-radius: 3px;
-    min-width: 18em;
-    color: #6d466b;
+    max-width: 18em;
+    color: $purple;
     text-transform: uppercase;
     font-weight: 600;
-    margin: 1em 0 0 0;
+    margin: 1em auto;
     padding: 0.5em;
-    display: inline-block;
     text-align: center;
     transition: .2s ease-in-out;
 
+    @include respond-to("medium") {
+      margin: 1em 0 0 0;
+      display: inline-block;
+      min-width: 18em;
+    }
+
     &:hover {
-      background-color: $purple;
+      background-color: $color3;
       transition: all .2s linear;
       box-shadow: 0 20px 38px rgba(0, 0, 0, 0.16);
       transform: translateY(-3px);

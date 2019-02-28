@@ -84,7 +84,7 @@ collections:
                 { label: "Body", name: "body", widget: "markdown" },
                 { label: "Image", name: "image", widget: "image" },
                 { label: "Image Description", name: "imageAlt", widget: "string" },
-                { label: "Quote", name: "quote", widget: "string" },
+                { label: "Quote", name: "quote", widget: "markdown" },
                 { label: "Highlighted Text", name: "highlightedText", widget: "string" },
                 { 
                   label: "Page Link", 
@@ -149,7 +149,7 @@ collections:
               fields: [
                 { label: "Title", name: "title", widget: "string" },
                 { label: "Body", name: "body", widget: "markdown" },
-                { label: "Quote", name: "quote", widget: "string" },
+                { label: "Quote", name: "quote", widget: "markdown" },
                 { 
                   label: "Page Link", 
                   name: "pageLink", 
@@ -157,6 +157,15 @@ collections:
                   fields: [
                     { label: "Text", name: "text", widget: "string"},
                     { label: "Link URL", name: "linkURL", widget: "string"}
+                  ]
+                },
+                { 
+                  label: "Image", 
+                  name: "Image", 
+                  widget: "list",
+                  fields: [
+                    { label: "Image", name: "image", widget: "src"},
+                    { label: "Description", name: "description", widget: "string"}
                   ]
                 },
               ]
@@ -183,15 +192,25 @@ collections:
                   widget: "object", 
                   fields: [
                     { label: "Title", name: "title", widget: "string" },
+                    { label: "Sub Heading", name: "subHeading", widget: "string" },
                     { label: "Body", name: "body", widget: "markdown" }
-                  ]
+                    { 
+                      label: "Services List", 
+                      name: "servicesList", 
+                      widget: "list",
+                      fields: [
+                        { label: "Title", name: "title", widget: "string" },
+                        { label: "Description", name: "description", widget: "string" },
+                      ]
+                    }
+                  ],
                 },
                 {
                   label: "Subscribe", 
                   name: "subscribe", 
                   widget: "object", 
                   fields: [
-                    { label: "Title", name: "title", widget: "string" },
+                    { label: "Sub Heading", name: "subHeading", widget: "string" },
                     { label: "Body", name: "body", widget: "markdown" }
                   ]
                 },
