@@ -186,6 +186,15 @@ collections:
                     { label: "Sub Heading", name: "subHeading", widget: "string" },
                     { label: "Body", name: "body", widget: "markdown" }
                   ]
+                },
+                {
+                  label: "Subscribe", 
+                  name: "subscribe", 
+                  widget: "object", 
+                  fields: [
+                    { label: "Sub Heading", name: "subHeading", widget: "string" },
+                    { label: "Body", name: "body", widget: "markdown" }
+                  ]
                 }
               ]
             }

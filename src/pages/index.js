@@ -255,7 +255,8 @@ export const pageQuery = graphql`
                 linkURL
                 subHeading
               }
-              services {
+              services
+               {
                 body
                 title
                 subHeading
