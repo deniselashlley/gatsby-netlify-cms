@@ -35,7 +35,9 @@ export const HomePageTemplate = ({ home, settings }) => {
             </div>
             <div className="block block-context">
               <ReactMarkdown source={home.sectionWelcome.body} />
-              <ReactMarkdown source={home.sectionWelcome.quote}  className="quote" />
+              <blockquote className="quote">
+                {home.sectionWelcome.quote} 
+              </blockquote>
               <p className="highlightedText">{home.sectionWelcome.highlightedText}</p>
             <CustomLink
               linkType="internal"
@@ -89,23 +91,6 @@ export const HomePageTemplate = ({ home, settings }) => {
           </CustomLink>
         </div>
       </section>
-      
-      <section id="services" className="section-block section-block--services">
-        <div className="container">
-            <h2 className="section-title">{home.sectionConnect.services.title}</h2>
-          <div className="container-row">
-              <div className="connect-service">
-                <h3>{home.sectionConnect.services.subHeading}</h3>
-                <ReactMarkdown source={home.sectionConnect.services.body} />
-              </div>
-              <div className="connect-links">
-                <h3>{home.sectionConnect.subscribe.subHeading}</h3>
-                <ReactMarkdown source={home.sectionConnect.subscribe.body} />
-              </div>
-            </div>
-        </div>
-      </section>
-      
       <section id="connect" className="section-block section-block--connect">
         <div className="container">
           <h2 className="section-title">{home.sectionConnect.title}</h2>
@@ -118,12 +103,22 @@ export const HomePageTemplate = ({ home, settings }) => {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <h3 className="contact-label">{contactItems.subHeading}</h3>
+                  <span className="contact-label">{contactItems.subHeading}</span>
                   <span className="contact-link-name">{contactItems.linkText}</span>
                 </a>
               </li>
             ))}
           </ul>
+          <div className="container-row">
+            <div className="block connect-service">
+              <h3>{home.sectionConnect.services.title}</h3>
+              <ReactMarkdown source={home.sectionConnect.services.body} />
+            </div>
+            <div className="block connect-links">
+              <h3>{home.sectionConnect.subscribe.title}</h3>
+              <ReactMarkdown source={home.sectionConnect.subscribe.body} />
+            </div>
+          </div>
         </div>
       </section>
       <section className="section-block section-block--testimonials">
@@ -259,10 +254,9 @@ export const pageQuery = graphql`
                {
                 body
                 title
-                subHeading
               }
               subscribe {
-                subHeading
+                title
                 body
               }
             }

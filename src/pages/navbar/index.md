@@ -10,9 +10,6 @@ menuItems:
   - label: schedule
     linkType: hash
     linkURL: '#schedule'
-  - label: services
-    linkType: hash
-    linkURL: '#services'
   - label: connect with me
     linkType: hash
     linkURL: '#connect'
