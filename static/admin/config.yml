@@ -164,7 +164,7 @@ collections:
                   name: "Image", 
                   widget: "list",
                   fields: [
-                    { label: "Image", name: "image", widget: "src"},
+                    { label: "Image", name: "image", widget: "image"},
                     { label: "Description", name: "description", widget: "string"}
                   ]
                 },
