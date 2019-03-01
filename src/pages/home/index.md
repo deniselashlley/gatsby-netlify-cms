@@ -29,8 +29,12 @@ sectionWelcome:
     linkURL: /about
     text: About yoga
   quote: >-
-    “You cannot solve a problem from the same level of consciousness that
-    created it” -- Einstein“
+    > “You cannot solve a problem from the same level of consciousness that
+    created it” 
+
+    >
+
+    > **\-- Einstein**
   title: The Light Tree
 sectionSchedule:
   classesTimetable:
@@ -43,17 +47,17 @@ sectionSchedule:
 
       Pregnancy Yoga  - Sat (tbc)
     subHeading: Regular Classes
-  thisMonth:
-    body: "SOULFUL SISTAHOOD: Root, Restore, Rise\t\r\n\nCome together in a circle of sisters to celebrate\r\n\nOur womanhood\r\n\n\r\n\nDATE: SUN 20 JAN\r\n\nTIME: 15:00-17:30\r\n\nVENUE: The Granville …."
-    subHeading: This month
-    sectionHeading: Workshops & Events
   comingUp:
     body: "RETREAT IN AUSTRIA\t\r\n\nCome together in a circle of sisters to celebrate\r\n\nour womanhood\r\n\n\r\n\nDATE: SEP\r\n\nVENUE: Austria…."
     subHeading: Coming up
   pageLink:
     linkURL: /classes
     text: More about classes
-  title: Schedule 
+  thisMonth:
+    body: "SOULFUL SISTAHOOD: Root, Restore, Rise\t\r\n\nCome together in a circle of sisters to celebrate\r\n\nOur womanhood\r\n\n\r\n\nDATE: SUN 20 JAN\r\n\nTIME: 15:00-17:30\r\n\nVENUE: The Granville …."
+    sectionHeading: Workshops & Events
+    subHeading: This month
+  title: Schedule
 sectionMyStory:
   body: >2-
      I have been a practitioner of Yoga since 2002 and began teaching Yoga in since 2015. 
@@ -83,12 +87,9 @@ sectionMyStory:
 
     * ![mediation bowl](/img/candle_light_02.jpg)
 
-
     * ![candles of mediation](/img/candle_light.jpg)
 
-
     * ![incense burning](/img/incense_burning.jpg)
-
 
     * ![lighting a candle](/img/lighting_candle.jpg)
 
@@ -112,10 +113,10 @@ sectionMyStory:
     in Mysore, India training to become a teacher in the Ashtanga Yoga lineage. 
 
 
-    **This was the first step on my journey as a teacher and I have continued to
+    This was the first step on my journey as a teacher and I have continued to
     train to expand my teaching in Vinyasa Flow, Yin, Restorative and Pregnancy
     Yoga and will continue to learn, develop my own practice which I share
-    through my teaching.**
+    through my teaching.
 
 
     I now realise that, on many occasions in my past, life had been attempting
@@ -125,8 +126,8 @@ sectionMyStory:
     linkURL: /teachings
     text: More on teaching philosophy
   quote: >-
-    “Have you been ignoring or missing out on Life’s attempts to wake you up to
-    your true self?“
+    > “Have you been ignoring or missing out on Life’s attempts to wake you up
+    to your true self?“
   title: My Story
 sectionConnect:
   contact:
