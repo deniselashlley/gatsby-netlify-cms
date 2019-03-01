@@ -172,10 +172,9 @@
         &:hover,
         &--active {
           transition: transform .3s ease-out,border-color .3s ease-out;
-          border-bottom: 2px solid $yellow;
+          border-bottom: 2px solid $green;
+          color: $green;
           backface-visibility: hidden;
-          -ms-transform: scaleX(1);
-          -webkit-transform: scaleX(1);
           transform: scaleX(1);
         }
       }

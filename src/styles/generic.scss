@@ -21,7 +21,7 @@ body {
 }
 
 a {
-  color: $green;
+  color: $purple;
   text-decoration: none;
 }
 
@@ -57,12 +57,12 @@ section {
   }
 
   h1, h2 {
-    font-size: 2.5rem;
+    font-size: 3.8rem;
     text-transform: uppercase;
     font-weight: 500;
 
     @include respond-to("medium") {
-      font-size: 4rem;
+      font-size: 4.3rem;
     }
   }
 
@@ -86,17 +86,16 @@ section {
 
 .section-block {
   overflow:hidden; 
-  padding-top: 100px;
-  margin-top: -100px;
-  margin-bottom: 100px;
+  padding-top: 30px;
+  margin-bottom: 30px;
+  margin-top: -30px;
 
-  h2 {
-    text-align: left;
-    @include respond-to("medium") {
-      font-size: 2.5rem;
-      margin-bottom: 15px;
-    }
+  @include respond-to("medium") {
+    padding-top: 90px;
+    margin-top: -100px;
+    margin-bottom: 100px;
   }
+
 }
 
 .highlightedText {

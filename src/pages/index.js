@@ -87,6 +87,19 @@ export const HomePageTemplate = ({ home, settings }) => {
           </CustomLink>
         </div>
       </section>
+      <section id="services" className="section-block section-block--connect">
+        <div className="container">
+          <h2 className="section-title">{home.sectionConnect.services.title}</h2>
+          <div>
+            <h3>{home.sectionConnect.services.subHeading}</h3>
+            <ReactMarkdown source={home.sectionConnect.services.body} />
+          </div>
+          <div>
+            <h3>{home.sectionConnect.subscribe.subHeading}</h3>
+            <ReactMarkdown source={home.sectionConnect.subscribe.body} />
+          </div>
+        </div>
+      </section>
       <section id="connect" className="section-block section-block--connect">
         <div className="container">
           <h2 className="section-title">{home.sectionConnect.title}</h2>
@@ -99,40 +112,30 @@ export const HomePageTemplate = ({ home, settings }) => {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <span className="contact-label">{contactItems.subHeading}</span>
+                  <h4 className="contact-label">{contactItems.subHeading}</h4>
                   <span className="contact-link-name">{contactItems.linkText}</span>
                 </a>
               </li>
             ))}
           </ul>
-          <div className="container-row">
-            <div className="block connect-service">
-              <h3>{home.sectionConnect.services.title}</h3>
-              <ReactMarkdown source={home.sectionConnect.services.body} />
-            </div>
-            <div className="block connect-links">
-              <h3>{home.sectionConnect.subscribe.title}</h3>
-              <ReactMarkdown source={home.sectionConnect.subscribe.body} />
-            </div>
-          </div>
         </div>
       </section>
       <section className="section-block section-block--testimonials">
         <div className="container">
-         <h2>testimonials</h2>
+         <h2 className="section-title">testimonials</h2>
          <div className="slider-wrapper">
          <Slider {...settings}>
          <div>
           <p>“I enjoy Jess’s classes blah blah blah …”</p>
-          <p>Jane Smith, corporate 1</p>
+          <p><strong>Jane Smith, corporate 1</strong></p>
           </div>
           <div>
           <p>“I enjoy Jess’s classes blah blah blah …”</p>
-          <p>Jane Smith, corporate 2</p>
+          <p><strong>Jane Smith, corporate 2</strong></p>
           </div>
           <div>
           <p>“I enjoy Jess’s classes blah blah blah …”</p>
-          <p>Jane Smith, corporate 3</p>
+          <p><strong>Jane Smith, corporate 3</strong></p>
           </div>
          </Slider>
         </div>
@@ -160,7 +163,7 @@ class HomePage extends React.Component {
       slidesToShow: 1,
       slidesToScroll: 1,
       autoplay: true,
-      speed: 5000,
+      speed: 7000,
       autoplaySpeed: 5000,
       cssEase: "linear"
     };
@@ -249,9 +252,10 @@ export const pageQuery = graphql`
               services {
                 body
                 title
+                subHeading
               }
               subscribe {
-                title
+                subHeading
                 body
               }
             }

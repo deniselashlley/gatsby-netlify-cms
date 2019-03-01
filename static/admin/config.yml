@@ -159,6 +159,7 @@ collections:
                   name: "services", 
                   widget: "object", 
                   fields: [
+                    { label: "Sub Heading", name: "subHeading", widget: "string" },
                     { label: "Title", name: "title", widget: "string" },
                     { label: "Body", name: "body", widget: "markdown" }
                   ]
@@ -168,7 +169,7 @@ collections:
                   name: "subscribe", 
                   widget: "object", 
                   fields: [
-                    { label: "Title", name: "title", widget: "string" },
+                    { label: "Sub Heading", name: "subHeading", widget: "string" },
                     { label: "Body", name: "body", widget: "markdown" }
                   ]
                 }
