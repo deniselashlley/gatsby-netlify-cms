@@ -92,7 +92,6 @@ export const HomePageTemplate = ({ home, settings }) => {
           <h2 className="section-title">{home.sectionConnect.services.title}</h2>
           <div>
             <h3>{home.sectionConnect.services.subHeading}</h3>
-            <ReactMarkdown source={home.sectionConnect.services.body} />
           </div>
           <div>
             <h3>{home.sectionConnect.subscribe.subHeading}</h3>
@@ -250,7 +249,6 @@ export const pageQuery = graphql`
                 subHeading
               }
               services {
-                body
                 title
                 subHeading
               }
