@@ -87,11 +87,23 @@ export const HomePageTemplate = ({ home, settings }) => {
           </CustomLink>
         </div>
       </section>
-      <section id="services" className="section-block section-block--connect">
+      <section id="services" className="section-block section-block--services">
         <div className="container">
           <h2 className="section-title">{home.sectionConnect.services.title}</h2>
           <div>
             <h3>{home.sectionConnect.services.subHeading}</h3>
+            <ul className="services-list">
+            {home.sectionConnect.services.serviceList.map(services => (
+              <li key={services.title}>
+                <img src={services.image} alt="" className="service-list-image" />
+                <div className="service-text-overlay">
+                  <p className="service-title">{services.title}</p>
+                  <p>{services.description}</p>
+                  <a href='#'>....</a>
+                </div>
+              </li>
+            ))}
+          </ul>
           </div>
           <div>
             <h3>{home.sectionConnect.subscribe.subHeading}</h3>
@@ -251,6 +263,11 @@ export const pageQuery = graphql`
               services {
                 title
                 subHeading
+                serviceList {
+                  title
+                  image
+                  description
+                }
               }
               subscribe {
                 subHeading
