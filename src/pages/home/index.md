@@ -155,7 +155,7 @@ sectionConnect:
           I run workshops at studios and events at different venues. Check out
           the schedule section for upcoming workshops and events or follow me on
           Instagram.
-        image: /img/adobestock_194685469.jpeg
+        image: /img/backlit-clouds-dusk-853168.jpg
         title: Workshops and events
       - description: ' I am passionate about all people having access the benefits of a Yoga practice. I offer a reduced rate or FOC regular class to one charitable organisation for their service users. '
         image: /img/fitness-girl-hands-374694.jpg
