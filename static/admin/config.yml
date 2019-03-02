@@ -159,17 +159,18 @@ collections:
                   name: "services", 
                   widget: "object", 
                   fields: [
-                    { label: "Sub Heading", name: "subHeading", widget: "string" },
                     { label: "Title", name: "title", widget: "string" },
-                    { label: "Body", name: "body", widget: "markdown" },
+                    { label: "Sub Heading", name: "subHeading", widget: "string" },
                     { 
                       label: "Service List", 
                       name: "serviceList", 
                       widget: "list",
                       fields: [
                         { label: "Title", name: "title", widget: "string"},
-                        { label: "Description", name: "description", widget: "string"},
-                        { label: "Image", name: "image", widget: "image"}
+                        { label: "Description", name: "description", widget: "text"},
+                        { label: "Image", name: "image", widget: "image"},
+                        { label: "Link Name", name: "linkName", widget: "string"},
+                        { label: "Link", name: "link", widget: "sting"}
                       ]
                     }
                   ]
