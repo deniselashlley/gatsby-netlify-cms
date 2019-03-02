@@ -137,28 +137,28 @@ sectionConnect:
       linkURL: 'https://www.instagram.com/the_light_tree_yoga/'
       subHeading: follow me on
   services:
-    body: >-
-      **Outreach** – I am passionate about all people having access the benefits
-      of a Yoga practice. I offer a reduced rate or FOC regular class to one
-      charitable organisation for their service users. [Contact me to find out
-      more](mailto:jess@thelighttreeyoga.co.uk)
     serviceList:
       - description: >-
           Public classes are listed in the schedule section. It is also possible
           to book private group classes.
+        image: /img/adobestock_194685469.jpeg
         title: Group Yoga
       - description: ' I offer private 1-2- sessions at your home or at my home studio.'
+        image: /img/adult-daylight-exercise-1533886.jpg
         title: Private Yoga
       - description: >-
           I deliver classes for organisations and their employees which can be
           on a regular basis or as a one off workshop or event.
+        image: /img/active-activity-adult-1308746.jpg
         title: Workplace
       - description: >-
           I run workshops at studios and events at different venues. Check out
           the schedule section for upcoming workshops and events or follow me on
           Instagram.
+        image: /img/adobestock_194685469.jpeg
         title: Workshops and events
       - description: ' I am passionate about all people having access the benefits of a Yoga practice. I offer a reduced rate or FOC regular class to one charitable organisation for their service users. '
+        image: /img/fitness-girl-hands-374694.jpg
         title: Outreach
     subHeading: What I offer
     title: Services
