@@ -78,22 +78,17 @@
 
     li {
       margin: 0;
-      border-bottom: 1px solid black;
-      padding: 10px 0;
-      margin-bottom: 10px;
+      background-color: $green;
+      color: $white;
+      padding: 1em;
+      margin-bottom: 1em;
       vertical-align: top;
       
 
       @include respond-to("medium") {
         width: 350px;
-        padding: 0 25px;
-        border-right: 1px solid black;
         border-bottom: none;
         min-height: 100px;
-      }
-
-      &:first-child {
-        padding-left: 0
       }
 
       &:last-child {

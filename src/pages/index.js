@@ -54,7 +54,8 @@ export const HomePageTemplate = ({ home, settings }) => {
           <div className="container-row">
             <div className="block">
               <h3>{home.sectionSchedule.classesTimetable.subHeading}</h3>
-              <ReactMarkdown source={home.sectionSchedule.classesTimetable.body} />
+              <script src="https://calendar.time.ly/embed.js" data-src="https://calendar.time.ly/ypuhge79/stream" data-max-height="0" id="timely_script" className="timely-script"></script>
+              <iframe id="iframe-calendar" className="iframe-calendar" src="https://calendar.time.ly/ypuhge79/agenda?notoolbar=1&range=days&days=7"/>
             </div>
           <div className="block">
             <h3>{home.sectionSchedule.thisMonth.sectionHeading}</h3>
@@ -99,7 +100,9 @@ export const HomePageTemplate = ({ home, settings }) => {
                 <div className="service-text-overlay">
                   <p className="service-title">{services.title}</p>
                   <p>{services.description}</p>
-                  <a href='#'>....</a>
+                  { services.linkText !== '' && (
+                    <a href={services.linkURL}>{services.linkText}</a>
+                  )}
                 </div>
               </li>
             ))}
@@ -267,6 +270,8 @@ export const pageQuery = graphql`
                   title
                   image
                   description
+                  linkText
+                  linkURL
                 }
               }
               subscribe {

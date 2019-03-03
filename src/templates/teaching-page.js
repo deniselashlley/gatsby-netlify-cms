@@ -12,11 +12,11 @@ export const TeachingPageTemplate = props => {
   const { page } = props;
 
   return (
-    <article className="classes">
+    <article className="teachings">
         <section className="banner">
           <img src={page.frontmatter.mainImage.image} alt={page.frontmatter.mainImage.imageAlt} />
         </section>
-        <section className="section-block container">
+        <section className="container">
           <h1>{page.frontmatter.title}</h1>
           {/* The page.html is actually markdown when viewing the page from the netlify CMS,
               so we must use the ReactMarkdown component to parse the mardown in that case  */}
