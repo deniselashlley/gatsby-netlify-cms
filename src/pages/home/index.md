@@ -38,25 +38,28 @@ sectionSchedule:
     subHeading: Class timetable
   comingUp:
     body: |-
-      **Retreat in Austria**\
+      **Retreat in Austria**
+
       Come together in a circle of sisters to celebrate our womanhood
 
-      DATE: SEP\
-      VENUE: Austria….
-    subHeading: Coming up
+      **Date**: SEP  
+      **Venue**: Austria….  
+    subHeading: Up and coming...
   pageLink:
     linkURL: /classes
     text: More about classes
   thisMonth:
     body: |-
-      **Soulful Sistahood: Root, Restore, Rise** \
+      **Soulful Sistahood: Root, Restore, Rise**
+
       Come together in a circle of sisters to celebrate Our womanhood
 
-      DATE: SUN 20 JAN\
-      TIME: 15:00-17:30\
-      VENUE: The Granville ….
+      **Date**: SUN 20 JAN  
+      **Time**: 15:00-17:30  
+      **Venue**: The Granville ….
+
     sectionHeading: Workshops & Events
-    subHeading: This month
+    subHeading: This month...
   title: Schedule
 sectionMyStory:
   body: >2-
@@ -174,21 +177,24 @@ sectionConnect:
         linkText: Contact me to find out more
         linkURL: 'mailto:jess@thelighttreeyoga.co.uk'
         title: Outreach
+      - description: 'A monthly talk show going beneath the physical matter to the soul of what
+      matters. Hosted by Jess Gibbs and Shaka Lish with guests. The show is
+      centred around wellbeing, including chat and music discussing topics
+      concerning the African diaspora from the female black British perspective. '
+        image: /img/fitness-girl-hands-374694.jpg
+        linkText: SoulShall Mata - mixcloud
+        linkURL: '/'
+        title: Subscribe to podcast...
+      - description: 'Download classes playlist from soundcloud'
+        image: /img/fitness-girl-hands-374694.jpg
+        linkText: Soundcloud mix
+        linkURL: '/'
+        title: Subscribe to class playlist..
     subHeading: What I offer
     title: Services
   subscribe:
     body: >-
-      **SoulShall Mata **-** **[subscribe to mixcloud](/)
-
-
-      A monthly talk show going beneath the physical matter to the soul of what
-      matters. Hosted by Jess Gibbs and Shaka Lish with guests. The show is
-      centred around wellbeing, including chat and music discussing topics
-      concerning the African diaspora from the female black British perspective.
-
-
-      **Class playlist** - [subscribe to soundcloud](/)
-    subHeading: Subscribe to...
+    subHeading: ''
   title: Connect with me
 seo:
   browserTitle: The Light Tree

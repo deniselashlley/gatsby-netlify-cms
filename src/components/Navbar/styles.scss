@@ -172,8 +172,8 @@
         &:hover,
         &--active {
           transition: transform .3s ease-out,border-color .3s ease-out;
-          border-bottom: 2px solid $green;
-          color: $green;
+          border-bottom: 2px solid $yellow;
+          color: $light-grey;
           backface-visibility: hidden;
           transform: scaleX(1);
         }

@@ -154,7 +154,7 @@
   &.section-block--mystory {
       .link.link-btn {
         display: block;
-        max-width: 20em;
+        max-width: 23em;
         margin: 1em auto;
       }
   }
@@ -167,6 +167,25 @@
      h4{
        color: $light-grey;
      }
+
+     .block--events {
+       border: 1px solid $american-silver;
+       padding: 1em;
+       box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.22);
+       margin-bottom: 1em;
+       border-radius: 3px;
+
+       h4{
+         color: $yellow;
+       }
+       p {
+         margin-bottom: 0.8em;
+           strong {
+            margin-bottom: 0.5em;
+            font-weight: 500;
+         }         
+       }
+     }
   }
 
   &.section-block--testimonials{
@@ -177,7 +196,8 @@
     text-align: center;
 
     h2{
-      font-size: 2.5rem;
+      font-size: 3rem;
+      text-transform: capitalize;
     }
   }
 
@@ -249,6 +269,7 @@
 
           .contact-link-name {
             display: inline-block;
+            font-weight: 400;
           }
 
           &:hover {
@@ -267,7 +288,7 @@
         display: flex;
         flex-wrap: wrap;
         justify-content: space-around;
-        align-items: flex-start;
+
       }
 
       li {
@@ -276,7 +297,8 @@
         width: 100%;
 
         @include respond-to("medium") {
-          width: 23em;
+          width: 48%;
+          flex-basis: auto;
         }
 
         .service-text-overlay {

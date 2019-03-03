@@ -16,6 +16,7 @@ html {
 body {
   font-family: $family-sans-serif;
   color: $body-dark;
+  font-weight: 300;
   font-size: 1.6rem;
   line-height: 1.5;
 }
@@ -58,11 +59,10 @@ section {
 
   h1, h2 {
     font-size: 3.8rem;
-    text-transform: uppercase;
-    font-weight: 500;
+    font-weight: 400;
 
     @include respond-to("medium") {
-      font-size: 4.3rem;
+      font-size: 4.6rem;
     }
   }
 

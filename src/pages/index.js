@@ -55,14 +55,19 @@ export const HomePageTemplate = ({ home, settings }) => {
             <div className="block">
               <h3>{home.sectionSchedule.classesTimetable.subHeading}</h3>
               <script src="https://calendar.time.ly/embed.js" data-src="https://calendar.time.ly/ypuhge79/stream" data-max-height="0" id="timely_script" className="timely-script"></script>
-              <iframe id="iframe-calendar" className="iframe-calendar" src="https://calendar.time.ly/ypuhge79/agenda?notoolbar=1&range=days&days=7"/>
+              <iframe id="iframe" src="https://calendar.time.ly/ypuhge79/stream"/>
+              <ReactMarkdown source={home.sectionSchedule.classesTimetable.body} />
             </div>
           <div className="block">
-            <h3>{home.sectionSchedule.thisMonth.sectionHeading}</h3>
-            <h4>{home.sectionSchedule.thisMonth.subHeading}</h4>
-            <ReactMarkdown source={home.sectionSchedule.thisMonth.body} />
-            <h4>{home.sectionSchedule.comingUp.subHeading}</h4>
-            <ReactMarkdown source={home.sectionSchedule.comingUp.body} />
+          <h3>{home.sectionSchedule.thisMonth.sectionHeading}</h3>
+            <div className="block--events">
+              <h4>{home.sectionSchedule.thisMonth.subHeading}</h4>
+              <ReactMarkdown source={home.sectionSchedule.thisMonth.body} />
+            </div>
+            <div className="block--events">
+              <h4>{home.sectionSchedule.comingUp.subHeading}</h4>
+              <ReactMarkdown source={home.sectionSchedule.comingUp.body} />
+            </div>
           </div>
         </div>
         <CustomLink
@@ -92,7 +97,6 @@ export const HomePageTemplate = ({ home, settings }) => {
         <div className="container">
           <h2 className="section-title">{home.sectionConnect.services.title}</h2>
           <div>
-            <h3>{home.sectionConnect.services.subHeading}</h3>
             <ul className="services-list">
             {home.sectionConnect.services.serviceList.map(services => (
               <li key={services.title}>
