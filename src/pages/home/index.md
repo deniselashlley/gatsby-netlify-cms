@@ -35,10 +35,10 @@ sectionWelcome:
 sectionSchedule:
   classesTimetable:
     body: ''
-    subHeading: Regular Classes
+    subHeading: Class timetable
   comingUp:
     body: |-
-      **RETREAT IN AUSTRIA**\
+      **Retreat in Austria**\
       Come together in a circle of sisters to celebrate our womanhood
 
       DATE: SEP\
@@ -49,7 +49,7 @@ sectionSchedule:
     text: More about classes
   thisMonth:
     body: |-
-      **SOULFUL SISTAHOOD: Root, Restore, Rise** \
+      **Soulful Sistahood: Root, Restore, Rise** \
       Come together in a circle of sisters to celebrate Our womanhood
 
       DATE: SUN 20 JAN\
@@ -178,7 +178,7 @@ sectionConnect:
     title: Services
   subscribe:
     body: >-
-      **SOULSHALL MATA - **[subscribe to mixcloud](/)
+      **SoulShall Mata **-** **[subscribe to mixcloud](/)
 
 
       A monthly talk show going beneath the physical matter to the soul of what
@@ -187,7 +187,7 @@ sectionConnect:
       concerning the African diaspora from the female black British perspective.
 
 
-      **CLASS PLAYLISTS** - [subscribe to soundcloud](/)
+      **Class playlist** - [subscribe to soundcloud](/)
     subHeading: Subscribe to...
   title: Connect with me
 seo:
