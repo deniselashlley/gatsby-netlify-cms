@@ -188,7 +188,7 @@ sectionConnect:
 
 
       **CLASS PLAYLISTS** - [subscribe to soundcloud](/)
-    subHeading: Subscribe
+    subHeading: Subscribe to...
   title: Connect with me
 seo:
   browserTitle: The Light Tree
