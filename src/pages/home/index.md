@@ -34,23 +34,27 @@ sectionWelcome:
   title: The Light Tree
 sectionSchedule:
   classesTimetable:
-    body: |-
-      Slow flow  - Wed 6-7pm – Perle de Beaute, Willesden 
-
-      Flow & Restore - Thurs 7- 8:15pm  - Kenton (next term) 
-
-      Vinyasa Flow - Sat 10-11am – Willesden (contact studio to book)
-
-      Pregnancy Yoga  - Sat (tbc)
+    body: ''
     subHeading: Regular Classes
   comingUp:
-    body: "RETREAT IN AUSTRIA\t\r\n\nCome together in a circle of sisters to celebrate\r\n\nour womanhood\r\n\n\r\n\nDATE: SEP\r\n\nVENUE: Austria…."
+    body: |-
+      **RETREAT IN AUSTRIA**\
+      Come together in a circle of sisters to celebrate our womanhood
+
+      DATE: SEP\
+      VENUE: Austria….
     subHeading: Coming up
   pageLink:
     linkURL: /classes
     text: More about classes
   thisMonth:
-    body: "SOULFUL SISTAHOOD: Root, Restore, Rise\t\r\n\nCome together in a circle of sisters to celebrate\r\n\nOur womanhood\r\n\n\r\n\nDATE: SUN 20 JAN\r\n\nTIME: 15:00-17:30\r\n\nVENUE: The Granville …."
+    body: |-
+      **SOULFUL SISTAHOOD: Root, Restore, Rise** \
+      Come together in a circle of sisters to celebrate Our womanhood
+
+      DATE: SUN 20 JAN\
+      TIME: 15:00-17:30\
+      VENUE: The Granville ….
     sectionHeading: Workshops & Events
     subHeading: This month
   title: Schedule
@@ -142,34 +146,34 @@ sectionConnect:
           Public classes are listed in the schedule section. It is also possible
           to book private group classes.
         image: /img/adobestock_194685469.jpeg
-        title: Group Yoga
         linkText: ''
         linkURL: ''
+        title: Group Yoga
       - description: ' I offer private 1-2- sessions at your home or at my home studio.'
         image: /img/adult-daylight-exercise-1533886.jpg
-        title: Private Yoga
         linkText: ''
         linkURL: ''
+        title: Private Yoga
       - description: >-
           I deliver classes for organisations and their employees which can be
           on a regular basis or as a one off workshop or event.
         image: /img/active-activity-adult-1308746.jpg
-        title: Workplace
         linkText: ''
         linkURL: ''
+        title: Workplace
       - description: >-
           I run workshops at studios and events at different venues. Check out
           the schedule section for upcoming workshops and events or follow me on
           Instagram.
         image: /img/backlit-clouds-dusk-853168.jpg
-        title: Workshops and events
-        linkText: 'See upcoming events'
+        linkText: See upcoming events
         linkURL: '#schedule'
+        title: Workshops and events
       - description: ' I am passionate about all people having access the benefits of a Yoga practice. I offer a reduced rate or FOC regular class to one charitable organisation for their service users. '
         image: /img/fitness-girl-hands-374694.jpg
-        title: Outreach
         linkText: Contact me to find out more
         linkURL: 'mailto:jess@thelighttreeyoga.co.uk'
+        title: Outreach
     subHeading: What I offer
     title: Services
   subscribe:
