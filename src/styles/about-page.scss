@@ -2,6 +2,14 @@
 @import "./mixins.scss";
 
 .about {
+
+  p {
+    strong {
+      text-align: center;
+      display: block;
+    }
+  }
+
   &-header {
     display: flex;
     //flex-direction: column;
@@ -78,8 +86,6 @@
 
     li {
       margin: 0;
-      background-color: $green;
-      color: $white;
       padding: 1em;
       margin-bottom: 1em;
       vertical-align: top;

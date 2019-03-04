@@ -19,7 +19,7 @@ The most commonly known form of Yoga is Asana, the postures, however Yoga also i
 * Helps to uplift your mood, reduce stress, fight depression, manage anxiety, improve mental clarity, emotional balance and supports better sleep.
 * Improves mind-body connection, encourages self-acceptance, self-control and a more positive outlook to life.
 
-A regular Yoga practice improves your physical, mental and emotional health and wellbeing. 
+**A regular Yoga practice improves your physical, mental and emotional health and wellbeing.**
 
 If you are interested in finding out more about Yoga here are some useful sources
 
