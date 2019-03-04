@@ -1,6 +1,6 @@
 ---
 templateKey: classes-page
-title: WHAT CAN YOU EXPECT FROM MY CLASSES?
+title: What can you expect from my classes?
 mainImage:
   image: /img/yoga-group.jpg
   imageAlt: yoga classes.

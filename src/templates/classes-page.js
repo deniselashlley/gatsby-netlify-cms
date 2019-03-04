@@ -13,18 +13,20 @@ export const ClassesPageTemplate = props => {
 
   return (
     <article className="classes">
-        <section className="banner">
+        <header className="banner">
           <img src={page.frontmatter.mainImage.image} alt={page.frontmatter.mainImage.imageAlt} />
-        </section>
-        <section className="section container">
-          <h1>{page.frontmatter.title}</h1>
-          {/* The page.html is actually markdown when viewing the page from the netlify CMS,
-              so we must use the ReactMarkdown component to parse the mardown in that case  */}
-          {page.bodyIsMarkdown ? (
-            <ReactMarkdown source={page.html} />
-          ) : (
-            <HTMLContent content={page.html} />
-          )}
+        </header>
+        <section className="content-block container">
+          <div className="container">
+            <h1>{page.frontmatter.title}</h1>
+            {/* The page.html is actually markdown when viewing the page from the netlify CMS,
+                so we must use the ReactMarkdown component to parse the mardown in that case  */}
+            {page.bodyIsMarkdown ? (
+              <ReactMarkdown source={page.html} />
+            ) : (
+              <HTMLContent content={page.html} />
+            )}
+          </div>
         </section>
     </article>
   );

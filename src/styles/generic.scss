@@ -98,6 +98,17 @@ section {
 
 }
 
+.content-block {
+  margin: 40px 0 90px;
+  a {
+    border-bottom: 1px solid transparent;
+    &:hover{
+      border-bottom: 1px solid $purple;
+    }
+    
+  }
+}
+
 .highlightedText {
   font-weight: bold;
 }

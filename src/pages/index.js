@@ -54,8 +54,11 @@ export const HomePageTemplate = ({ home, settings }) => {
           <div className="container-row">
             <div className="block">
               <h3>{home.sectionSchedule.classesTimetable.subHeading}</h3>
-              <script src="https://calendar.time.ly/embed.js" data-src="https://calendar.time.ly/ypuhge79/stream" data-max-height="0" id="timely_script" className="timely-script"></script>
-              <iframe id="iframe" src="https://calendar.time.ly/ypuhge79/stream"/>
+              <div 
+                data-tockify-component="calendar" 
+                data-tockify-calendar="denise.lashlley" 
+                className="embed-calender"
+              />
               <ReactMarkdown source={home.sectionSchedule.classesTimetable.body} />
             </div>
           <div className="block">
@@ -192,6 +195,7 @@ class HomePage extends React.Component {
           <meta name="title" content={seoTitle} />
           <meta name="description" content={seoDescription} />
           <title>{browserTitle}</title>
+          <script data-cfasync="false" data-tockify-script="embed" src="https://public.tockify.com/browser/embed.js"></script>
         </Helmet>
         <HomePageTemplate home={home} settings={settings} />
       </Layout>
