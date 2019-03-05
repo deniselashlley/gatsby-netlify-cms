@@ -2,5 +2,32 @@
 @import "./mixins.scss";
 
 .teachings {
+    ul {
+        margin-bottom: 1em;
+        text-align: center;
 
+        @include respond-to("medium") {  
+            display: flex;
+            justify-content: space-around;
+        }
+
+        li {
+            width: 18em;
+            text-align: center;
+            display: inline-block;
+            vertical-align: top;
+            font-weight: 500;
+
+            @include respond-to("medium") {  
+
+            }
+
+            img {
+                margin: 0 auto;
+                display: block;
+                width: 5em;
+                height: 5em;
+            }
+        }
+    }
 }

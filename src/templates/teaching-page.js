@@ -16,7 +16,7 @@ export const TeachingPageTemplate = props => {
         <header className="banner">
           <img src={page.frontmatter.mainImage.image} alt={page.frontmatter.mainImage.imageAlt} />
         </header>
-        <section className="content-block container">
+        <section className="content-block">
           <div className="container">
           <h1>{page.frontmatter.title}</h1>
           {/* The page.html is actually markdown when viewing the page from the netlify CMS,

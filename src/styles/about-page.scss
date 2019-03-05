@@ -11,23 +11,25 @@
   }
   
   ul {
-    display:block;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
     margin: 2.5em 0;
-
-    @include respond-to("medium") {
-      display: flex;
-      justify-content: space-around;
-    }
 
     li {
       margin: 0;
+      width: 20em;
       padding: 1em;
       margin-bottom: 1em;
       vertical-align: top;
-      
 
+      img {
+        height: 200px;
+        max-width: 100%;
+      }
+      
       @include respond-to("medium") {
-        width: 350px;
+        //width: 350px;
         border-bottom: none;
         min-height: 100px;
       }

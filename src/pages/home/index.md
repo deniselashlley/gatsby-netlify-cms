@@ -173,7 +173,7 @@ sectionConnect:
         linkURL: '#schedule'
         title: Workshops and events
       - description: ' I am passionate about all people having access the benefits of a Yoga practice. I offer a reduced rate or FOC regular class to one charitable organisation for their service users. '
-        image: /img/fitness-girl-hands-374694.jpg
+        image: /img/AdobeStock_212822729_Preview.jpeg
         linkText: Contact me to find out more
         linkURL: 'mailto:jess@thelighttreeyoga.co.uk'
         title: Outreach
@@ -186,7 +186,7 @@ sectionConnect:
         linkURL: '/'
         title: Subscribe to podcast...
       - description: 'Download classes playlist from soundcloud'
-        image: /img/balance-body-exercise-374101.jpg
+        image: /img/AdobeStock_193164610_Preview.jpeg
         linkText: Soundcloud mix
         linkURL: '/'
         title: Subscribe to class playlist..
