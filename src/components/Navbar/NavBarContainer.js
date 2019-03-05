@@ -8,7 +8,16 @@ export class NavbarContainer extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      menuState: false
+      menuState: false,
+      pageUrl: ''
+    }
+  }
+
+  componentDidMount(){
+    if (typeof window !== undefined) {
+      this.setState({
+        pageUrl: window.location.pathname 
+      });
     }
   }
 
@@ -25,9 +34,7 @@ export class NavbarContainer extends Component {
     const menuClass = this.state.menuState ? 'open' : 'close';
     const activeState = menuClass === 'open' ? 'active' : 'inactive';
 
-    const getUrl = window.location.pathname !== '/';
-
-    console.log(getUrl);
+    
 
     return (
       <header className="site-header">  
@@ -55,7 +62,7 @@ export class NavbarContainer extends Component {
               {data.menuItems.map(menuItem => (
                 <li key={menuItem.linkURL} className="navbar-menuItem">
                   { 
-                  getUrl ?
+                  this.state.pageUrl !== '/' ?
                     <CustomLink  
                       linkURL={menuItem.linkURL} 
                       linkType="internal"
