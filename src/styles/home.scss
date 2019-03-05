@@ -202,10 +202,12 @@
 
   &.section-block--mystory{
     ul {
-      display: flex;
+       display: none;
+     
       
       @include respond-to("medium") {  
-        padding-bottom: 20px;
+        padding-bottom: 20px; 
+        display: flex;
       }
 
       li {
@@ -301,28 +303,37 @@
           flex-basis: auto;
         }
 
-        p {
-          font-size: 1.4rem;
-          margin-bottom: 0.8em;
-          
-          @include respond-to("medium") {
-            font-size: 1.8rem;
-          }
-        }
+        
 
         .service-text-overlay {
           position: absolute;
           font-size: 1.4rem;
+          font-weight: 500;
           width: 100%;
           height: 98%;
           top: 0;
           left: 0;
           padding: 1.5em;
           color: $white;
-          background-color: rgba(0,0,0, 0.28);
+          background-color: rgba(0,0,0, 0.35);
+
+          @include respond-to("medium") {
+            font-size: 1.6rem;
+          }
+
+          p {
+            font-size: 1.4rem;
+            margin-bottom: 0.8em;
+            
+            @include respond-to("medium") {
+              font-size: 1.6rem;
+            }
+          }
 
           .service-title {
+            line-height: 1.1;
             font-weight: bold;
+            font-size: 1.8rem;
           }
 
           a {
@@ -340,11 +351,5 @@
         }
       }
     }
-  }
-}
-
-.timely-calendar {
-  .timely-filters-dropdown {
-    display: none !important;
   }
 }

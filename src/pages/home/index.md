@@ -148,7 +148,7 @@ sectionConnect:
       - description: >-
           Public classes are listed in the schedule section. It is also possible
           to book private group classes.
-        image: /img/adobestock_194685469.jpeg
+        image: /img/adobestock_194685469.jpg
         linkText: ''
         linkURL: ''
         title: Group Yoga
@@ -186,7 +186,7 @@ sectionConnect:
         linkURL: '/'
         title: Subscribe to podcast...
       - description: 'Download classes playlist from soundcloud'
-        image: /img/fitness-girl-hands-374694.jpg
+        image: /img/balance-body-exercise-374101.jpg
         linkText: Soundcloud mix
         linkURL: '/'
         title: Subscribe to class playlist..
