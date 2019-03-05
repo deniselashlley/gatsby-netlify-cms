@@ -1,0 +1,38 @@
+@import "../../styles/variables.scss";
+@import "../../styles/mixins.scss";
+
+.section-block {
+  &.section-block--schedule {
+    .link.link-btn {
+      display: block;
+      max-width: 23em;
+      margin: 1em auto;
+    }
+    .embed-calender{
+      width: 600px;
+      height: 450px;
+    }
+    h4{
+      color: $light-grey;
+    }
+  
+    .block--events {
+      border: 1px solid $american-silver;
+      padding: 1em;
+      box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.22);
+      margin-bottom: 1em;
+      border-radius: 3px;
+
+      h4{
+        color: $yellow;
+      }
+      p {
+        margin-bottom: 0.8em;
+          strong {
+          margin-bottom: 0.5em;
+          font-weight: 500;
+        }         
+      }
+    }
+  }
+}

@@ -124,30 +124,6 @@
     }
     
   }
-  &.section-block--introduction{
-    .block-profile {
-
-      @include respond-to("medium") {
-        width: 30em;
-      }
-  
-        .profile { 
-          object-fit: cover;
-          border-radius: 100%;
-          width: 300px;
-          height: 300px;
-          display: block;
-          text-align: center;
-          margin: 0 auto;
-        }
-    }
-
-    .block-context {
-      @include respond-to("medium") {
-        max-width: 75%;
-      }
-    }
-  }
 
   &.section-block--schedule,  
   &.section-block--mystory {
@@ -156,35 +132,6 @@
         max-width: 23em;
         margin: 1em auto;
       }
-  }
-
-  &.section-block--schedule {
-    .embed-calender{
-      width: 600px;
-      height: 450px;
-    }
-     h4{
-       color: $light-grey;
-     }
-
-     .block--events {
-       border: 1px solid $american-silver;
-       padding: 1em;
-       box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.22);
-       margin-bottom: 1em;
-       border-radius: 3px;
-
-       h4{
-         color: $yellow;
-       }
-       p {
-         margin-bottom: 0.8em;
-           strong {
-            margin-bottom: 0.5em;
-            font-weight: 500;
-         }         
-       }
-     }
   }
 
   &.section-block--testimonials{

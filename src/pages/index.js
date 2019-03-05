@@ -9,6 +9,8 @@ import AnchorLink from 'react-anchor-link-smooth-scroll';
 import CustomLink from "../components/CustomLink";
 
 import Layout from "../components/Layout";
+import { Introduction } from '../components/Introduction'
+import { Schedule } from '../components/Schedule'
 import "../styles/home.scss";
 import "slick-carousel/slick/slick.css"; 
 import "slick-carousel/slick/slick-theme.css";
@@ -26,62 +28,8 @@ export const HomePageTemplate = ({ home, settings }) => {
           <span>Introduction</span>
         </AnchorLink>
       </section>
-      <section id="intro" className="section-block section-block--introduction">
-        <div className="container">
-          <h1 className="section-title">{home.sectionWelcome.title}</h1>
-          <div className="container-row">
-            <div className="block block-profile">
-              <img src={home.sectionWelcome.image} alt={home.sectionWelcome.imageAlt} className="profile" />
-            </div>
-            <div className="block block-context">
-              <ReactMarkdown source={home.sectionWelcome.body} />
-              <ReactMarkdown source={home.sectionWelcome.quote} className="quote"/>
-              <p className="highlightedText">{home.sectionWelcome.highlightedText}</p>
-            <CustomLink
-              linkType="internal"
-              linkURL={home.sectionWelcome.pageLink.linkURL}
-              className="link link-btn"
-            >
-            {home.sectionWelcome.pageLink.text}
-          </CustomLink>
-            </div>
-          </div> 
-        </div>
-      </section>
-      <section id="schedule" className="section-block section-block--schedule">
-       <div className="container">
-          <h2 className="section-title">{home.sectionSchedule.title}</h2>
-          <div className="container-row">
-            <div className="block">
-              <h3>{home.sectionSchedule.classesTimetable.subHeading}</h3>
-              <div 
-                data-tockify-component="calendar" 
-                data-tockify-calendar="denise.lashlley" 
-                className="embed-calender"
-              />
-              <ReactMarkdown source={home.sectionSchedule.classesTimetable.body} />
-            </div>
-          <div className="block">
-          <h3>{home.sectionSchedule.thisMonth.sectionHeading}</h3>
-            <div className="block--events">
-              <h4>{home.sectionSchedule.thisMonth.subHeading}</h4>
-              <ReactMarkdown source={home.sectionSchedule.thisMonth.body} />
-            </div>
-            <div className="block--events">
-              <h4>{home.sectionSchedule.comingUp.subHeading}</h4>
-              <ReactMarkdown source={home.sectionSchedule.comingUp.body} />
-            </div>
-          </div>
-        </div>
-        <CustomLink
-            linkType="internal"
-            linkURL={home.sectionSchedule.pageLink.linkURL}
-            className="link link-btn"
-          >
-            {home.sectionSchedule.pageLink.text}
-          </CustomLink>
-      </div>
-      </section>
+      <Introduction data={home} />
+      <Schedule data={home} />
       <section id="mystory" className="section-block section-block--mystory">
         <div className="container">
           <h2 className="section-title">{home.sectionMyStory.title}</h2>
