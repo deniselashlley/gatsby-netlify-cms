@@ -2,6 +2,7 @@ import React, { Component } from "react";
 
 import "./styles.scss";
 import CustomLink from "../CustomLink";
+import AnchorLink from 'react-anchor-link-smooth-scroll';
 
 export class NavbarContainer extends Component {
   constructor(props) {
@@ -24,6 +25,10 @@ export class NavbarContainer extends Component {
     const menuClass = this.state.menuState ? 'open' : 'close';
     const activeState = menuClass === 'open' ? 'active' : 'inactive';
 
+    const getUrl = window.location.pathname !== '/';
+
+    console.log(getUrl);
+
     return (
       <header className="site-header">  
         <div className="container navbar-container">
@@ -41,7 +46,7 @@ export class NavbarContainer extends Component {
           href="/" 
           className={`navbar-btn ${activeState} `}
           onClick={e => this.handleShowMenu(e)}
-        >
+          >
           <span/>
         </a>
         <div className={`navbar-wrapper ${menuClass}`}>
@@ -49,13 +54,20 @@ export class NavbarContainer extends Component {
             <ul className="navbar-menu">
               {data.menuItems.map(menuItem => (
                 <li key={menuItem.linkURL} className="navbar-menuItem">
-                  <CustomLink  
-                    linkURL={menuItem.linkURL} 
-                    linkType="internal"
-                    className="navbar-menuLink"
-                  >
-                    {menuItem.label}
-                  </CustomLink>                  
+                  { 
+                  getUrl ?
+                    <CustomLink  
+                      linkURL={menuItem.linkURL} 
+                      linkType="internal"
+                      className="navbar-menuLink"
+                    >
+                      {menuItem.label}
+                    </CustomLink>
+                    :
+                    <AnchorLink href={menuItem.linkURL} className="navbar-menuLink">
+                      {menuItem.label}
+                    </AnchorLink>
+                  }   
                 </li>
               ))}
             </ul>
