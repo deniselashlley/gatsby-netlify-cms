@@ -2,10 +2,10 @@
 templateKey: classes-page
 title: What can you expect from my classes?
 mainImage:
-  image: /img/yoga-group.jpg
+  image: /img/peopledoingyogainaparkatsunset.jpg
   imageAlt: yoga classes.
 seo:
-  browserTitle: 'The Light Tree | Classes '
+  browserTitle: 'The Light Tree | What can you expect from my classes? '
   description: >-
     Classes are a blend of Vinyasa and Hatha incorporating traditional practices such as mudra and mantra, Chinese medicine techniques.
   title: Classes
@@ -17,7 +17,7 @@ Classes are a blend of Vinyasa and Hatha incorporating traditional practices suc
 
 My aim is that you leave class with a smile feeling more present, connected, taller and stronger than when you came in. With regular practice my intention is that you find the transformation you are seeking. My wider hope is that you are able to open the doorway that connects on a deeper level with your truth, removing blockages to allow you to heal so you can flow happier, healthier, more confidently and strongly on your own unique path.
 
-## Class Styles
+## Class styles
 
 <table>
 <tr>

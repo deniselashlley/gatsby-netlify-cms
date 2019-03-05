@@ -105,7 +105,12 @@ section {
     &:hover{
       border-bottom: 1px solid $purple;
     }
-    
+  }
+
+  h2 {
+    font-size: 3rem;
+    text-align: left;
+    margin-bottom: 1em;
   }
 }
 

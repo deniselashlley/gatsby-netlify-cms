@@ -2,8 +2,8 @@
 templateKey: about-page
 title: About yoga
 mainImage:
-  image: /img/alone-balance-beautiful-1574647.jpg
-  imageAlt: yoga girl.
+  image: /img/AdobeStock_235341077_Preview.jpeg
+  imageAlt: group of yoga
 seo:
   browserTitle: The Light Tree | About yoga
   description: >-
@@ -15,14 +15,17 @@ Yoga translates as Yoke or Union in ancient Sanskrit meaning to connect. This re
 
 The most commonly known form of Yoga is Asana, the postures, however Yoga also involves breathing and mediation practices and observations for daily life. The practice of Yoga is not an all-inclusive one-size-fits-all approach so you begin with your own personal intention exploring and adopting the practices that work for you at any one time and in this way it becomes your individual practice.
 
-* ![](/img/IMG_5985 (1).jpg)
+* ![](/img/abdomen-active-activity-396133.jpg)
+  
   Improves strength and flexibility, weight reduction/loss, improved digestion, balance metabolic, nervous and endocrine systems.
 * ![](/img/AdobeStock_95680960.jpg)
+  
   Helps to uplift your mood, reduce stress, fight depression, manage anxiety, improve mental clarity, emotional balance and supports better sleep.
 * ![](/img/alone-balance-beautiful-1574647.jpg)
+  
   Improves mind-body connection, encourages self-acceptance, self-control and a more positive outlook to life.
 
-**A regular Yoga practice improves your physical, mental and emotional health and wellbeing.**
+A regular Yoga practice improves your physical, mental and emotional health and wellbeing
 
 If you are interested in finding out more about Yoga here are some useful sources
 
