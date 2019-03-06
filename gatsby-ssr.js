@@ -1,18 +1,8 @@
-const { Helmet } = require("react-helmet")
-
-exports.onRenderBody = (
-  { setHeadComponents, setHtmlAttributes, setBodyAttributes },
-  pluginOptions
-) => {
-  const helmet = Helmet.renderStatic()
-  setHtmlAttributes(helmet.htmlAttributes.toComponent())
-  setBodyAttributes(helmet.bodyAttributes.toComponent())
-  setHeadComponents([
-    helmet.title.toComponent(),
-    helmet.link.toComponent(),
-    helmet.meta.toComponent(),
-    helmet.noscript.toComponent(),
-    helmet.script.toComponent(),
-    helmet.style.toComponent(),
-  ])
+import React from "react"
+exports.onRenderBody = ({ setPreBodyComponents }) => {
+    setPreBodyComponents(<script 
+        data-cfasync="false" 
+        data-tockify-script="embed" 
+        src="https://public.tockify.com/browser/embed.js"
+      />)
 }

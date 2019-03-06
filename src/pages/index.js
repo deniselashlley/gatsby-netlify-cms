@@ -38,18 +38,6 @@ export const HomePageTemplate = ({ home }) => {
 };
 
 class HomePage extends React.Component {
-
-  componetDidMount() {
-    const script = document.createElement('script');
-    script.async = true;
-    // eslint-disable-next-line max-len
-    script.innerHTML = `rel="preload"
-    data-cfasync="false" 
-    data-tockify-script="embed" 
-    src="https://public.tockify.com/browser/embed.js`;
-    document.getElementById('scriptContainer').appendChild(script);
-  }
-
   render() {
     const { data } = this.props;
     const {
@@ -66,12 +54,6 @@ class HomePage extends React.Component {
           <meta name="title" content={seoTitle} />
           <meta name="description" content={seoDescription} />
           <title>{browserTitle}</title>
-          <script 
-            rel="preload"
-            data-cfasync="false" 
-            data-tockify-script="embed" 
-            src="https://public.tockify.com/browser/embed.js"
-          />
         </Helmet>
         <div 
           id="iframe-calendar"
