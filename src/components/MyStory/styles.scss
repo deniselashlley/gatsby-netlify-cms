@@ -1,0 +1,40 @@
+@import "../../styles/variables.scss";
+@import "../../styles/mixins.scss";
+
+
+.section-block {
+
+  &.section-block--mystory{
+  
+    .link.link-btn {
+        display: block;
+        max-width: 23em;
+        margin: 1em auto;
+      }
+        
+    ul {
+        display: none;
+      
+      
+      @include respond-to("medium") {  
+        padding-bottom: 20px; 
+        display: flex;
+      }
+
+      li {
+        margin-right: 2px;
+        width: 50%;
+
+        @include respond-to("medium") {
+          width: auto;
+        }
+      }
+
+      img {
+        display: block;
+        object-fit: cover;
+        max-width: 100%;
+      }
+    }
+  }
+}

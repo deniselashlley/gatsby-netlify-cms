@@ -173,7 +173,7 @@ sectionConnect:
         linkURL: '#schedule'
         title: Workshops and events
       - description: ' I am passionate about all people having access the benefits of a Yoga practice. I offer a reduced rate or FOC regular class to one charitable organisation for their service users. '
-        image: /img/AdobeStock_212822729_Preview.jpeg
+        image: /img/AdobeStock_138799437_Preview.jpg
         linkText: Contact me to find out more
         linkURL: 'mailto:jess@thelighttreeyoga.co.uk'
         title: Outreach
@@ -196,6 +196,15 @@ sectionConnect:
     body: >-
     subHeading: ''
   title: Connect with me
+sectionTestimonial:
+  title: Testimonial
+  testimonialList:
+    - author: Jane Smith 1
+      description: I enjoy Jess’s classes 1 …
+    - author: Jane Smith 2
+      description: I enjoy Jess’s classes 2…
+    - author: Jane Smith 3
+      description: I enjoy Jess’s classes 3 …
 seo:
   browserTitle: The Light Tree
   description: >-

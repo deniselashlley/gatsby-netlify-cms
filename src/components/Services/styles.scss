@@ -1,0 +1,75 @@
+@import "../../styles/variables.scss";
+@import "../../styles/mixins.scss";
+
+.section-block {
+    &.section-block--services {
+        .services-list {
+    
+          @include respond-to("medium") {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+    
+          }
+    
+          li {
+            position: relative;
+            margin-bottom: 0.8em;
+            width: 100%;
+            
+            @include respond-to("medium") {
+              
+              width: 48%;
+              flex-basis: auto;
+            }
+    
+            
+    
+            .service-text-overlay {
+              position: absolute;
+              font-size: 1.4rem;
+              font-weight: 500;
+              width: 100%;
+              height: 98%;
+              top: 0;
+              left: 0;
+              padding: 1.5em;
+              color: $white;
+              background-color: rgba(0,0,0, 0.35);
+    
+              @include respond-to("medium") {
+                font-size: 1.6rem;
+              }
+    
+              p {
+                font-size: 1.4rem;
+                margin-bottom: 0.8em;
+                
+                @include respond-to("medium") {
+                  font-size: 1.6rem;
+                }
+              }
+    
+              .service-title {
+                line-height: 1.1;
+                font-weight: bold;
+                font-size: 1.8rem;
+              }
+    
+              a {
+                color: $white;
+                &:hover {
+                  border-bottom: 1px solid $white;
+                }
+              }
+            }
+    
+            img {
+              width: 100%;
+              object-fit: cover;
+              height: 300px;
+            }
+          }
+        }
+      }
+}

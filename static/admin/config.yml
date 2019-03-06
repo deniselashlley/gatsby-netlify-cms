@@ -187,6 +187,23 @@ collections:
               ]
             }
           - {
+             label: "Section Testimonial",
+              name: "sectionTestimonial",
+              widget: "object",
+              fields: [
+                { label: "Title", name: "title", widget: "string" },
+                {
+                  label: "Testimonial List", 
+                  name: "testimonialList",
+                  widget: "list",
+                  fields: [
+                    { label: "description", name: "description", widget: "text" },
+                    { label: "author", name: "author", widget: "text" }
+                  ] 
+                }
+              ] 
+            }
+          - {
               label: "SEO & Meta",
               name: "seo",
               widget: "object",

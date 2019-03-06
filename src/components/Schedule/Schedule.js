@@ -4,38 +4,46 @@ import CustomLink from "../CustomLink";
 import "./styles.scss";
 
 export const ScheduleTemplate = ({data}) => {
+  const { 
+    title, 
+    subHeading, 
+    thisMonth, 
+    comingUp, 
+    classesTimetable,
+    pageLink 
+  } = data.sectionSchedule;
   return (
     <section id="schedule" className="section-block section-block--schedule">
     <div className="container">
-       <h2 className="section-title">{data.sectionSchedule.title}</h2>
+       <h2 className="section-title">{title}</h2>
        <div className="container-row">
          <div className="block">
-           <h3>{data.sectionSchedule.classesTimetable.subHeading}</h3>
+           <h3>{subHeading}</h3>
            <div 
              data-tockify-component="calendar" 
              data-tockify-calendar="denise.lashlley" 
              className="embed-calender"
            />
-           <ReactMarkdown source={data.sectionSchedule.classesTimetable.body} />
+           <ReactMarkdown source={classesTimetable.body} />
          </div>
        <div className="block">
-       <h3>{data.sectionSchedule.thisMonth.sectionHeading}</h3>
+       <h3>{thisMonth.sectionHeading}</h3>
          <div className="block--events">
-           <h4>{data.sectionSchedule.thisMonth.subHeading}</h4>
-           <ReactMarkdown source={data.sectionSchedule.thisMonth.body} />
+           <h4>{thisMonth.subHeading}</h4>
+           <ReactMarkdown source={thisMonth.body} />
          </div>
          <div className="block--events">
-           <h4>{data.sectionSchedule.comingUp.subHeading}</h4>
-           <ReactMarkdown source={data.sectionSchedule.comingUp.body} />
+           <h4>{comingUp.subHeading}</h4>
+           <ReactMarkdown source={comingUp.body} />
          </div>
        </div>
      </div>
      <CustomLink
          linkType="internal"
-         linkURL={data.sectionSchedule.pageLink.linkURL}
+         linkURL={pageLink.linkURL}
          className="link link-btn"
        >
-         {data.sectionSchedule.pageLink.text}
+         {pageLink.text}
        </CustomLink>
    </div>
    </section>
@@ -47,7 +55,6 @@ const Schedule = props => {
     return null;
   }
   const data = props.data;
-  console.log("DATA", data);
   return <ScheduleTemplate data={data} />;
 };
 
