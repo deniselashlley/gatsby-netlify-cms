@@ -55,6 +55,7 @@ class HomePage extends React.Component {
           <meta name="description" content={seoDescription} />
           <title>{browserTitle}</title>
           <script 
+            defer
             data-cfasync="false" 
             data-tockify-script="embed" 
             src="https://public.tockify.com/browser/embed.js"
