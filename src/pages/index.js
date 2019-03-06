@@ -54,8 +54,19 @@ class HomePage extends React.Component {
           <meta name="title" content={seoTitle} />
           <meta name="description" content={seoDescription} />
           <title>{browserTitle}</title>
-          <script data-cfasync="false" data-tockify-script="embed" src="https://public.tockify.com/browser/embed.js"></script>
+          <script 
+            rel="preload"
+            data-cfasync="false" 
+            data-tockify-script="embed" 
+            src="https://public.tockify.com/browser/embed.js"
+          />
         </Helmet>
+        <div 
+          id="iframe-calendar"
+          data-tockify-component="calendar" 
+          data-tockify-calendar="denise.lashlley" 
+          className="embed-calender"
+        />
         <HomePageTemplate home={home} />
       </Layout>
     );
