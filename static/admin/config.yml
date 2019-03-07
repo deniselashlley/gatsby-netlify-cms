@@ -271,7 +271,7 @@ collections:
                 ],
             }
   - name: "navbarAndFooter"
-    label: "Navbar & Footer"
+    label: "Sections"
     files:
       - file: "src/pages/navbar/index.md"
         label: "Navbar"
@@ -318,3 +318,24 @@ collections:
                   { label: "ImageLink", name: "imageLink", widget: "string"}
                 ],
             }
+      - file: "src/pages/introduction/index.md"
+        label: "Introduction"
+        name: "introduction"
+        fields:
+          - { label: "Template Key", name: "templateKey", widget: "hidden", default: "introduction" }
+          - { label: "Title", name: "title", widget: "text"}
+          - { label: "Body", name: "body", widget: "markdown"}
+          - { label: "Image", name: "image", widget: "image"}
+          - { label: "Quote", name: "quote", widget: "markdown"}
+          - { label: "Highlighted Text", name: "highlightedText", widget: "text"}
+          - { 
+              label: "Page Link", 
+              name: "pageLink", 
+              widget: "object",
+              fields: [
+                { label: "Link", name: "link", widget: "string" },
+                { label: "Label", name: "label", widget: "text" },
+              ]
+            }
+            
+      
