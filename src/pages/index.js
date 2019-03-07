@@ -14,7 +14,8 @@ import { Testimonials } from '../components/Testimonials'
 
 import "../styles/home.scss";
 
-export const HomePageTemplate = ({ home }) => {
+export const HomePageTemplate = ({ home,  introduction }) => {
+  console.log(introduction);
   return (
     <>
       <section className="hero-banner">
@@ -27,7 +28,7 @@ export const HomePageTemplate = ({ home }) => {
           <span>Introduction</span>
         </AnchorLink>
       </section>
-      <Introduction data={home} />
+      <Introduction data={introduction} />
       <Schedule data={home} />
       <MyStory data={home} />
       <Services data={home} />
@@ -38,15 +39,13 @@ export const HomePageTemplate = ({ home }) => {
 };
 
 class HomePage extends React.Component {
+  
   render() {
     const { data } = this.props;
-    const {
-      data: { footerData, navbarData },
-    } = this.props;
+    const { data: { footerData, navbarData },} = this.props;
     const { frontmatter: home } = data.homePageData.edges[0].node;
-    const {
-      seo: { title: seoTitle, description: seoDescription, browserTitle },
-    } = home;
+    const {seo: { title: seoTitle, description: seoDescription, browserTitle },} = home;
+    const { frontmatter: introduction } = data.introduction.edges[0].node;
 
     return (
       <Layout footerData={footerData} navbarData={navbarData}>
@@ -62,7 +61,7 @@ class HomePage extends React.Component {
             src="https://public.tockify.com/browser/embed.js"
           />
         </Helmet>
-        <HomePageTemplate home={home} />
+        <HomePageTemplate home={home} introduction={introduction} />
       </Layout>
     );
   }
@@ -81,6 +80,24 @@ export default HomePage;
 export const pageQuery = graphql`
   query HomePageQuery {
     ...LayoutFragment
+    introduction: allMarkdownRemark(filter: { frontmatter: { templateKey: { eq: "introduction" } } }) {
+      edges {
+        node {
+          id
+          frontmatter {
+            title
+            body
+            quote
+            image
+            highlightedText
+            pageLink {
+              label
+              link
+            }
+          }
+        }
+      }
+    }
     homePageData: allMarkdownRemark(filter: { frontmatter: { templateKey: { eq: "home-page" } } }) {
       edges {
         node {
