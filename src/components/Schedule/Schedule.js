@@ -18,7 +18,7 @@ export const ScheduleTemplate = ({data}) => {
        <h2 className="section-title">{title}</h2>
        <div className="container-row">
          <div className="block">
-           <h3>{subHeading}</h3>
+           <h3>{classesTimetable.subHeading}</h3>
            <div 
              data-tockify-component="calendar" 
              data-tockify-calendar="denise.lashlley" 
