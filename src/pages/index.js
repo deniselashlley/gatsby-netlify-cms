@@ -56,6 +56,7 @@ class HomePage extends React.Component {
           <title>{browserTitle}</title>
           <script 
             defer
+            async
             data-cfasync="false" 
             data-tockify-script="embed" 
             src="https://public.tockify.com/browser/embed.js"
