@@ -197,7 +197,7 @@ sectionConnect:
     subHeading: ''
   title: Connect with me
 sectionTestimonial:
-  title: Testimonial
+  title: Testimonials
   testimonialList:
     - author: Jane Smith 1
       description: I enjoy Jess’s classes 1 …

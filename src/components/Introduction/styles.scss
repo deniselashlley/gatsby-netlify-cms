@@ -3,27 +3,48 @@
 
 .section-block {
   &.section-block--introduction{
-    .block-profile {
+
+    .block {
+      align-items: left;
+      width: 100%;
+      margin-bottom: 18px;
 
       @include respond-to("medium") {
-        width: 30em;
+        max-width: 50%;
+        padding-right: 1em;
+        margin-right: 1em;
       }
-  
-        .profile { 
-          object-fit: cover;
-          border-radius: 100%;
-          width: 300px;
-          height: 300px;
-          display: block;
-          text-align: center;
-          margin: 0 auto;
+
+      &.block-context {
+        @include respond-to("medium") {
+          padding-left: 40px;
         }
-    }
-  
-    .block-context {
-      @include respond-to("medium") {
-        max-width: 75%;
+      }
+
+      &.block-profile {
+
+        @include respond-to("medium") {
+          width: 30em;
+        }
+    
+          .profile { 
+            object-fit: cover;
+            border-radius: 100%;
+            width: 300px;
+            height: 300px;
+            display: block;
+            text-align: center;
+            margin: 0 auto;
+          }
+      }
+    
+      &.block-context {
+        @include respond-to("medium") {
+          max-width: 75%;
+        }
       }
     }
+
+
   }
 }
