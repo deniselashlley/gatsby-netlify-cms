@@ -271,7 +271,7 @@ collections:
                 ],
             }
   - name: "navbarAndFooter"
-    label: "Navbar & Footer"
+    label: "Sections"
     files:
       - file: "src/pages/navbar/index.md"
         label: "Navbar"
@@ -318,9 +318,6 @@ collections:
                   { label: "ImageLink", name: "imageLink", widget: "string"}
                 ],
             }
-  - name: "sections"
-    label: "Sections"
-    files:
       - file: "src/pages/introduction/index.md"
         label: "Introduction"
         name: "introduction"
@@ -340,3 +337,5 @@ collections:
                 { label: "Label", name: "label", widget: "text" },
               ]
             }
+            
+      
