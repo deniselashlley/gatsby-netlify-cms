@@ -270,9 +270,6 @@ collections:
                   { label: "Description", name: "description", widget: "string" },
                 ],
             }
-  - name: "sections"
-    label: "Sections"
-    files: 
       - file: "src/pages/introduction/index.md"
         label: "Introduction"
         name: "introduction"
