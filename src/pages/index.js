@@ -105,18 +105,6 @@ export const pageQuery = graphql`
             bannerText {
               itemText
             }
-            sectionWelcome {
-              title
-              body
-              quote
-              image
-              imageAlt
-              highlightedText
-              pageLink {
-                text
-                linkURL
-              }
-            }
             sectionSchedule {
               title
               classesTimetable {

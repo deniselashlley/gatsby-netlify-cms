@@ -52,28 +52,6 @@ collections:
                 {label: "Item Text", name: "itemText", widget: "string"},
               ],
             }
-          - { 
-              label: "Section Welcome",
-              name: "sectionWelcome",
-              widget: "object",
-              fields: [
-                { label: "Title", name: "title", widget: "string" },
-                { label: "Body", name: "body", widget: "markdown" },
-                { label: "Image", name: "image", widget: "image" },
-                { label: "Image Description", name: "imageAlt", widget: "string" },
-                { label: "Quote", name: "quote", widget: "markdown" },
-                { label: "Highlighted Text", name: "highlightedText", widget: "string" },
-                { 
-                  label: "Page Link", 
-                  name: "pageLink", 
-                  widget: "object",
-                  fields: [
-                    { label: "Text", name: "text", widget: "string" },
-                    { label: "Link URL", name: "linkURL", widget: "string" }
-                  ]
-                }
-              ]
-            }
           - {
               label: "Section Schedule",
               name: "sectionSchedule",
@@ -323,7 +301,7 @@ collections:
         name: "introduction"
         fields:
           - { label: "Template Key", name: "templateKey", widget: "hidden", default: "introduction" }
-          - { label: "Title", name: "title", widget: "text"}
+          - { label: "Title", name: "title", widget: "string"}
           - { label: "Body", name: "body", widget: "markdown"}
           - { label: "Image", name: "image", widget: "image"}
           - { label: "Quote", name: "quote", widget: "markdown"}
