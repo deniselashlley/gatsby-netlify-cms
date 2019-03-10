@@ -86,9 +86,9 @@ export const pageQuery = graphql`
           id
           frontmatter {
             title
-            body
             quote
             image
+            content
             highlightedText
             pageLink {
               label

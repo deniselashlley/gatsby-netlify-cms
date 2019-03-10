@@ -6,7 +6,7 @@ bannerText:
   - itemText: Nourish your Soul
   - itemText: Calm your Mind
 sectionWelcome:
-  body: >-
+  content: >-
     Hi, my name is Jess and welcome to The Light Tree. 
 
 

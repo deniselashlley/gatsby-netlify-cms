@@ -324,9 +324,9 @@ collections:
         fields:
           - { label: "Template Key", name: "templateKey", widget: "hidden", default: "introduction" }
           - { label: "Title", name: "title", widget: "text"}
-          - { label: "Body", name: "body", widget: "markdown"}
+          - { label: "Content", name: "content", widget: "markdown" }
+          - { label: "Quote", name: "quote", widget: "markdown" }
           - { label: "Image", name: "image", widget: "image"}
-          - { label: "Quote", name: "quote", widget: "markdown"}
           - { label: "Highlighted Text", name: "highlightedText", widget: "text"}
           - { 
               label: "Page Link", 
