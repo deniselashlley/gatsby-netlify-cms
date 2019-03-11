@@ -342,7 +342,7 @@ collections:
         name: "schedule"
         fields:
           - { label: "Template Key", name: "templateKey", widget: "hidden", default: "schedule" }
-          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Title", name: "title", widget: "text" }
           - {
               label: "Classes Timetable", 
               name: "classesTimetable", 

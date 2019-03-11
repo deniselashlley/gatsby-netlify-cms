@@ -1,6 +1,5 @@
 ---
-templateKey: schedule
-  
+templateKey: schedule 
 title: Schedule
 classesTimetable:
   subHeading: Class timetable
