@@ -1,6 +1,6 @@
 ---
 templateKey: schedule
-sectionHeading: Workshops & Events
+  
 title: Schedule
 classesTimetable:
   subHeading: Class timetable
@@ -23,6 +23,7 @@ thisMonth:
     **Time**: 15:00-17:30  
     **Venue**: The Granville ….
   subHeading: This month..
+  sectionHeading: Workshops & Events
 pageLink:
 linkURL: /classes
 text: More about classe
