@@ -25,6 +25,6 @@ thisMonth:
   subHeading: This month..
   sectionHeading: Workshops & Events
 pageLink:
-linkURL: /classes
-text: More about classe
+  link: /classes
+  text: More about classe
 ---
