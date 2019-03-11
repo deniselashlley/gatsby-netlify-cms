@@ -349,7 +349,6 @@ collections:
               widget: "object",
               fields: [
                 { label: "Sub Heading", name: "subHeading", widget: "string" },
-                { label: "Body", name: "body", widget: "markdown" }
               ] 
             }
           - {

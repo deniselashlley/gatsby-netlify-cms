@@ -1,8 +1,9 @@
 ---
 templateKey: schedule
+sectionHeading: Workshops & Events
+title: Schedule
 classesTimetable:
-  body: ''
-subHeading: Class timetable
+  subHeading: Class timetable
 comingUp:
   body: >-
     **Retreat in Austria**
@@ -12,9 +13,6 @@ comingUp:
     **Date**: SEP  
     **Venue**: Austria….  
   subHeading: Up and coming...
-pageLink:
-  linkURL: /classes
-  text: More about classes
 thisMonth:
   body: >-
     **Soulful Sistahood: Root, Restore, Rise**
@@ -25,6 +23,7 @@ thisMonth:
     **Time**: 15:00-17:30  
     **Venue**: The Granville ….
   subHeading: This month..
-sectionHeading: Workshops & Events
-title: Schedule
+pageLink:
+linkURL: /classes
+text: More about classe
 ---
