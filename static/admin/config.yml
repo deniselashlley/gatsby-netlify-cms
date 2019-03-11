@@ -337,5 +337,47 @@ collections:
                 { label: "Label", name: "label", widget: "text" },
               ]
             }
-            
+      - file: "src/pages/schedule/index.md"
+        label: "Schedule"
+        name: "schedule"
+        fields:
+          - { label: "Template Key", name: "templateKey", widget: "hidden", default: "schedule" }
+          - { label: "Title", name: "title", widget: "string" },
+          - { 
+              label: "Classes Timetable", 
+              name: "classesTimetable", 
+              widget: "object",
+              fields: [
+                { label: "Sub Heading", name: "subHeading", widget: "string" },
+                { label: "Body", name: "body", widget: "markdown" }
+              ] 
+            },
+          - { 
+              label: "This Months", 
+              name: "thisMonth", 
+              widget: "object",
+              fields: [
+                { label: "Section Heading", name: "sectionHeading", widget: "string" },
+                { label: "Sub Heading", name: "subHeading", widget: "string" },
+                { label: "Body", name: "body", widget: "markdown" }
+              ] 
+            },
+          - { 
+              label: "Coming Up", 
+              name: "comingUp", 
+              widget: "object",
+              fields: [
+                { label: "Sub Heading", name: "subHeading", widget: "string" },
+                { label: "Body", name: "body", widget: "markdown" }
+              ] 
+            },
+          - { 
+              label: "Page Link", 
+              name: "pageLink", 
+              widget: "object",
+              fields: [
+                { label: "Text", name: "text", widget: "string"},
+                { label: "Link URL", name: "linkURL", widget: "string"}
+              ]
+            }
       

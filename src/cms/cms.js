@@ -9,6 +9,7 @@ import FooterPreview from "./preview-templates/FooterPreview";
 import NavbarPreview from "./preview-templates/NavbarPreview";
 // import PastMeetupsPagePreview from "./preview-templates/PastMeetupsPagePreview";
 import IntroductionPreview from "./preview-templates/IntroductionPreview";
+import SchedulePreview from "./preview-templates/SchedulePreview";
 
 // CMS.registerPreviewTemplate("meetups", MeetupPreview);
 CMS.registerPreviewTemplate("footer", FooterPreview);
@@ -18,4 +19,5 @@ CMS.registerPreviewTemplate("classes", ClassesPagePreview);
 CMS.registerPreviewTemplate("teaching", TeachingPagePreview);
 CMS.registerPreviewTemplate("home", HomePagePreview);
 CMS.registerPreviewTemplate("introduction", IntroductionPreview);
+CMS.registerPreviewTemplate("schedule", SchedulePreview);
 // CMS.registerPreviewTemplate("pastMeetups", PastMeetupsPagePreview);
