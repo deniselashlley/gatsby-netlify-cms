@@ -343,7 +343,7 @@ collections:
         fields:
           - { label: "Template Key", name: "templateKey", widget: "hidden", default: "schedule" }
           - { label: "Title", name: "title", widget: "string" },
-          - { 
+          - {
               label: "Classes Timetable", 
               name: "classesTimetable", 
               widget: "object",
@@ -352,7 +352,7 @@ collections:
                 { label: "Body", name: "body", widget: "markdown" }
               ] 
             },
-          - { 
+          - {
               label: "This Months", 
               name: "thisMonth", 
               widget: "object",
@@ -362,7 +362,7 @@ collections:
                 { label: "Body", name: "body", widget: "markdown" }
               ] 
             },
-          - { 
+          - {
               label: "Coming Up", 
               name: "comingUp", 
               widget: "object",
@@ -371,7 +371,7 @@ collections:
                 { label: "Body", name: "body", widget: "markdown" }
               ] 
             },
-          - { 
+          - {
               label: "Page Link", 
               name: "pageLink", 
               widget: "object",
