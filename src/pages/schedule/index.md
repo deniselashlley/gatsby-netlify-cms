@@ -1,6 +1,6 @@
 ---
 templateKey: schedule 
-title: ''
+title: The Light Tree
 classesTimetable:
   subHeading: ''
 thisMonth:
