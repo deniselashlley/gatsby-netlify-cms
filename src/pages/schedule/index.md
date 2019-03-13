@@ -1,6 +1,6 @@
 ---
 templateKey: schedule 
-title: Schedule
+title: ''
 classesTimetable:
   subHeading: ''
 thisMonth:

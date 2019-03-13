@@ -379,4 +379,3 @@ collections:
                 { label: "Link", name: "link", widget: "string"}
               ]
             }
-      
