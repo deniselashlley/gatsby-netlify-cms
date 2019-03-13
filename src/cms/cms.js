@@ -20,6 +20,6 @@ CMS.registerPreviewTemplate("classes", ClassesPagePreview);
 CMS.registerPreviewTemplate("teaching", TeachingPagePreview);
 CMS.registerPreviewTemplate("home", HomePagePreview);
 CMS.registerPreviewTemplate("introduction", IntroductionPreview);
-CMS.registerPreviewTemplate("mystory", IntroductionPreview);
+CMS.registerPreviewTemplate("mystory", MyStoryPreview);
 // CMS.registerPreviewTemplate("schedule", SchedulePreview);
 // CMS.registerPreviewTemplate("pastMeetups", PastMeetupsPagePreview);
