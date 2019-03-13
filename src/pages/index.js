@@ -14,8 +14,7 @@ import { Testimonials } from '../components/Testimonials'
 
 import "../styles/home.scss";
 
-export const HomePageTemplate = ({ home,  introduction }) => {
-  console.log(introduction);
+export const HomePageTemplate = ({ home,  introduction, mystory }) => {
   return (
     <>
       <section className="hero-banner">
@@ -30,7 +29,7 @@ export const HomePageTemplate = ({ home,  introduction }) => {
       </section>
       <Introduction data={introduction} />
       <Schedule data={home} />
-      <MyStory data={home} />
+      <MyStory data={mystory} />
       <Services data={home} />
       <Connect data={home} />
       <Testimonials data={home} />
@@ -46,6 +45,7 @@ class HomePage extends React.Component {
     const { frontmatter: home } = data.homePageData.edges[0].node;
     const {seo: { title: seoTitle, description: seoDescription, browserTitle },} = home;
     const { frontmatter: introduction } = data.introduction.edges[0].node;
+    const { frontmatter: mystory } = data.mystory.edges[0].node;
 
     return (
       <Layout footerData={footerData} navbarData={navbarData}>
@@ -61,7 +61,11 @@ class HomePage extends React.Component {
             src="https://public.tockify.com/browser/embed.js"
           />
         </Helmet>
-        <HomePageTemplate home={home} introduction={introduction} />
+        <HomePageTemplate 
+          home={home} 
+          introduction={introduction} 
+          mystory={mystory}
+        />
       </Layout>
     );
   }
@@ -98,6 +102,22 @@ export const pageQuery = graphql`
         }
       }
     }
+    mystory: allMarkdownRemark(filter: { frontmatter: { templateKey: { eq: "my-story" } } }) {
+      edges {
+        node {
+          id
+          frontmatter {
+            title
+            quote
+            body
+            pageLink {
+              label
+              link
+            }
+          }
+        }
+      }
+    }
     homePageData: allMarkdownRemark(filter: { frontmatter: { templateKey: { eq: "home-page" } } }) {
       edges {
         node {
@@ -120,15 +140,6 @@ export const pageQuery = graphql`
                 subHeading
                 body
               }
-              pageLink {
-                text
-                linkURL
-              }
-            }
-            sectionMyStory {
-              title
-              body
-              quote
               pageLink {
                 text
                 linkURL

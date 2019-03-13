@@ -3,8 +3,17 @@ import ReactMarkdown from "react-markdown";
 import CustomLink from "../CustomLink";
 import "./styles.scss";
 
-export const MyStoryTemplate = ({data}) => {
-  const { title, body, quote, pageLink } = data.sectionMyStory;
+export const MyStoryTemplate = ({
+  data: {
+    title,
+    quote,
+    body,
+    pageLink: {
+      link,
+      label,
+    }
+  }
+}) => {
   return (
     <section id="mystory" className="section-block section-block--mystory">
         <div className="container">
@@ -13,10 +22,10 @@ export const MyStoryTemplate = ({data}) => {
             <ReactMarkdown source={quote} className="quote"/>
             <CustomLink
               linkType="internal"
-              linkURL={pageLink.linkURL}
+              linkURL={link}
               className="link link-btn"
             >
-            {pageLink.text}
+            {label}
           </CustomLink>
         </div>
       </section>
