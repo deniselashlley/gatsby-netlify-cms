@@ -270,7 +270,7 @@ collections:
                   { label: "Description", name: "description", widget: "string" },
                 ],
             }
-  - name: "sections"
+  - name: "navbarAndFooter"
     label: "Sections"
     files:
       - file: "src/pages/navbar/index.md"
@@ -333,49 +333,25 @@ collections:
               name: "pageLink", 
               widget: "object",
               fields: [
-                { label: "Link", name: "link", widget: "string" },
+                { label: "Link", name: "link", widget: "text" },
                 { label: "Label", name: "label", widget: "text" },
               ]
             }
-      - file: "src/pages/schedule/index.md"
-        label: "Schedule"
-        name: "schedule"
+      - file: "src/pages/mystory/index.md"
+        label: "My Story"
+        name: "mystory"
         fields:
-          - { label: "Template Key", name: "templateKey", widget: "hidden", default: "schedule" }
+          - { label: "Template Key", name: "templateKey", widget: "hidden", default: "mystory" }
           - { label: "Title", name: "title", widget: "text"}
-          - {
-              label: "Classes Timetable", 
-              name: "classesTimetable", 
-              widget: "object",
-              fields: [
-                { label: "Sub Heading", name: "subHeading", widget: "string" },
-              ] 
-            }
-          - {
-              label: "This Months", 
-              name: "thisMonth", 
-              widget: "object",
-              fields: [
-                { label: "Section Heading", name: "sectionHeading", widget: "string" },
-                { label: "Sub Heading", name: "subHeading", widget: "string" },
-                { label: "Body", name: "body", widget: "markdown" }
-              ] 
-            }
-          - {
-              label: "Coming Up", 
-              name: "comingUp", 
-              widget: "object",
-              fields: [
-                { label: "Sub Heading", name: "subHeading", widget: "string" },
-                { label: "Body", name: "body", widget: "markdown" }
-              ] 
-            }
-          - {
+          - { label: "Body", name: "body", widget: "markdown" }
+          - { label: "Quote", name: "quote", widget: "markdown" }
+          - { label: "Image", name: "image", widget: "image"}
+          - { 
               label: "Page Link", 
               name: "pageLink", 
               widget: "object",
               fields: [
-                { label: "Text", name: "text", widget: "string"},
-                { label: "Link", name: "link", widget: "string"}
+                { label: "Link", name: "link", widget: "text" },
+                { label: "Label", name: "label", widget: "text" },
               ]
             }
