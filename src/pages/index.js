@@ -9,12 +9,12 @@ import { Introduction } from '../components/Introduction'
 import { Schedule } from '../components/Schedule'
 import { MyStory } from '../components/MyStory'
 import { Services } from '../components/Services'
-import { Connect } from '../components/Connect'
+import { Contact } from '../components/Contact'
 import { Testimonials } from '../components/Testimonials'
 
 import "../styles/home.scss";
 
-export const HomePageTemplate = ({ home,  introduction, mystory }) => {
+export const HomePageTemplate = ({ home,  introduction, mystory, contact }) => {
   return (
     <>
       <section className="hero-banner">
@@ -31,7 +31,7 @@ export const HomePageTemplate = ({ home,  introduction, mystory }) => {
       <Schedule data={home} />
       <MyStory data={mystory} />
       <Services data={home} />
-      <Connect data={home} />
+      <Contact data={contact} />
       <Testimonials data={home} />
     </>
   );
@@ -46,6 +46,7 @@ class HomePage extends React.Component {
     const {seo: { title: seoTitle, description: seoDescription, browserTitle },} = home;
     const { frontmatter: introduction } = data.introduction.edges[0].node;
     const { frontmatter: mystory } = data.mystory.edges[0].node;
+    const { frontmatter: contact } = data.contact.edges[0].node;
 
     return (
       <Layout footerData={footerData} navbarData={navbarData}>
@@ -65,6 +66,7 @@ class HomePage extends React.Component {
           home={home} 
           introduction={introduction} 
           mystory={mystory}
+          contact={contact}
         />
       </Layout>
     );
@@ -112,6 +114,21 @@ export const pageQuery = graphql`
             body
             pageLink {
               label
+              link
+            }
+          }
+        }
+      }
+    }
+    contact: allMarkdownRemark(filter: { frontmatter: { templateKey: { eq: "contact" } } }) {
+      edges {
+        node {
+          id
+          frontmatter {
+            title
+            contactList {
+              subHeading
+              text
               link
             }
           }
