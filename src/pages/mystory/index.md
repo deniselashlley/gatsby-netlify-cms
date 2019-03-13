@@ -7,7 +7,7 @@ pageLink:
 quote: >-
   > “Have you been ignoring or missing out on Life’s attempts to wake you up
   to your true self?“
-body: >2-
+body: >-
   I have been a practitioner of Yoga since 2002 and began teaching Yoga in since 2015. 
 
   I discovered Yoga in a time of transition while I was ending a 9 year
