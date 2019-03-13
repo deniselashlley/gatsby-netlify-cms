@@ -7,7 +7,6 @@ import HomePagePreview from "./preview-templates/HomePagePreview";
 // import MeetupPreview from "./preview-templates/MeetupPreview";
 import FooterPreview from "./preview-templates/FooterPreview";
 import NavbarPreview from "./preview-templates/NavbarPreview";
-// import PastMeetupsPagePreview from "./preview-templates/PastMeetupsPagePreview";
 import IntroductionPreview from "./preview-templates/IntroductionPreview";
 import MyStoryPreview from "./preview-templates/MyStoryPreview";
 //import SchedulePreview from "./preview-templates/SchedulePreview";

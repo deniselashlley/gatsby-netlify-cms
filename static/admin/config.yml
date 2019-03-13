@@ -333,25 +333,24 @@ collections:
               name: "pageLink", 
               widget: "object",
               fields: [
-                { label: "Link", name: "link", widget: "text" },
-                { label: "Label", name: "label", widget: "text" },
+                { label: "Link", name: "link", widget: "string" },
+                { label: "Label", name: "label", widget: "string" },
               ]
             }
       - file: "src/pages/mystory/index.md"
         label: "My Story"
         name: "mystory"
         fields:
-          - { label: "Template Key", name: "templateKey", widget: "hidden", default: "mystory" }
-          - { label: "Title", name: "title", widget: "text"}
+          - { label: "Template Key", name: "templateKey", widget: "hidden", default: "my-story" }
+          - { label: "Title", name: "title", widget: "string"}
           - { label: "Body", name: "body", widget: "markdown" }
           - { label: "Quote", name: "quote", widget: "markdown" }
-          - { label: "Image", name: "image", widget: "image"}
           - { 
               label: "Page Link", 
               name: "pageLink", 
               widget: "object",
               fields: [
-                { label: "Link", name: "link", widget: "text" },
-                { label: "Label", name: "label", widget: "text" },
+                { label: "Link", name: "link", widget: "string" },
+                { label: "Label", name: "label", widget: "string" },
               ]
             }
