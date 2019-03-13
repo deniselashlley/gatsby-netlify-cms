@@ -1,14 +1,14 @@
 ---
 templateKey: my-story
-title: 'My Story'
-pageLink:
-  link: /teachings
-  label: More on teaching philosophy
+title: My Story
 quote: >-
-  > “Have you been ignoring or missing out on Life’s attempts to wake you up
-  to your true self?“
-body: >-
-  I have been a practitioner of Yoga since 2002 and began teaching Yoga in since 2015. 
+  > “Have you been ignoring or missing out on Life’s attempts to wake you up to
+  your true self?“
+pageLink:
+  label: More on teaching philosophy
+  link: /teachings
+---
+I have been a practitioner of Yoga since 2002 and began teaching Yoga in since 2015. 
 
   I discovered Yoga in a time of transition while I was ending a 9 year
   relationship and I was looking for some respite, solace and ‘me’ time. 
@@ -70,4 +70,3 @@ body: >-
   I now realise that, on many occasions in my past, life had been attempting
   to ‘wake me up’ to mySelf, to connect me, in a more intuitive way, to the
   innate ability \[that we all share] to create my life in my vision.
----
