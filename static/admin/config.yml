@@ -270,7 +270,7 @@ collections:
                   { label: "Description", name: "description", widget: "string" },
                 ],
             }
-  - name: "navbarAndFooter"
+  - name: "sections"
     label: "Sections"
     files:
       - file: "src/pages/navbar/index.md"
