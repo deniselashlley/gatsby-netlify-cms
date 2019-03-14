@@ -3,15 +3,15 @@ import PropTypes from "prop-types";
 
 import { TestimonialsTemplate } from "../../components/Testimonials";
 
-const TestimonialPreview = ({ entry }) => {
+const TestimonialsPreview = ({ entry }) => {
   const data = entry.getIn(["data"]).toJS();
   return <TestimonialsTemplate data={data} />;
 };
 
-TestimonialPreview.propTypes = {
+TestimonialsPreview.propTypes = {
   entry: PropTypes.shape({
     getIn: PropTypes.func,
   }),
 };
 
-export default TestimonialPreview;
+export default TestimonialsPreview;
