@@ -370,18 +370,18 @@ collections:
                 { label: "Text", name: "text", widget: "string" }
               ]
             }
-          - file: "src/pages/testimonials/index.md"
-            label: "Testimonials"
-            name: "testimonials"
-            fields:
-              - { label: "Template Key", name: "templateKey", widget: "hidden", default: "testimonials" }
-              - { label: "Title", name: "title", widget: "string"}
-              - {
-                  label: "Testimonial List", 
-                  name: "testimonialList",
-                  widget: "list",
-                  fields: [
-                    { label: "description", name: "description", widget: "text" },
-                    { label: "author", name: "author", widget: "text" }
-                  ] 
-                }
+      - file: "src/pages/testimonials/index.md"
+        label: "Testimonials"
+        name: "testimonials"
+        fields:
+          - { label: "Template Key", name: "templateKey", widget: "hidden", default: "testimonials" }
+          - { label: "Title", name: "title", widget: "string"}
+          - {
+              label: "Testimonial List", 
+              name: "testimonialList",
+              widget: "list",
+              fields: [
+                { label: "description", name: "description", widget: "text" },
+                { label: "author", name: "author", widget: "text" }
+              ] 
+            }
