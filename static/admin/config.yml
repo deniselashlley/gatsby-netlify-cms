@@ -386,21 +386,21 @@ collections:
               ] 
             }
        - file: "src/pages/services/index.md"
-        label: "Services"
-        name: "service"
-        fields:
-          - { label: "Template Key", name: "templateKey", widget: "hidden", default: "services" }
-          - { label: "Title", name: "title", widget: "string"}
-          - {
-          - { 
-              label: "Service List", 
-              name: "serviceList", 
-              widget: "list",
-              fields: [
-                { label: "Title", name: "title", widget: "string"},
-                { label: "Description", name: "description", widget: "text"},
-                { label: "Image", name: "image", widget: "image"},
-                { label: "Label", name: "Label", widget: "string"},
-                { label: "Link", name: "link", widget: "string"}
-              ]
-            }
+          label: "Services"
+          name: "service"
+          fields:
+            - { label: "Template Key", name: "templateKey", widget: "hidden", default: "services" }
+            - { label: "Title", name: "title", widget: "string"}
+            - {
+            - { 
+                label: "Service List", 
+                name: "serviceList", 
+                widget: "list",
+                fields: [
+                  { label: "Title", name: "title", widget: "string"},
+                  { label: "Description", name: "description", widget: "text"},
+                  { label: "Image", name: "image", widget: "image"},
+                  { label: "Label", name: "Label", widget: "string"},
+                  { label: "Link", name: "link", widget: "string"}
+                ]
+              }
