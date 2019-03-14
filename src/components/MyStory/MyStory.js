@@ -19,7 +19,9 @@ export const MyStoryTemplate = ({
         <div className="container">
           <h2 className="section-title">{title}</h2>
             <ReactMarkdown source={content} />
-            <ReactMarkdown source={quote} className="quote"/>
+            <blockquote className="quote">
+              <p>{quote}</p>
+            </blockquote>
             <CustomLink
               linkType="internal"
               linkURL={link}

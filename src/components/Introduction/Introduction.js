@@ -15,7 +15,9 @@ export const IntroductionTemplate = ({data}) => {
         </div>
         <div className="block block-context">
           <ReactMarkdown source={content} />
-          <ReactMarkdown source={quote} className="quote"/>
+          <blockquote className="quote">
+            <p>{quote}</p>
+          </blockquote>
           <p className="highlightedText">{highlightedText}</p>
         <CustomLink
           linkType="internal"
