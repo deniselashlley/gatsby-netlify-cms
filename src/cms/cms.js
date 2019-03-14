@@ -9,9 +9,8 @@ import NavbarPreview from "./preview-templates/NavbarPreview";
 import IntroductionPreview from "./preview-templates/IntroductionPreview";
 import MyStoryPreview from "./preview-templates/MyStoryPreview";
 import ContactPreview from "./preview-templates/ContactPreview";
-//import SchedulePreview from "./preview-templates/SchedulePreview";
+import TestimonialPreview from "./preview-templates/TestimonialPreview";
 
-// CMS.registerPreviewTemplate("meetups", MeetupPreview);
 CMS.registerPreviewTemplate("footer", FooterPreview);
 CMS.registerPreviewTemplate("navbar", NavbarPreview);
 CMS.registerPreviewTemplate("about", AboutPagePreview);
@@ -21,5 +20,4 @@ CMS.registerPreviewTemplate("home", HomePagePreview);
 CMS.registerPreviewTemplate("introduction", IntroductionPreview);
 CMS.registerPreviewTemplate("mystory", MyStoryPreview);
 CMS.registerPreviewTemplate("contact", ContactPreview);
-// CMS.registerPreviewTemplate("schedule", SchedulePreview);
-// CMS.registerPreviewTemplate("pastMeetups", PastMeetupsPagePreview);
+CMS.registerPreviewTemplate("testimonial", TestimonialPreview);
