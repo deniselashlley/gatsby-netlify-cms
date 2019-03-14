@@ -43,6 +43,8 @@ exports.createPages = ({ actions, graphql }) => {
         return false;
       } else if (edge.node.frontmatter.templateKey === "testimonials")  {
           return false;
+      } else if (edge.node.frontmatter.templateKey === "services")  {
+          return false;
       } else {
         return !Boolean(edge.node.fields.slug.match(/^\/meetups\/.*$/));
       }

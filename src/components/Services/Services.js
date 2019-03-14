@@ -1,12 +1,13 @@
 import React from "react";
-import ReactMarkdown from "react-markdown";
 import "./styles.scss";
 
-export const ServicesTemplate = ({data}) => { 
-  const { title, serviceList } = data.sectionConnect.services;
-  const { subHeading, body } = data.sectionConnect.subscribe;
+export const ServicesTemplate = ({
+  data: {
+    title,
+    serviceList
+  }}) => { 
   return (
-<section id="services" className="section-block section-block--services">
+    <section id="services" className="section-block section-block--services">
         <div className="container">
           <h2 className="section-title">{title}</h2>
           <div>
@@ -17,17 +18,13 @@ export const ServicesTemplate = ({data}) => {
                 <div className="service-text-overlay">
                   <p className="service-title">{services.title}</p>
                   <p>{services.description}</p>
-                  { services.linkText !== '' && (
-                    <a href={services.linkURL}>{services.linkText}</a>
+                  { services.label !== '' && (
+                    <a href={services.link}>{services.label}</a>
                   )}
                 </div>
               </li>
             ))}
           </ul>
-          </div>
-          <div>
-            <h3>{subHeading}</h3>
-            <ReactMarkdown source={body} />
           </div>
         </div>
       </section>

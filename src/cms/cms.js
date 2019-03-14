@@ -10,6 +10,8 @@ import IntroductionPreview from "./preview-templates/IntroductionPreview";
 import MyStoryPreview from "./preview-templates/MyStoryPreview";
 import ContactPreview from "./preview-templates/ContactPreview";
 import TestimonialsPreview from "./preview-templates/TestimonialsPreview";
+import ServicesPreview from "./preview-templates/ServicesPreview";
+// import SchedulePreview from "./preview-templates/SchedulePreview";
 
 CMS.registerPreviewTemplate("footer", FooterPreview);
 CMS.registerPreviewTemplate("navbar", NavbarPreview);
@@ -21,3 +23,5 @@ CMS.registerPreviewTemplate("introduction", IntroductionPreview);
 CMS.registerPreviewTemplate("mystory", MyStoryPreview);
 CMS.registerPreviewTemplate("contact", ContactPreview);
 CMS.registerPreviewTemplate("testimonials", TestimonialsPreview);
+CMS.registerPreviewTemplate("services", ServicesPreview);
+// CMS.registerPreviewTemplate("schedule", SchedulePreview);

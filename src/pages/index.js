@@ -19,7 +19,8 @@ export const HomePageTemplate = ({
     introduction, 
     mystory, 
     contact,
-    testimonials
+    testimonials,
+    services
  }) => {
   return (
     <>
@@ -36,7 +37,7 @@ export const HomePageTemplate = ({
       <Introduction data={introduction} />
       <Schedule data={home} />
       <MyStory data={mystory} />
-      <Services data={home} />
+      <Services data={services} />
       <Contact data={contact} />
       <Testimonials data={testimonials} />
     </>
@@ -54,6 +55,7 @@ class HomePage extends React.Component {
     const { frontmatter: mystory } = data.mystory.edges[0].node;
     const { frontmatter: contact } = data.contact.edges[0].node;
     const { frontmatter: testimonials } = data.testimonials.edges[0].node;
+    const { frontmatter: services } = data.services.edges[0].node;
     return (
       <Layout footerData={footerData} navbarData={navbarData}>
         <Helmet>
@@ -74,6 +76,7 @@ class HomePage extends React.Component {
           mystory={mystory}
           contact={contact}
           testimonials={testimonials}
+          services={services}
         />
       </Layout>
     );
@@ -151,6 +154,23 @@ export const pageQuery = graphql`
             testimonialList {
               author
               description
+            }
+          }
+        }
+      }
+    }
+    services: allMarkdownRemark(filter: { frontmatter: { templateKey: { eq: "services" } } }) {
+      edges {
+        node {
+          id
+          frontmatter {
+            title
+            serviceList {
+              title
+              image
+              description
+              label
+              link
             }
           }
         }
