@@ -7,7 +7,7 @@ quote: >-
 pageLink:
   label: More on teaching philosophy
   link: /teachings
-body: >-
+content: >-
 I have been a practitioner of Yoga since 2002 and began teaching Yoga in since 2015. 
 
 I discovered Yoga in a time of transition while I was ending a 9 year\

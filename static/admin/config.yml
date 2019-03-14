@@ -343,7 +343,7 @@ collections:
         fields:
           - { label: "Template Key", name: "templateKey", widget: "hidden", default: "my-story" }
           - { label: "Title", name: "title", widget: "string"}
-          - { label: "Body", name: "body", widget: "markdown" }
+          - { label: "Content", name: "content", widget: "markdown" }
           - { label: "Quote", name: "quote", widget: "markdown" }
           - { 
               label: "Page Link", 

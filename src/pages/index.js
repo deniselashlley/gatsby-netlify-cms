@@ -111,7 +111,7 @@ export const pageQuery = graphql`
           frontmatter {
             title
             quote
-            body
+            content
             pageLink {
               label
               link
