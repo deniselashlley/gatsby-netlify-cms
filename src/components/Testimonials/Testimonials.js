@@ -5,8 +5,13 @@ import "slick-carousel/slick/slick-theme.css";
 
 import "./styles.scss";
 
-export const TestimonialsTemplate = ({ data, settings}) => {
-const { title, testimonialList } = data.sectionTestimonial;
+export const TestimonialsTemplate = ({ 
+  data:{
+    title,
+    testimonialList
+  },
+  settings,
+}) => {
 
 return (
   <section className="section-block section-block--testimonials">

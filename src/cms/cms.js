@@ -20,4 +20,4 @@ CMS.registerPreviewTemplate("home", HomePagePreview);
 CMS.registerPreviewTemplate("introduction", IntroductionPreview);
 CMS.registerPreviewTemplate("mystory", MyStoryPreview);
 CMS.registerPreviewTemplate("contact", ContactPreview);
-CMS.registerPreviewTemplate("testimonial", TestimonialPreview);
+CMS.registerPreviewTemplate("testimonials", TestimonialPreview);

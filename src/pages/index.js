@@ -14,7 +14,13 @@ import { Testimonials } from '../components/Testimonials'
 
 import "../styles/home.scss";
 
-export const HomePageTemplate = ({ home,  introduction, mystory, contact }) => {
+export const HomePageTemplate = ({ 
+    home,  
+    introduction, 
+    mystory, 
+    contact,
+    testimonials
+ }) => {
   return (
     <>
       <section className="hero-banner">
@@ -32,7 +38,7 @@ export const HomePageTemplate = ({ home,  introduction, mystory, contact }) => {
       <MyStory data={mystory} />
       <Services data={home} />
       <Contact data={contact} />
-      <Testimonials data={home} />
+      <Testimonials data={testimonials} />
     </>
   );
 };
@@ -47,7 +53,7 @@ class HomePage extends React.Component {
     const { frontmatter: introduction } = data.introduction.edges[0].node;
     const { frontmatter: mystory } = data.mystory.edges[0].node;
     const { frontmatter: contact } = data.contact.edges[0].node;
-
+    const { frontmatter: testimonials } = data.testimonials.edges[0].node;
     return (
       <Layout footerData={footerData} navbarData={navbarData}>
         <Helmet>
@@ -67,6 +73,7 @@ class HomePage extends React.Component {
           introduction={introduction} 
           mystory={mystory}
           contact={contact}
+          testimonials={testimonials}
         />
       </Layout>
     );
@@ -130,6 +137,20 @@ export const pageQuery = graphql`
               subHeading
               text
               link
+            }
+          }
+        }
+      }
+    }
+    testimonials: allMarkdownRemark(filter: { frontmatter: { templateKey: { eq: "testimonials" } } }) {
+      edges {
+        node {
+          id
+          frontmatter {
+            title
+            testimonialList {
+              author
+              description
             }
           }
         }
