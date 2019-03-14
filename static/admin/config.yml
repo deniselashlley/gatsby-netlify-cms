@@ -359,7 +359,7 @@ collections:
         name: "contact"
         fields:
           - { label: "Template Key", name: "templateKey", widget: "hidden", default: "contact" }
-          - { label: "Title", name: "title", widget: "string"},
+          - { label: "Title", name: "title", widget: "string"}
           - { 
               label: "Contact List", 
               name: "contactList", 
