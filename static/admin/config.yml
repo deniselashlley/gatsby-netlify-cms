@@ -391,7 +391,6 @@ collections:
         fields:
           - { label: "Template Key", name: "templateKey", widget: "hidden", default: "services" }
           - { label: "Title", name: "title", widget: "string"}
-          - {
           - { 
               label: "Service List", 
               name: "serviceList", 
