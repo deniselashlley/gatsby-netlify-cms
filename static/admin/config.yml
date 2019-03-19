@@ -409,8 +409,8 @@ collections:
         fields:
           - { label: "Template Key", name: "templateKey", widget: "hidden", default: "schedule" }
           - { label: "Title", name: "title", widget: "string"}
-          - { label: "Class Heading", name: "classHeading", widget: "string"},
-          - { label: "Events Heading", name: "eventsHeading", widget: "string"},
+          - { label: "Class Heading", name: "classHeading", widget: "string"}
+          - { label: "Events Heading", name: "eventsHeading", widget: "string"}
           - {
               label: "Schedule Section",
               name: "scheduleSection",
