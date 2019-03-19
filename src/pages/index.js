@@ -206,56 +206,6 @@ export const pageQuery = graphql`
             bannerText {
               itemText
             }
-            sectionSchedule {
-              title
-              classesTimetable {
-                subHeading
-                body
-              }
-              comingUp {
-                subHeading
-                body
-              }
-              thisMonth {
-                sectionHeading
-                subHeading
-                body
-              }
-              pageLink {
-                text
-                linkURL
-              }
-            }
-            sectionConnect {
-              title
-              contact {
-                linkText
-                linkURL
-                subHeading
-              }
-              services {
-                title
-                subHeading
-                serviceList {
-                  title
-                  image
-                  description
-                  linkText
-                  linkURL
-                }
-              }
-              subscribe {
-                subHeading
-                body
-              }
-            }
-            sectionTestimonial {
-              title
-              testimonialList {
-                author
-                description
-              }
-            }
             seo {
               browserTitle
               title
