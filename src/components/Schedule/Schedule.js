@@ -6,44 +6,45 @@ import "./styles.scss";
 export const ScheduleTemplate = ({data}) => {
   const { 
     title, 
-    subHeading, 
-    thisMonth, 
-    comingUp, 
-    classesTimetable,
-    pageLink 
-  } = data.sectionSchedule;
+    classHeading,
+    eventsHeading,
+    scheduleSection,
+    pageLink: {
+      label,
+      link
+    }
+  } = data;
   return (
     <section id="schedule" className="section-block section-block--schedule">
     <div className="container">
        <h2 className="section-title">{title}</h2>
        <div className="container-row">
          <div className="block">
-           <h3>{classesTimetable.subHeading}</h3>
+           <h3>{classHeading}</h3>
            <div 
              data-tockify-component="calendar" 
              data-tockify-calendar="denise.lashlley" 
              className="embed-calender"
            />
-           <ReactMarkdown source={classesTimetable.body} />
          </div>
-       <div className="block">
-       <h3>{thisMonth.sectionHeading}</h3>
-         <div className="block--events">
-           <h4>{thisMonth.subHeading}</h4>
-           <ReactMarkdown source={thisMonth.body} />
-         </div>
-         <div className="block--events">
-           <h4>{comingUp.subHeading}</h4>
-           <ReactMarkdown source={comingUp.body} />
-         </div>
-       </div>
+        <div className="block">
+          <h3>{eventsHeading}</h3>
+          {
+            scheduleSection.map(section => (
+            <div className="block--events">
+              <h4>{section.title}</h4>
+              <ReactMarkdown source={section.body} />
+            </div>
+            ))
+          }
+          </div>
      </div>
      <CustomLink
-         linkType="internal"
-         linkURL={pageLink.linkURL}
-         className="link link-btn"
+        linkType="internal"
+        linkURL={link}
+        className="link link-btn"
        >
-         {pageLink.text}
+        {label}
        </CustomLink>
    </div>
    </section>

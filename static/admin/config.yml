@@ -402,4 +402,30 @@ collections:
                 { label: "Label", name: "Label", widget: "string"},
                 { label: "Link", name: "link", widget: "string"}
               ]
+            } 
+      - file: "src/pages/schedule/index.md"
+        label: "Schedule"
+        name: "schedule"
+        fields:
+          - { label: "Template Key", name: "templateKey", widget: "hidden", default: "schedule" }
+          - { label: "Title", name: "title", widget: "string"}
+          - { label: "Class Heading", name: "classHeading", widget: "string"},
+          - { label: "Events Heading", name: "eventsHeading", widget: "string"},
+          - {
+              label: "Schedule Section",
+              name: "scheduleSection",
+              widget: "list",
+              fields: [
+                { label: "Title", name: "title", widget: "string"},
+                { label: "Body", name: "body", widget: "markdown" }
+              ]
+            }
+          - { 
+              label: "Page Link", 
+              name: "pageLink", 
+              widget: "object",
+              fields: [
+                { label: "Link", name: "link", widget: "string" },
+                { label: "Label", name: "label", widget: "string" },
+              ]
             }
