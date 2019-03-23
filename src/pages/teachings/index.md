@@ -1,6 +1,6 @@
 ---
 templateKey: teaching-page
-title: Teaching philosophy – connection and creativity in action
+title: Teaching philosophy – connection and creativity in action 222
 mainImage:
   image: /img/books_about_yoga.jpg
   imageAlt: yoga teachings.
