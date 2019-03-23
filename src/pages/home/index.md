@@ -1,10 +1,10 @@
 ---
 templateKey: home-page
 bannerText:
-  - itemText: Shine your Light
   - itemText: Energise your Body
-  - itemText: Nourish your Soul
   - itemText: Calm your Mind
+  - itemText: Nourish your Soul
+  - itemText: Shine your Light
 seo:
   browserTitle: The Light Tree
   description: >-
