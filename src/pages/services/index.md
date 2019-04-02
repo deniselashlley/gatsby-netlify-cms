@@ -30,7 +30,7 @@ serviceList:
     link: '#schedule'
     title: Workshops and events
   - description: ' I am passionate about all people having access the benefits of a Yoga practice. I offer a reduced rate or FOC regular class to one charitable organisation for their service users. '
-    image: /img/AdobeStock_138799437_Preview.jpg
+    image: /img/group_diversity_yoga.jpg
     label: Contact me to find out more
     link: 'mailto:jess@thelighttreeyoga.co.uk'
     title: Outreach
@@ -43,7 +43,7 @@ serviceList:
     link: '/'
     title: Subscribe to podcast...
   - description: 'Download classes playlist from soundcloud'
-    image: /img/AdobeStock_193164610_Preview.jpeg
+    image: /img/group_yoga_small_02.jpg
     label: Soundcloud mix
     link: '/'
     title: Subscribe to class playlist..

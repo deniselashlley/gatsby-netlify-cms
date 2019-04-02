@@ -6,7 +6,7 @@ $medium-screen:46.8em;//768px;
 $large-screen:50em; // 992px;
 $xl-large-screen:73em;
 
-$body-dark: #4c4c4c;
+$body-dark: #202020;
 
 $navbar-height: 90px;
 $container-padding: 20px;
@@ -19,8 +19,10 @@ $footer-height: 500px;
 
 $montserrat: 'Montserrat', sans-serif;
 
+//rgba(27, 153, 139, 011) change from grey
 $white: #fff;
 $green: rgba(27, 153, 139, 1);
+$light-green: rgba(27, 153, 139, 0.11);
 $purple: rgba(109, 70, 107, 1);
 $black-haze: rgba(248, 248, 246, 1);
 $abbey:#676767;

@@ -18,12 +18,10 @@
             width: 100%;
             
             @include respond-to("medium") {
-              
+
               width: 48%;
               flex-basis: auto;
             }
-    
-            
     
             .service-text-overlay {
               position: absolute;

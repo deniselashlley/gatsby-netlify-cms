@@ -31,7 +31,7 @@ export const ScheduleTemplate = ({data}) => {
           <h3>{eventsHeading}</h3>
           {
             scheduleSection.map(section => (
-            <div className="block--events">
+            <div key={section.title} className="block--events">
               <h4>{section.title}</h4>
               <ReactMarkdown source={section.body} />
             </div>

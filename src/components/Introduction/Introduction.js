@@ -8,12 +8,12 @@ export const IntroductionTemplate = ({data}) => {
   return (
     <section id="intro" className="section-block section-block--introduction">
     <div className="container">
-      <h1 className="section-title">{title}</h1>
       <div className="container-row">
         <div className="block block-profile">
           <img src={image} alt="" className="profile" />
         </div>
         <div className="block block-context">
+          <h1 className="section-title">{title}</h1>
           <ReactMarkdown source={content} />
           <blockquote className="quote">
             <p>{quote}</p>

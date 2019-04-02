@@ -1,8 +1,33 @@
 @import "../../styles/variables.scss";
 @import "../../styles/mixins.scss";
 
+
+#intro {
+  .link {
+    &.link-btn {
+      min-width: auto;
+      width: 18em;
+      margin-left: auto;
+      margin-right: auto;
+      display: block;
+    }
+  }
+
+}
+
 .section-block {
   &.section-block--introduction{
+
+    .highlightedText {
+      text-align: center;
+    }
+
+    h1 {
+      
+      @include respond-to("medium") {
+        text-align: left;
+      }
+    }
 
     .block {
       align-items: left;

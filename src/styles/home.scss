@@ -24,10 +24,10 @@
     z-index: 40;
     top: 25%;
     margin: 0 auto;
-    max-width: 90%;
+    max-width: 60%;
 
     @include respond-to("medium") {
-      top: 50%;
+      top: 36%;
     }
 
     li {
@@ -79,13 +79,11 @@
 
 .section-block {
   padding-bottom: 80px;
-  //background-color: $yellow;
 
-  &:nth-child(even) {
-    background-color: $black-haze;
+  &:nth-child(odd) {
+    background-color: $light-green;
   }
   .quote {
-    // background-color: $green;
     color: $green;
     font-size: 1.3rem;
     text-align: center;

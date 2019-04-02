@@ -2,7 +2,7 @@
 templateKey: about-page
 title: About yoga
 mainImage:
-  image: /img/AdobeStock_235341077_Preview.jpeg
+  image: /img/group_yoga_01.jpg
   imageAlt: group of yoga
 seo:
   browserTitle: The Light Tree | About yoga

@@ -3,6 +3,12 @@
 
 .about {
 
+  .banner {
+    img {
+      object-position: top;
+    }
+  }
+
   p {
     strong {
       display: block;

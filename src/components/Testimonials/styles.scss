@@ -1,9 +1,13 @@
 @import "../../styles/variables.scss";
 @import "../../styles/mixins.scss";
 
+#testimonials {
+  background-color: $yellow;
+}
+
 .section-block {
+
   &.section-block--testimonials{
-    background-color: $yellow;
     margin-bottom: 0;
     padding-bottom: 30px;
     padding-top: 30px;

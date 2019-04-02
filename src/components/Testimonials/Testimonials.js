@@ -14,7 +14,7 @@ export const TestimonialsTemplate = ({
 }) => {
 
 return (
-  <section className="section-block section-block--testimonials">
+  <section id="testimonials" className="section-block section-block--testimonials">
       <div className="container">
         <h2 className="section-title">{title}</h2>
         <div className="slider-wrapper">
