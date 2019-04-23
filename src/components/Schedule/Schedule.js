@@ -27,10 +27,10 @@ export const ScheduleTemplate = ({data}) => {
                 defer
                 async
                 src="https://calendar.time.ly/embed.js" 
-                data-src="https://calendar.time.ly/wzwcx55h/stream?notoolbar=1&range=days&days=7" 
+                data-src="https://calendar.time.ly/wzwcx55h/stream" 
                 data-max-height="0" 
                 id="timely_script" 
-                class="timely-script"
+                className="timely-script"
                 />
             </Helmet>
          </div>
