@@ -29,6 +29,7 @@
     "react-google-maps": "^9.4.5",
     "react-helmet": "^5.2.0",
     "react-markdown": "^4.0.3",
+    "react-script-tag": "^1.1.2",
     "react-slick": "^0.23.2",
     "react-transition-group": "^2.5.3",
     "slick-carousel": "^1.8.1",

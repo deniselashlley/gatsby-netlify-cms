@@ -1,5 +1,6 @@
 import React from "react";
 import ReactMarkdown from "react-markdown";
+import ScriptTag from "react-script-tag";
 import CustomLink from "../CustomLink";
 import "./styles.scss";
 
@@ -21,11 +22,15 @@ export const ScheduleTemplate = ({data}) => {
        <div className="container-row">
          <div className="block">
            <h3>{classHeading}</h3>
-           <div 
-             data-tockify-component="calendar" 
-             data-tockify-calendar="denise.lashlley" 
-             className="embed-calender"
-           />
+           <ScriptTag isHydrating={true} 
+            defer
+            async
+            src="https://calendar.time.ly/embed.js" 
+            data-src="https://calendar.time.ly/wzwcx55h/stream?notoolbar=1&range=days&days=7" 
+            data-max-height="0" 
+            id="timely_script" 
+            className="timely-script" 
+            />
          </div>
         <div className="block">
           <h3>{eventsHeading}</h3>
