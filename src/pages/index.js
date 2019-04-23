@@ -71,15 +71,6 @@ class HomePage extends React.Component {
             data-tockify-script="embed" 
             src="https://public.tockify.com/browser/embed.js"
           /> */}
-          <script 
-            defer
-            async
-            src="https://calendar.time.ly/embed.js" 
-            data-src="https://calendar.time.ly/wzwcx55h/stream?notoolbar=1&range=days&days=7" 
-            data-max-height="0" 
-            id="timely_script" 
-            class="timely-script"
-          />
         </Helmet>
         <HomePageTemplate 
           home={home} 

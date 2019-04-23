@@ -1,6 +1,6 @@
 import React from "react";
 import ReactMarkdown from "react-markdown";
-import ScriptTag from "react-script-tag";
+import Helmet from "react-helmet";
 import CustomLink from "../CustomLink";
 import "./styles.scss";
 
@@ -22,15 +22,17 @@ export const ScheduleTemplate = ({data}) => {
        <div className="container-row">
          <div className="block">
            <h3>{classHeading}</h3>
-           <ScriptTag isHydrating={true} 
-            defer
-            async
-            src="https://calendar.time.ly/embed.js" 
-            data-src="https://calendar.time.ly/wzwcx55h/stream?notoolbar=1&range=days&days=7" 
-            data-max-height="0" 
-            id="timely_script" 
-            className="timely-script" 
-            />
+            <Helmet>
+              <script 
+                defer
+                async
+                src="https://calendar.time.ly/embed.js" 
+                data-src="https://calendar.time.ly/wzwcx55h/stream?notoolbar=1&range=days&days=7" 
+                data-max-height="0" 
+                id="timely_script" 
+                class="timely-script"
+                />
+            </Helmet>
          </div>
         <div className="block">
           <h3>{eventsHeading}</h3>
