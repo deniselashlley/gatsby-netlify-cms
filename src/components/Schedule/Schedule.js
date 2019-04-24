@@ -23,7 +23,7 @@ export const ScheduleTemplate = ({data}) => {
          <div className="block">
            <h3>{classHeading}</h3>
            <div 
-             data-tockify-component="mini" 
+             data-tockify-component="calendar" 
              data-tockify-calendar="thelighttreeclasses" 
              className="embed-calender"
            />
