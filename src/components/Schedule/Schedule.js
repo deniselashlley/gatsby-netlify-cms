@@ -1,6 +1,5 @@
 import React from "react";
 import ReactMarkdown from "react-markdown";
-import Helmet from "react-helmet";
 import CustomLink from "../CustomLink";
 import "./styles.scss";
 
@@ -15,6 +14,10 @@ export const ScheduleTemplate = ({data}) => {
       link
     }
   } = data;
+
+  const queryString = `
+    https://teamup.com/ksno5a9u3kdnfpupfc?view=a&disableSidepanel=1&showHeader=0&showViewSelector=0
+  `
   return (
     <section id="schedule" className="section-block section-block--schedule">
     <div className="container">
@@ -22,11 +25,13 @@ export const ScheduleTemplate = ({data}) => {
        <div className="container-row">
          <div className="block">
            <h3>{classHeading}</h3>
-           <div 
-             data-tockify-component="mini" 
-             data-tockify-calendar="thelighttreeclasses" 
-             className="embed-calender"
-           />
+           <iframe 
+            title="yogoschedule"
+            src={queryString} 
+            frameBorder="0" 
+            width="100%" 
+            height="700" 
+          />
          </div>
         <div className="block">
           <h3>{eventsHeading}</h3>

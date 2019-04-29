@@ -79,6 +79,7 @@
 
 .section-block {
   padding-bottom: 80px;
+  scroll-behavior: smooth;
 
   &:nth-child(odd) {
     background-color: $light-green;
