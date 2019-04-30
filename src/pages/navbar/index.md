@@ -1,12 +1,12 @@
 ---
 templateKey: navbar
 menuItems:
-  - label: my story
-    linkType: hash
-    linkURL: '#mystory'
   - label: schedule
     linkType: hash
     linkURL: '#schedule'
+  - label: my story
+    linkType: hash
+    linkURL: '#mystory'
   - label: services
     linkType: hash
     linkURL: '#services'

@@ -2,7 +2,7 @@
 @import "../../styles/mixins.scss";
 
 .site-header {
-  position: relative;
+  position: fixed;
   top: 0;
   width: 100%;
   padding: 10px 0;
@@ -11,10 +11,6 @@
   line-height: $navbar-height;
   z-index: 50;
   box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.22);
-
-  @include respond-to("medium") {
-    position: fixed;
-  }
 
   .site-brand {
     margin: 0 auto;
@@ -59,6 +55,7 @@
 
         &.open {
           max-height: 400px;
+          box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.22);
         }
 
         @include respond-to("medium") {
@@ -80,10 +77,10 @@
         span {
           background: $abbey;
           display: block;
-          height: 2px;
+          height: 4px;
           position: relative;
           transition: background .2s ease-out;
-          width: 25px;
+          width: 6vh;
           
           &:before, &:after {
             background: $abbey;
@@ -96,11 +93,11 @@
           }
 
           &:before {
-            top: 5px;
+            top: 8px;
           }
 
           &:after {
-            top: -5px;
+            top: -8px;
           }
         }
 

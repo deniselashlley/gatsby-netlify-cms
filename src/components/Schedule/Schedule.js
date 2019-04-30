@@ -16,7 +16,7 @@ export const ScheduleTemplate = ({data}) => {
   } = data;
 
   const queryString = `
-    https://teamup.com/ksno5a9u3kdnfpupfc?view=a&disableSidepanel=1&showHeader=0&showViewSelector=0
+  https://teamup.com/ksno5a9u3kdnfpupfc?view=a&disableSidepanel=1&showHeader=0&showViewSelector=0
   `
   return (
     <section id="schedule" className="section-block section-block--schedule">
@@ -30,7 +30,8 @@ export const ScheduleTemplate = ({data}) => {
             src={queryString} 
             frameBorder="0" 
             width="100%" 
-            height="700" 
+            height="500"
+            className="scheduleFrame"
           />
          </div>
         <div className="block">
