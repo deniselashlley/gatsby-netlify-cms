@@ -4,6 +4,7 @@ backend:
   accept_roles: #optional - accepts all users if left out
     - admin
     - editor
+  app_id: a8f7096704075ea91fb71f10eea005dd57fe2853
 
 media_folder: static/img
 public_folder: /img
