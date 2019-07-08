@@ -13,11 +13,9 @@ seo:
 ---
 Your Yoga practice is your personal journey. As the teacher I’m here to guide you safely and mindfully through the class providing options that allow you to create a practice that best serves you in that moment.
 
-Classes are a blend of Hatha and Vinyasa incorporating traditional practices such as mudra and mantra, Chinese medicine techniques, Western restorative postures and African spirituality wisdom and practices. I encourage a deeper more soulful connection to your body and mind through intention, movement, breath, focus, sound and in group settings togetherness, to shift energy and raise your vibration.
+Classes are a blend of Hatha and Vinyasa incorporating traditional practices such as mudra and mantra, Traditional Chinese Medicine, Western restorative postures and African spirituality wisdom and practices. I encourage a deeper more soulful connection to your body and mind through intention, movement, breath, focus, sound and in group settings togetherness, to shift energy and raise your vibration.
 
 My intention is that you leave class with a smile feeling more present, connected, taller and rooted than when you came in. With regular practice my intention is that you find the transformation you are seeking. 
-
-
 
 ## Class styles
 
