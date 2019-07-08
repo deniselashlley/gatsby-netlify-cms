@@ -7,7 +7,7 @@ serviceList:
       to book private group classes.
     image: /img/adobestock_194685469.jpg
     link: ''
-    title: Group Yoga
+    title: GROUP YOGA
   - description: >-
       I offer private 1-2-1 sessions at your home or at my home studio. Perfect
       when you have a specific goal and/or a group session isn't appropriate.
@@ -19,7 +19,7 @@ serviceList:
       regular basis or as a one off workshop or event.
     image: /img/active-activity-adult-1308746.jpg
     link: ''
-    title: WORKPLACE
+    title: WORKPLACE YOGA
   - description: >-
       I run workshops at studios and events at different venues. Check out the
       schedule section for upcoming workshops and events or follow me on
@@ -41,12 +41,5 @@ serviceList:
     image: /img/img_20190204_103624_325.jpg
     link: '/https://www.mixcloud.com/soulshallmata/'
     title: 'SOULSHALL MATA '
-  - description: >-
-      Music is an important element of my classes. I sometimes get asked about
-      tracks so I've collected some of the music I use in my classes in
-      playlists.
-    image: /img/group_yoga_small_02.jpg
-    link: /
-    title: CLASS PLAYLISTS
 ---
 
