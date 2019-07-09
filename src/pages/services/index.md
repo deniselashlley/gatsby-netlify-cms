@@ -31,7 +31,7 @@ serviceList:
     image: /img/group_diversity_yoga.jpg
     link: 'mailto:jess@thelighttreeyoga.co.uk'
     title: OUTREACH
-  - Label: Soulshall Mata
+  - label: Soulshall Mata
     description: >-
       A monthly talk show going beneath the physical matter to the soul of what
       matters. Hosted by Jess Gibbs and Shaka Lish with guests. The show is
