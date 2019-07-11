@@ -1,7 +1,5 @@
 ---
 templateKey: home-page
-bannerText:
-  - {}
 seo:
   browserTitle: The Light Tree Yoga
   description: >-
