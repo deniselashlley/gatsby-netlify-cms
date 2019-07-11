@@ -26,11 +26,11 @@ export const HomePageTemplate = ({
   return (
     <>
       <section className="hero-banner">
-        <ul>
+        {/* <ul>
           {home.bannerText.map(imageItems => (
           <li key={imageItems.itemText}>{imageItems.itemText}</li>
           ))}
-        </ul>
+          </ul> */ }
         <AnchorLink href="#intro" className="down-link">
           <span>Introduction</span>
         </AnchorLink>
