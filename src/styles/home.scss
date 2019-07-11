@@ -10,7 +10,7 @@
   margin-bottom: 40px;
 
   @include respond-to("medium") {
-    height: 720px;
+    height: 710px;
     background-position: center 50%;
     margin-bottom: 100px;
   }
@@ -56,6 +56,7 @@
 
   .down-link{
     position: absolute;
+    color: #fff;
     top: 75%;
     left: 0;
     right: 0;
