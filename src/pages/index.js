@@ -203,9 +203,6 @@ export const pageQuery = graphql`
       edges {
         node {
           frontmatter {
-            bannerText {
-              itemText
-            }
             seo {
               browserTitle
               title
