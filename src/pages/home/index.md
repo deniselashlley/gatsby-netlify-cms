@@ -1,10 +1,6 @@
 ---
 templateKey: home-page
-bannerText:
-  - itemText: Energise your Body
-  - itemText: Calm your Mind
-  - itemText: Nourish your Soul
-  - itemText: Shine your Light
+bannerText: []
 seo:
   browserTitle: The Light Tree Yoga
   description: >-
