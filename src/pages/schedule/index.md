@@ -9,8 +9,10 @@ scheduleSection:
 
       Come together in a circle of sisters to celebrate Our womanhood
 
-      **Date**: SUN 20 JAN\
-      **Time**: 15:00-17:30\
+      **Date**: SUN 20 JAN
+
+      **Time**: 15:00-17:30
+
       **Venue**: The Granville ….
     title: This month...
   - body: |-
