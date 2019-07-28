@@ -14,7 +14,6 @@ export const ScheduleTemplate = ({data}) => {
       link
     }
   } = data;
-  const url =' https://teamup.com/ksc65xszxid94qydm8?view=a&disableSidepanel=1&showHeader=0&showViewSelector=0';
   return (
     <section id="schedule" className="section-block section-block--schedule">
     <div className="container">
@@ -24,8 +23,7 @@ export const ScheduleTemplate = ({data}) => {
            <h3>{classHeading}</h3>
            <iframe 
             title="yogoschedule"
-            // src={process.env.GATSBY_TEAMUP_API}
-            src={url}
+            src={process.env.GATSBY_TEAMUP_API}
             frameBorder="0" 
             width="100%" 
             height="500"
