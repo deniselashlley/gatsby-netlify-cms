@@ -9,7 +9,7 @@ scheduleSection:
 
       Come together in a circle of sisters to celebrate Our womanhood
 
-      **Date**: SUN 20 JAN
+      **Date**: SUN 28th July 2019
 
       **Time**: 15:00-17:30
 
