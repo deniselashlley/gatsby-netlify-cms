@@ -4,15 +4,16 @@
 
 .hero-banner {
   position: relative;
-  background: url(../../static/img/home-banner.jpg) center 55% no-repeat;
+  background: url(../../static/img/home-banner.jpg)  75% top no-repeat;
   background-size: cover;
-  height: 380px;
+  min-height: 60vh;
   margin-bottom: 40px;
 
   @include respond-to("medium") {
-    height: 710px;
-    background-position: center 50%;
-    margin-bottom: 100px;
+    min-height: 85vh;
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 50px;
   }
 
   ul {
@@ -65,8 +66,9 @@
     height: 30px;
     background: url(../img/icons/arrow.svg) center no-repeat;
     background-size: contain;
+    display:none;
 
-    @include respond-to("medium") {
+    @include respond-to("small") {
       width: 50px;
       height: 50px;
       display:block;

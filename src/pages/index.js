@@ -23,14 +23,10 @@ export const HomePageTemplate = ({
     services,
     schedule,
  }) => {
+
   return (
     <>
       <section className="hero-banner">
-        {/* <ul>
-          {home.bannerText.map(imageItems => (
-          <li key={imageItems.itemText}>{imageItems.itemText}</li>
-          ))}
-          </ul> */ }
         <AnchorLink href="#intro" className="down-link">
           <span>Introduction</span>
         </AnchorLink>
@@ -203,6 +199,7 @@ export const pageQuery = graphql`
       edges {
         node {
           frontmatter {
+            bannerImage
             seo {
               browserTitle
               title

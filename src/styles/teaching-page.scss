@@ -12,14 +12,16 @@
         }
 
         li {
-            width: 18em;
-            text-align: center;
+            width: 100%;
+            text-align: left;
             display: inline-block;
             vertical-align: top;
             font-weight: 500;
+            padding: 1.5rem 0;
 
             @include respond-to("medium") {  
-
+                width: 18em;
+                padding: 1.5rem;
             }
 
             img {
