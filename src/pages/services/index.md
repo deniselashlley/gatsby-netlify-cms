@@ -41,8 +41,8 @@ serviceList:
       concerning the African diaspora from the female black British
       perspective. 
     image: /img/img_20190204_103624_325.jpg
-    label: Soulshall Mata
-    link: '/https://www.mixcloud.com/soulshallmata/'
+    label: Listen to a show
+    link: 'https://www.mixcloud.com/soulshallmata/'
     title: 'SOULSHALL MATA '
 ---
 
