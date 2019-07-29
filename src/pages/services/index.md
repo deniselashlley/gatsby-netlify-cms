@@ -29,8 +29,10 @@ serviceList:
   - description: >-
       I am passionate about all people having access the benefits of a Yoga
       practice. I offer a reduced rate or FOC regular class to one charitable
-      organisation for their staff and service users. Get in touch if you would
-      like to find out more.
+      organisation for their staff and service users. 
+
+
+      Get in touch if you would like to find out more.
     image: /img/group_diversity_yoga.jpg
     link: 'mailto:jess@thelighttreeyoga.co.uk'
     title: OUTREACH
