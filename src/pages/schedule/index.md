@@ -12,16 +12,8 @@ scheduleSection:
 
       **Time**: 15:00-17:30\
 
-      **Venue**: The Garden Room, The Granville, 
-
-
-      140 Carlton Vale, 
-
-
-      London, 
-
-
-      NW6 5HE
+      **Venue**: The Garden Room, The Granville, 140 Carlton Vale, London, NW6
+      5HE
 
 
       [Find more info and tickets
