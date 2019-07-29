@@ -2,7 +2,7 @@
 templateKey: schedule
 title: Schedule
 classHeading: Classes Timetable
-eventsHeading: Workshop & Event
+eventsHeading: Workshops & Events
 scheduleSection:
   - body: >-
       **Soulful Sistahood: The Warrior Heart of the Goddess**
