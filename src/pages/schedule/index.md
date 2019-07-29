@@ -89,7 +89,7 @@ scheduleSection:
       sessions for a truly transformative experience.
     title: COMING SOON
 pageLink:
-  label: More about my classes
+  label: About my classes
   link: /classes
 ---
 
