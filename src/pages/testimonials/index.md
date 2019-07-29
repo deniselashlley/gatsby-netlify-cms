@@ -2,7 +2,7 @@
 templateKey: testimonials
 title: Testimonials
 testimonialList:
-  - author: Stacey - Flow classes in Willesden
+  - author: 'Stacey - Group classes '
     description: >-
       "I was apprehensive being a novice to yoga. However, from my very first
       class Jess has been extremely professional and patient. Jess has built my
@@ -22,5 +22,13 @@ testimonialList:
       “I highly recommend Jess’s classes, she makes everyone feel comfortable
       and there suitable for all abilities. I look forward to my yoga class
       every week and leave feeling really relaxed!”
+  - author: Hayley - Private Yoga
+    description: >-
+      “Studying and taking private yoga classes with Jess has had a significant
+      impact on my personal yoga practice, as well as my core posture. Always
+      encouraged to approach postures in an intelligent, conscious manner, I’m
+      far more aware of the subtleties of what we’re asking our bodies to do,
+      and of healthy anatomical alignment. Jess is also totally approachable and
+      genuinely giving with her great knowledge and experience”
 ---
 
