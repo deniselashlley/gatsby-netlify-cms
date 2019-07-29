@@ -69,7 +69,7 @@ quote: >-
   “Have you been ignoring or missing out on Life’s attempts to wake you up to
   your true self?“
 pageLink:
-  label: More on teaching philosophy
+  label: More about my teaching
   link: /teachings
 ---
 
