@@ -23,7 +23,7 @@ highlightedText: >-
   Join me to begin your journey of transformation. I look forward to meeting you
   soon.
 pageLink:
-  label: More about yoga
+  label: About yoga
   link: /about
 ---
 
