@@ -66,8 +66,8 @@ content: >-
   ‘wake me up’ to mySelf, to connect me, in a more intuitive way, to the innate
   ability \[that we all share] to create my life in my vision.
 quote: >-
-  “Have you been ignoring or missing out on Life’s attempts to wake you up to
-  your Self an your true potential?“
+  “HAVE YOU BEEN IGNORING OR MISSING OUT ON LIFE’S ATTEMPTS TO WAKE YOU UP TO
+  YOUR SELF AND YOUR TRUE POTENTIAL?"
 pageLink:
   label: About my teaching
   link: /teachings
