@@ -14,7 +14,7 @@ testimonialList:
   - author: Melanie - Soulful Sistahood workshop
     description: >-
       "Yesterday was soooo divine it felt so great being in a safe space to
-      share and release. Im truly ‘Powered Up’ this morning and feeling so much
+      share and release. I'm truly ‘Powered Up’ this morning and feeling so much
       gratitude. You're an amazing womBman ❤ please add me to your mailing list
       for more sista circles"
   - author: Nancy - Workplace Yoga
