@@ -5,19 +5,20 @@ content: >-
   Hi, my name is Jess and welcome to The Light Tree. 
 
 
-  Whatever your age, shape, size, ethnicity, social background, whether you want
-  to strengthen your body or create more flexibility, maybe you are looking for
-  some time for yourself or learn how to be calmer, you could be on a journey of
-  self-realisation, Yoga is a system of transformation that can be accessed by
-  everyone. 
+  Whether you want to strengthen your body or create more flexibility. Maybe you
+  are simply looking for some time for yourself, or you  want to learn how to
+  feel more balanced. Maybe you are on a journey of self-realisation. Yoga is a
+  system of transformation that can be accessed by everyone whatever your age,
+  shape, size, ethnicity, socio-economic background. 
 
 
   I run group classes, workshops and private sessions for all abilities and I am
   passionate about helping you to energise your body, calm your mind, nourish
   your soul and shine your light.
 quote: >-
-  “You cannot solve a problem from the same level of consciousness that created
-  it” --Einstein
+  "THE MOST AUTHENTIC THING ABOUT US IS OUR CAPACITY TO CREATE, TO OVERCOME, TO
+  ENDURE, TO TRANSFORM, TO LOVE AND TO BE GREATER THAN OUR SUFFERING." - Ben
+  Okri
 image: /img/profile-me.jpg
 highlightedText: >-
   Join me to begin your journey of transformation. I look forward to meeting you
