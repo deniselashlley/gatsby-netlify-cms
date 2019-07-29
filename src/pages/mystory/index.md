@@ -12,12 +12,12 @@ content: >-
   At the end of my first class I felt amazing, so I went back for another and
   another.  I discovered that through simply spending a regular 90 minutes with
   myself focused on breathing, moving and becoming still I began to become
-  closer to myself, feel better about myself and in my body. I also started to
-  become aware of some of my limiting beliefs that were preventing me from
-  moving forward that showed up in my practice. My practice mat was like a
-  mirror! I was awoken to the fact that I had not been looking after myself and
-  this had led me to become disconnected, have a lack of clarity of who I was,
-  what I wanted or how to move forward.
+  closer to myself, feel better about myself and more present in my body. I also
+  started to become aware of some of limiting beliefs that were preventing me
+  from moving forward that showed up in my practice. My practice mat was like a
+  mirror! I was awoken to the fact that I had not been looking after and
+  connecting with myself and this had led me to become disconnected, have a lack
+  of clarity of who I was, what I wanted or how to move forward.
 
 
   I had a realisation that putting myself first was necessary to my physical,
@@ -67,7 +67,7 @@ content: >-
   ability \[that we all share] to create my life in my vision.
 quote: >-
   “Have you been ignoring or missing out on Life’s attempts to wake you up to
-  your true self?“
+  your Self an your true potential?“
 pageLink:
   label: More about my teaching
   link: /teachings
