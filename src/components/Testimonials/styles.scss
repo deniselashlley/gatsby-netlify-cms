@@ -2,20 +2,30 @@
 @import "../../styles/mixins.scss";
 
 #testimonials {
-  background-color: $yellow;
+  background-color: $light-green;
 }
 
 .section-block {
+  
 
   &.section-block--testimonials{
     margin-bottom: 0;
-    padding-bottom: 30px;
+    padding-bottom: 0;
     padding-top: 30px;
     text-align: center;
+
+    .container {
+      padding-bottom: 1em;
+      border-bottom: 1px solid $storm-grey;
+    }
   
     h2{
       font-size: 3rem;
       text-transform: capitalize;
+    }
+
+    p {
+      padding: 0 3em;
     }
   }
 }
