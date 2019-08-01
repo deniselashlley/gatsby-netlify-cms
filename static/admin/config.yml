@@ -55,7 +55,6 @@ collections:
                 {label: "Item Text", name: "itemText", widget: "string"},
               ],
             }
-            { label: "Banner Image", name: "bannerImage", widget: "image"},
           - {
               label: "SEO & Meta",
               name: "seo",
