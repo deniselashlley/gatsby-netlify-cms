@@ -8,9 +8,9 @@ scheduleSection:
       **Soulful Sistahood: The Warrior Heart of the Goddess**
 
 
-      **Date**: SUN 28th JULY 2019\
+      **Date**: SUN 28th JULY 2019
 
-      **Time**: 15:00-17:30\
+      **Time**: 15:00-17:30
 
       **Venue**: The Garden Room, The Granville, 140 Carlton Vale, London, NW6
       5HE
@@ -44,7 +44,7 @@ scheduleSection:
       **The Revival Retreat**
 
 
-      **Date**: 12th-15th SEPT 2019\
+      **Date**: 12th-15th SEPT 2019
 
       **Venue**: Maria Alm, Hochkonig region, Austria  
 
