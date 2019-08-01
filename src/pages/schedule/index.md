@@ -5,42 +5,6 @@ classHeading: Classes Timetable
 eventsHeading: Workshops & Events
 scheduleSection:
   - body: >-
-      **Soulful Sistahood: The Warrior Heart of the Goddess**
-
-
-      **Date**: SUN 28th JULY 2019
-
-      **Time**: 15:00-17:30
-
-      **Venue**: The Garden Room, The Granville, 140 Carlton Vale, London, NW6
-      5HE
-
-
-      [Find more info and tickets
-      here](https://www.eventbrite.co.uk/e/soulful-sistahood-the-warrior-heart-of-the-goddess-tickets-64225049853?aff=eac2) 
-
-
-      The next SOULFUL SISTAHOOD is coming up later this month. On Sunday 28th
-      we come together again in a circle of sisters to connect with and
-      celebrate our womanhood in all it’s power.
-
-
-      This workshop is all about connecting with our inner Goddess and exploring
-      her warrior heart to discover how we can identify and then lovingly slay
-      those beliefs and behaviours that are holding us back from living in our
-      full power.
-
-
-      Expect some Yoga practices, discussion, personal reflection, intention
-      setting and journaling. You will leave with some tools that will help you
-      bring more awareness and balance into your life. All levels welcome, no
-      previous Yoga experience necessary.
-
-
-      If you came to the last event you will know that these circles are
-      powerful, I really hope you can make it. Spread the word.
-    title: THIS MONTH
-  - body: >-
       **The Revival Retreat**
 
 
@@ -87,6 +51,8 @@ scheduleSection:
 
       The retreat also includes EFT, PSYCH - K Balancing and life coaching
       sessions for a truly transformative experience.
+    title: COMING NEXT MONTH
+  - body: "**Soulful Sistahood**\n\n**\r**\n\n**Date**: Sunday 29th SEPT 2019\n**Venue**: tbc\n\nAt the end of September we will come together again in a circle of sisters to connect with and celebrate our womanhood in all it’s power.\n\nMore information to follow but expect some Yoga practices, discussion, personal reflection, intention setting and journaling. You will leave with some tools that will help you bring more awareness and balance into your life. All levels welcome, no previous Yoga experience necessary.\r\n\nIf you came to the last event you will know that these circles are powerful, I really hope you can make it. Spread the word."
     title: COMING SOON
 pageLink:
   label: About my classes
