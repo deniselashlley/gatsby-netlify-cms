@@ -1,6 +1,6 @@
 ---
 templateKey: about-page
-title: About yoga
+title: About yoga...
 mainImage:
   image: /img/group_yoga_01.jpg
   imageAlt: group of yoga
