@@ -4,75 +4,12 @@ title: Schedule
 classHeading: Classes Timetable
 eventsHeading: Workshops & Events
 scheduleSection:
-  - body: >-
-      # **The Revival Retreat**
+  - body: "# **Soulful Sistahood**\n\n**Date**: Sunday 26th January 2020 \n**Venue**: Common Healing, 32 Nunhead Green\r, Nunhead, SE15 3QF\r.\n\n[More info & tickets here](https://www.tickettailor.com/events/commonhealing/334926#)\n\n**The healing path of Forgiveness, Gratitude and Intention\r**\n\nIn this workshop we will incorporate forgiveness and gratitude practices to bring ourselves into harmony and alignment with the universe as we embrace the beginning of this new cycle over the first New Moon of the decade. Join me for this sister circle to share the power of the Divine Feminine through practices and tools that will support you to clear negative energy and raise your vibration creating space for clarity and intention setting. \r\n\nYou will be encouraged to connect on a deeper more soulful level with your body and mind through intention, movement, breath, focus and sound. As we move and breathe through a sequence of Yoga postures and practices we will pause to reflect, visualise, journal and if we chose to, share what we are experiencing. Rounding off with Yoga Nidra to bring clarity to our intentions. This is an open level workshop, no previous yoga experience necessary. Come as you are, bring an open and curious mind and don't forget a notebook and pen :-) \n\nIf you've been to a previous event you will know that these circles are powerful, I really hope you can make it. Spread the word."
+    title: COMING THIS MONTH
+  - body: |-
+      # ****
 
-
-      **Date**: 12th-15th SEPT 2019
-
-      **Venue**: Maria Alm, Hochkonig region, Austria  
-
-
-      [Find full info & tickets
-      here](https://www.hayleyandkelly.co.uk/the-revival-retreat)
-
-
-      The Revival Retreat in takes place in the beautiful setting of the
-      Austrian mountains. 
-
-
-      I'll be a part of the team creating this nurturing and nourishing
-      experience for women. This retreat has been created to support you in
-      cultivating the emotional and mental space within yourself that allows you
-      to develop into your most authentic and powerful self.
-
-
-      I'm excited to be bringing you 3 powerful sessions that will connect you
-      in a more soulful way with yourself;
-
-
-      • **The Yoga Circle:** Women have met in circles for millennia. Something
-      powerful happens when women come together in love and support of each
-      other. Meeting in a circle creates a safe space where we can come together
-      in ritual and practice to celebrate of our Self and our womanhood in all
-      it’s power.
-
-
-      • **Cleansing the Soul:** Learn how to integrate simple practices and
-      rituals into your life to support the removal of physical, mental and
-      emotional energetic blockages that will allow you to connect with your
-      Self on a deeper, more loving and soulful level.
-
-
-      • **Full Moon Release:** We will come together for a final time to share
-      the meaning of womanhood making pledges to our Self as we release it all
-      to the universe.
-
-
-      The retreat also includes EFT, PSYCH - K Balancing and life coaching
-      sessions for a truly transformative experience.
-    title: COMING NEXT MONTH
-  - body: >-
-      # **Soulful Sistahood**
-
-
-      **Date**: Sunday 29th SEPT 2019
-
-      **Venue**: tbc
-
-
-      At the end of September we will come together again in a circle of sisters
-      to connect with and celebrate our womanhood in all it’s power.
-
-
-      More information to follow but expect some Yoga practices, discussion,
-      personal reflection, intention setting and journaling. You will leave with
-      some tools that will help you bring more awareness and balance into your
-      life. All levels welcome, no previous Yoga experience necessary.
-
-
-      If you came to the last event you will know that these circles are
-      powerful, I really hope you can make it. Spread the word.
+      ****
     title: COMING SOON
 pageLink:
   label: About my classes
