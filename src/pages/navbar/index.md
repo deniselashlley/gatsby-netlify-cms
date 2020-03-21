@@ -4,27 +4,27 @@ menuItems:
   - label: schedule
     linkType: hash
     linkURL: '#schedule'
-  - label: my story
-    linkType: hash
-    linkURL: '#mystory'
   - label: services
     linkType: hash
     linkURL: '#services'
+  - label: my story
+    linkType: hash
+    linkURL: '#mystory'
   - label: connect with me
     linkType: hash
     linkURL: '#connect'
 socialLinks:
-  - label: follow me on instagram
+  - hiddenText: ''
+    label: follow me on instagram
     linkURL: 'https://www.instagram.com/the_light_tree_yoga/'
-    hiddenText: ''
     type: instagram
-  - label: call me
-    type: tele
+  - hiddenText: 07927 318 065
+    label: call me
     linkURL: 'tel:07927 318 065'
-    hiddenText: '07927 318 065'
-  - label: email me
-    type: email
+    type: tele
+  - hiddenText: jess@thelighttreeyoga.co.uk
+    label: email me
     linkURL: 'mailto:jess@thelighttreeyoga.co.uk'
-    hiddenText: 'jess@thelighttreeyoga.co.uk'
+    type: email
 ---
 
