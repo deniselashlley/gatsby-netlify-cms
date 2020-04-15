@@ -15,7 +15,7 @@ menuItems:
     linkURL: '#connect'
 socialLinks:
   - hiddenText: ''
-    label: follow me on instagram
+    label: 'follow me '
     linkURL: 'https://www.instagram.com/the_light_tree_yoga/'
     type: instagram
   - hiddenText: 07927 318 065
