@@ -4,7 +4,10 @@ title: Schedule
 classHeading: Classes Timetable
 eventsHeading: Workshops & Events
 scheduleSection:
-  - body: '## ****'
+  - body: |-
+      ## ONLINE YOGA CLASSES
+
+      Check the class timetable for updates
     title: COMING THIS MONTH
   - body: |-
       # ****
